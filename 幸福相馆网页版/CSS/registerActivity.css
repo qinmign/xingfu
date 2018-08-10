@@ -1,0 +1,77 @@
+﻿body {
+}
+
+.body-div
+{
+    width:1000px;
+    height:400px;
+    margin:0 auto;
+    background-color:White;
+    border:1px solid rgb(226,226,226);
+    padding-top:60px;
+}
+
+#activity-div
+{
+    margin:100px 0 0 270px; 
+}
+
+#icon
+{
+    width:44px;
+    height:44px;
+    margin-top:12px;       
+}
+
+.activity-success
+{    
+    background:url(images/account/check.gif) no-repeat;
+}
+
+.activity-fail
+{
+    background:url(images/account/erreur.gif) no-repeat;
+}
+
+.tips1
+{
+    padding-left:90px;
+}
+
+.tips1 label
+{
+    display:block;
+    padding-left:15px;
+    width:auto;
+}
+
+#tips-title
+{
+    font-size:30px;
+    color:rgb(16,166,238);
+}
+
+#tips-desc
+{
+    font-size:16px;
+    color:rgb(116,116,116);
+    display:inline-block
+}
+
+.resend-mail
+{
+    display:inline;
+    color:#10a6ee;
+    width:200px;
+    cursor:pointer;
+    text-decoration:underline;
+    display:none;       
+}
+
+#auto-jump
+{
+    display:block;
+    color:rgb(154,154,154);
+    margin:50px 0 0 72px;  
+    cursor:pointer;    
+}

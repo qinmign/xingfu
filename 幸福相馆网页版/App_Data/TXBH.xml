@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="gb2312"?>
+<system desc="图像编号规则">
+  <province name="广东省">
+    <city name="广州市"  value="A"/>
+    <city name="深圳市"  value="B"/>
+    <city name="珠海市"  value="C"/>
+    <city name="汕头市"  value="D"/>
+    <city name="佛山市"  value="E"/>
+    <city name="韶关市"  value="F"/>
+    <city name="湛江市"  value="G"/>
+    <city name="肇庆市"  value="H"/>
+    <city name="江门市"  value="J"/>
+    <city name="茂名市"  value="K"/>
+    <city name="惠州市"  value="L"/>
+    <city name="梅州市"  value="M"/>
+    <city name="汕尾市"  value="N"/>
+    <city name="河源市"  value="P"/>
+    <city name="阳江市"  value="Q"/>
+    <city name="清远市"  value="R"/>
+    <city name="东莞市"  value="S"/>
+    <city name="中山市"  value="T"/>
+    <city name="潮州市"  value="U"/>
+    <city name="揭阳市"  value="V"/>
+    <city name="云浮市"  value="W"/>
+  </province>
+  <province name="重庆市">
+    <city name="重庆市"  value="I02"/>
+  </province>
+  <province name="云南省">
+    <city name="昆明市"  value="5301"/>
+    <city name="曲靖市"  value="5303"/>
+    <city name="玉溪市"  value="5304"/>
+    <city name="保山市"  value="5305"/>
+    <city name="昭通市"  value="5306"/>
+    <city name="丽江市"  value="5307"/>
+    <city name="普洱市"  value="5308"/>
+    <city name="临沧市"  value="5309"/>
+    <city name="文山州"  value="5326"/>
+    <city name="红河州"  value="5325"/>
+    <city name="楚雄州"  value="5323"/>
+    <city name="大理州"  value="5329"/>
+    <city name="德宏州"  value="5331"/>
+    <city name="怒江州"  value="5333"/>
+    <city name="迪庆州"  value="5334"/>
+    <city name="西双版纳州"  value="5328"/>
+  </province>
+  <province name="贵州省" value="I04">
+  </province>
+  <province name="广西区" value="I05">
+  </province>
+  <province name="四川省" value="I06">
+  </province>
+  <province name="四川省驾驶证" value="ZCB"></province>
+  <province name="新疆区" value="650100XJJZ">
+  </province>
+  <province name="湖南省" value="I08">
+  </province>
+  <province name="江西省">
+    <city name="九江市"  value="ZA05"/>
+  </province>
+  <province name="广西区二代证" value="ZA03">
+  </province>
+  <province name="湖北省二代证" value="ZA04">
+  </province>
+  <province name="湖南省二代证" value="ZA02">
+  </province>
+</system>

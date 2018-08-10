@@ -1,0 +1,57 @@
+﻿#content_r
+{
+    font-size:15px;
+    color:rgb(72,72,72);
+    min-height:513px;
+    height: expression( this.scrollHeight < 513 ? "513px" : "auto" );
+}
+
+#loadtable p
+{
+    font-size:12px;
+    margin:0;  
+}
+
+#content_r table
+{
+    width:743px;
+    text-align:center;
+    border-collapse:collapse;
+    vertical-align:middle;
+}
+
+#content_r table th
+{
+    height:28px;
+    border-bottom:1px solid #DFE3E6;
+}
+
+#content_r table td
+{
+    height:28px;
+}
+
+.时间
+{
+    width:207px;
+}
+
+.操作类型
+{
+   width:327px; 
+}
+
+.金额
+{
+    width:189px;
+}
+
+#pagelist 
+{
+    width:723px;
+}
+
+#tablebox
+{
+    height:481px;   
+}

@@ -1,0 +1,107 @@
+﻿#survey
+{
+    color:rgb(254,117,81); 
+}
+
+.content 
+{
+    width:1000px;
+    height:100%;
+    margin:0 auto;
+    overflow:hidden;
+    padding-bottom:40px;
+}
+
+.headbg
+{
+    width:1000px;
+    height:80px;
+    background:url(images/usersurvey/wjdc.jpg);
+    margin-top:18px;
+    margin-bottom:10px;
+}
+
+.survey_box
+{
+    width:800px;
+    margin:0 auto;
+}
+
+.survey_box p
+{
+    margin:0;
+    padding:0;
+    line-height:28px;
+    font-size:16px; 
+}
+
+.survey_box p.w_title
+{
+    margin-top:25px;   
+}
+
+.survey_box input 
+{
+    margin-right:7px;
+}
+
+.txtform
+{
+    border:none;
+    border-bottom:1px solid black;
+    font-size:14px;
+    height:20px;
+    line-height:20px;
+    padding:3px 0 0 0;
+    background-color:White;
+}
+
+#channelTxt
+{
+    width:500px;   
+}
+
+#crTxt
+{
+    width:500px;   
+}
+
+#satisfactionTxt
+{
+    width:407px;   
+}
+
+#serviceTimeTxt
+{
+    width:490px;
+}
+
+#serviceTxt
+{
+    width:780px;   
+}
+
+#SampleTxtK
+{
+    width:620px;   
+}
+
+.suggestTxt
+{
+    width:250px;   
+}
+
+.submitbtn
+{
+    width:110px;
+    height:38px;
+    font-size:20px;
+    background-color:#1a97df;
+    line-height:38px;
+    margin:0 auto;   
+}
+
+.submitbtn:hover
+{
+     background-color:#0066FF;  
+}

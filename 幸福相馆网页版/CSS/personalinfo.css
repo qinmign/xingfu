@@ -1,0 +1,131 @@
+﻿#content_r
+{
+    padding:20px 0 20px 40px;
+    height:391px;
+    font-size:15px;
+    color:rgb(72,72,72);
+}
+
+.r_title a
+{
+    color:#009BFB;
+    width:40px;
+    font-size:14px;
+    margin-left:600px;
+    text-decoration:none;
+    display:inline-block;
+}
+
+.r_title a:hover
+{
+    color:#009BFB;
+    text-decoration:underline;
+}
+
+#content_r table
+{
+    border-collapse:collapse;
+}
+
+#content_r table td
+{
+    height:40px;
+}
+
+#content_r table td:first-child
+{
+    text-align:right;
+}
+
+.fillform
+{
+    border: 1px solid #D1D1D1;
+    font-size: 14px;
+    height: 20px;
+    line-height: 20px;
+    outline:0;
+    padding: 3px 5px 1px;
+    width: 200px;
+}
+
+.fillform:focus
+{
+    border:1px solid gray;
+}
+
+.sex_radio
+{
+    width:18px;
+    height:18px;
+    display:inline-block;
+    vertical-align:text-bottom;    
+}
+
+.sex_radio.def
+{
+    background:transparent url(images/cermanage/radio.png) no-repeat top center;
+}
+
+.sex_radio.act
+{
+    background:transparent url(images/cermanage/radio.png) no-repeat center bottom;
+}
+
+.rechargebtn
+{
+    width:50px;
+    height:25px;
+    margin-left:20px;
+    background-color:#FF9900;
+    line-height:25px;
+    display:none;
+    position:absolute;
+    z-index:891;
+}
+
+.rechargebtn:hover
+{   
+    background-color:rgb(254,103,50);
+}
+
+.savebtn
+{
+    width:70px;
+    height:35px;
+    font-size:17px;
+    background-color:rgb(0,161,239);
+    line-height:35px;
+    margin:30px auto 0;
+    display:none;
+}
+
+.savebtn:hover
+{   
+    background-color:#3366FF;
+}
+
+#shade
+{
+    position:absolute;
+    background-color:White;
+    -moz-opacity:0.23;
+    opacity:0.23;
+    filter:alpha(opacity=23);
+    z-index:888;
+}
+
+.msgtip
+{
+    font-size:12px;        
+}
+
+.msgtip a
+{
+    text-decoration:none;
+    color:#009BFB;
+}
+
+.msgtip a:hover
+{
+    text-decoration:underline;
+}

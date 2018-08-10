@@ -1,0 +1,97 @@
+﻿.progress
+{
+    margin-top:10px;
+    width:1000px;
+    height:50px;
+    padding:10px 0;
+    background-color:rgb(248,248,248);
+}
+
+.progress table
+{
+    margin:0 auto;
+}
+
+.propic
+{
+    width:936px;   
+}
+
+.actpoint 
+{
+    width:15px;
+    height:19px;
+    background:url(images/cermanage/steps_on_01.png);
+    display:inline-block;
+}
+
+.waitpoint 
+{
+    width:15px;
+    height:19px;
+    background:url(images/cermanage/steps_off_01.png);
+    display:inline-block;
+}
+
+.actarrow 
+{
+    width:275px;
+    height:19px;
+    background:url(images/cermanage/steps_on_02.png);
+    display:inline-block;
+}
+
+.waitarrow 
+{
+    width:275px;
+    height:19px;
+    background:url(images/cermanage/steps_off_02.png);
+    display:inline-block;
+}
+
+.pointtd 
+{
+    width:20px;
+}
+
+.arrowtd 
+{
+    width:280px;    
+}
+
+.wordtable
+{
+    font-size:16px;
+    font-weight:bold;
+    width:936px;    
+}
+
+.w1
+{
+    width:260px;
+}
+
+.w2
+{
+    width:315px;
+}
+
+.w3
+{
+    width:220px;
+}
+
+.w4
+{
+
+}
+
+.green_w
+{
+    color:rgb(115,169,70);
+}
+
+.gray_w 
+{
+    color:rgb(180,180,180);  
+}

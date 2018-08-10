@@ -1,0 +1,185 @@
+﻿body 
+{
+    margin:0;
+    padding:0;
+    border:0;
+    font-size:14px;
+    font-family:微软雅黑;
+    background-color:White;
+}
+
+h1
+{
+	background:url(images/myphoto/photo_01.jpg) no-repeat 20px 30px;
+	width:870px;
+	margin:0 auto;
+	height:65px;
+	padding:30px 20px 0  110px;
+	font-size:22px;
+	border-bottom:3px solid #ddd;
+	color:#666;
+	font-family:微软雅黑;
+	font-weight:normal;
+	position:relative;
+	
+}
+
+h1 em a
+{
+	display:block;
+	height:95px;
+	width:250px;
+	position:absolute;
+    left:0;
+    top:0;
+}
+
+#nophoto
+{
+	height:200px;
+	text-align:center;
+	display:block;
+	line-height:200px;
+	display:none;
+}
+
+#nophoto a
+{
+	color:#57a6ff;
+	text-decoration:none;
+}
+#nophoto a:hover
+{	text-decoration:underline;
+}
+
+h1 a
+{
+	font-size:14px;
+	color:#666;
+	text-decoration:None;
+	position:absolute;
+	bottom:10px;
+	right:10px;
+}
+
+h1 a:hover
+{
+	color:#999;
+}
+
+
+#pic_box
+{
+	width:940px;
+	margin:10px auto 10px auto;
+	padding:20px 30px;
+	border:1px solid #ccc;
+	height:auto;
+}
+
+#pic_box div
+{
+	float:left;
+	padding:8px;
+	display:block;
+	width:450px;
+	height:130px;
+	cursor:pointer;
+}
+
+#pic_box div p
+{
+	font-size:14px;
+}
+
+
+#pic_box div img
+{
+	height:100px;
+	padding:5px;
+}
+
+#pic_box h4
+{
+	clear:both;
+	font-size:22px;
+	padding:15px 0 3px 10px;
+	color:#444;
+}
+
+.folder
+{
+	width:210px;
+	height:217px;
+	background:url(images/myphoto/photo_02.jpg) no-repeat 16px 16px;
+	float:left;
+	padding:20px;
+	
+}
+
+.folder img
+{
+	display:block;
+	width:202px;
+	height:202px;
+}
+
+.folder a img
+{
+	border:0;
+}
+
+.folder a:hover img
+{
+	 -moz-opacity:0.7;
+    opacity:.70;
+    filter:alpha(opacity=70);
+}
+
+.folder p
+{
+	padding:20px  0 0 0;
+	color:#888;
+	font-size:12px;
+}
+
+.folder a
+{
+    color:#333;
+    text-decoration:none;
+    font-size:14px;
+}
+
+.folder a:hover
+{
+	color:#666;
+}
+
+#question_box
+{
+	width:840px;
+	height:150px;
+	border:1px solid #ffe5ce;
+	background:#fffdee;
+	margin:0 auto 10px auto;
+	padding:20px 30px;
+}
+
+#question_box li
+{
+	list-style:none;
+	height:30px;
+	line-height:30px;
+}
+
+#question_box li a
+{
+	text-decoration:none;
+	color:#333;
+	font-size:12px;
+}
+
+#question_box li a:hover
+{
+	color:#666;
+}

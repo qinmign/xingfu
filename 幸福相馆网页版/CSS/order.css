@@ -1,0 +1,425 @@
+﻿.content 
+{
+    width:1000px;
+    height:100%;
+    margin:0 auto;
+    padding-bottom:20px;
+}
+
+.nav_local
+{
+    margin-top:10px;
+    font-size:16px;
+    padding-left:10px;
+}
+
+.nav_local a
+{
+    text-decoration:none;
+}
+
+.nav_local a:hover
+{
+    text-decoration:underline;
+}
+
+.leftbox,.rightbox
+{
+    margin:10px 0 20px 0;
+    float:left;
+}
+
+.leftbox
+{
+    width:243px;
+    margin-right:10px; 
+}
+
+.rightbox
+{
+    width:743px;
+    border:1px solid rgb(223,227,230);
+    overflow:hidden;
+}
+
+.searchbox
+{
+    border:1px solid rgb(223,227,230);
+}
+
+.l_title
+{
+    height:44px;
+    border-bottom:1px solid rgb(223,227,230);
+    background-color:rgb(250,250,250);
+    line-height:44px;
+    font-size:16px;
+    font-weight:bold;
+    padding-left:15px;
+}
+
+.t_title
+{
+    display:inline-block;
+    width:200px; 
+}
+
+.arrowspan.defarrow
+{
+    width:14px;
+    height:14px;
+    display:inline-block;
+    vertical-align:middle;
+    overflow:hidden;
+    background-image:url(images/myorder/arrow_down.png);
+}
+
+.arrowspan.actarrow
+{
+    width:14px;
+    height:14px;
+    display:inline-block;
+    vertical-align:middle;
+    overflow:hidden;
+    background-image:url(images/myorder/arrow_up.png);
+}
+
+.click_title
+{
+    display:none;
+    cursor:pointer;    
+}
+
+.select_path
+{
+    width:218px;
+    height:28px;
+    margin:10px auto 0;
+    line-height:28px;
+    border:1px solid rgb(209,209,209);
+    color:black;
+    cursor:pointer;
+    text-align:center;
+}
+
+#select_w
+{
+    width:165px;
+    display:inline-block;  
+}
+
+.select_option
+{
+    width:218px;
+    height:68px;
+    margin:0 auto;
+    padding:0;
+    outline:0;
+    list-style:none;
+    border-left:1px solid rgb(209,209,209);
+    border-right:1px solid rgb(209,209,209);
+    border-bottom:1px solid rgb(209,209,209);
+    position:absolute;
+    z-index:1005;
+    display:none;
+}
+
+.select_option li
+{
+    height:34px;
+    line-height:34px;
+    padding-left:18px;
+    cursor:pointer;
+    background-color:White;
+}
+
+.select_option li:hover
+{
+    color:White;
+    background-color:#858585;
+}
+
+.serachTxt
+{
+    width:208px;
+    height:23px;
+    line-height:23px;
+    font-size:14px;
+    outline:0;
+    padding:3px 5px 1px;
+    margin:0 auto;
+    display:block;
+    border:1px solid rgb(209,209,209);
+}
+
+.serachTxt:focus
+{
+    border:1px solid gray;
+}
+
+.gap
+{
+    width:100%;
+    height:5px;
+    display:block;    
+}
+
+.searchbtn 
+{
+    width:220px;
+    height:32px;
+    margin:5px auto 0;
+    background-color:rgb(121,180,61);
+    line-height:32px;
+    font-size:15px;
+    margin-bottom:10px;
+}
+
+.searchbtn:hover
+{   
+    background-color:#669900;
+}
+
+.tip_word
+{
+    width:218px;
+    margin:0 auto;
+    display:none;
+}
+
+.tip_word p
+{
+    text-indent:2em;
+    padding-top:0;
+    margin-top:0;
+}
+
+#warm_tipw
+{
+    margin-bottom:10px;    
+}
+
+.orderOPbox,.perInfo
+{
+    border:1px solid rgb(223,227,230);
+    margin-top:10px;
+    width:100%;
+    height:100%;
+}
+
+.orderOPbox ul,.perInfo ul
+{
+    padding:0;
+    margin:0;
+    outline:0;
+    border:0;
+    width:100%;
+    height:100%;  
+}
+
+.orderOPbox li,.perInfo li
+{    
+    color:#009BFB;
+    list-style:none;
+    padding-left:12px;
+    height:40px;
+    line-height:40px;
+    font-size:15px;
+    cursor:pointer;
+}
+
+.perInfo li
+{
+    border-bottom:1px solid rgb(223,227,230);
+}
+
+.orderOPbox span,.perInfo span
+{    
+    width:200px;
+    height:40px;
+    display:inline-block;
+}
+
+.colformtip
+{
+    width:204px;
+    height:69px;
+    padding:8px 15px 8px 15px;
+    color:White;
+    background:url(images/myorder/Message.gif);
+    position:absolute;
+    z-index:902;
+    display:none;
+}
+
+.r_title
+{
+    height:44px;
+    border-bottom:1px solid rgb(223,227,230);
+    background-color:rgb(250,250,250);
+    line-height:44px;
+    font-size:16px;
+    font-weight:bold;
+    padding-left:15px;
+}
+
+.search_box
+{
+    width:480px;
+    height:370px;
+    overflow:hidden;
+}
+
+.search_box .head_t h2
+{
+    width:420px;
+}
+
+.picbox
+{
+    width:420px;
+    height:140px;
+    padding:10px 30px;
+}
+
+.picbox div
+{
+    float:left;
+    display:block;
+}
+
+.search_box p
+{
+    margin:0;
+    padding:0;
+    line-height:30px;
+}
+
+.picbox div:first-child
+{
+    width:96px;
+}
+
+.picinfobox
+{
+    padding-top:10px;
+    padding-left:60px;
+}
+
+.i_name
+{
+    color:rgb(125,125,125);   
+}
+
+.i_result
+{
+    color:rgb(1,140,207);   
+}
+
+.servicebox
+{
+    background-color:rgb(255,249,237);
+    border-top:1px solid rgb(255,223,162 );
+    border-bottom:1px solid rgb(255,223,162 );
+    width:460px;
+    height:100px;
+    padding-left:20px;
+    margin-bottom:10px;
+}
+
+.servicebox p
+{
+    width:460px;
+    height:30px;
+}
+
+.addbtn
+{
+    width:18px;
+    height:23px;
+    display:inline-block;
+    background:url(images/cermanage/number_up_02.png); 
+    vertical-align:text-bottom;
+    margin-left:3px;
+}
+
+.addbtn:hover
+{
+    background:url(images/cermanage/number_hover_02.png); 
+}
+
+.reducebtn
+{
+    width:18px;
+    height:23px;
+    display:inline-block;
+    vertical-align:text-bottom;
+    background:url(images/cermanage/number_up_01.png);
+    margin-right:3px;
+}
+
+.reducebtn:hover
+{
+    background:url(images/cermanage/number_hover_01.png);
+}
+
+.printtxt
+{
+    border: 1px solid #D1D1D1;
+    height: 20px;
+    width: 50px;  
+    vertical-align:text-bottom;
+    line-height: 20px;
+    outline: 0 none;
+    text-align:center;
+}
+
+.calbox
+{
+    width:480px;
+    height:35px;
+    text-align:right;
+}
+
+.searchcolorBtn
+{
+    color: White;
+    text-align: center;
+    text-decoration: none;
+}
+
+.topaybtn
+{
+    width:105px;
+    height:35px;
+    line-height:35px;
+    font-size:16px; 
+    background-color:#FF9933;
+    margin-left:30px;
+    margin-right:30px;
+}
+
+.topaybtn:hover
+{
+    background-color:rgb(255,91,35);
+}
+
+.addtoorderbtn
+{
+    width:105px;
+    height:35px;
+    line-height:35px;
+    font-size:16px; 
+    background-color:#12a052;
+    margin-right:30px;
+}
+
+.addtoorderbtn:hover
+{
+    background-color:#3eb373;
+}
+
+.calspan
+{
+    display:none;   
+}

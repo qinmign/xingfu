@@ -1,0 +1,466 @@
+﻿#cerManagePage
+{
+    color:rgb(254,117,81);
+}
+
+*
+{
+    margin:0;
+    padding:0;
+    border:0;
+}
+
+.content
+{
+    width:1000px;    
+    height:100%;
+    margin:0 auto;
+}
+
+.txtform
+{
+    height:21px;
+    border:1px solid rgb(221,221,221);
+    outline:0;
+    padding:3px 3px 0;
+    font-size:15px;
+}
+
+.fillform .shortform
+{
+    width:115px;   
+}
+
+.fillform .midform
+{
+    width:240px;  
+}
+
+.fillform .longform
+{
+    width:550px;   
+}
+
+#fillform2
+{
+    padding-bottom:10px;   
+}
+
+.error_w,.correct_w
+{
+    display:none;
+}
+
+.emailbox
+{
+    height:95px;
+}
+
+.receiverbox
+{
+    height:250px;
+}
+
+.receiverbox table td
+{
+    height:30px;
+}
+
+.m_title
+{
+    padding:10px 0 0 20px;
+    margin:0;
+    clear:both;
+    zoom:1;
+    overflow:auto;
+    display:none;
+}
+
+.m_title h4,.m_title a
+{
+    display:inline-block;
+    float:left;
+}
+
+.m_title h4
+{    
+    width:867px;
+    font-size:14px;
+}
+
+.m_title a
+{
+    color:#009BFB;
+    text-decoration:none;
+}
+
+.m_title a:hover
+{
+    text-decoration:underline; 
+}
+
+#modifybtn,#chooseother
+{
+    color:#009BFB;
+    text-decoration:none;   
+}
+
+#modifybtn:hover,#chooseother:hover
+{
+    text-decoration:underline;   
+}
+
+.headdiv
+{
+    margin-bottom:10px;
+}
+
+.defadBox
+{
+    padding-left:20px;
+    zoom:1;
+    overflow:auto;
+}
+
+.newadBox
+{
+    clear:both;
+    width:980px;
+    margin:0 auto;
+    padding-bottom:8px;
+    padding-top:10px;
+    background-color:rgb(243,243,243);
+}
+
+.otherAd
+{
+    padding-left:20px;
+    display:none;
+    min-height:120px;
+    height: expression(this.scrollHeight < 120 ? "120px" : "auto");
+    overflow:auto;
+    clear:both;
+}
+
+.defadBox p
+{
+    line-height:25px;
+    margin:0;
+}
+
+.newAdRadio
+{
+    padding-left:9px;
+    zoom:1;
+    height:30px;
+    overflow:auto;
+}
+
+.defadBox div,.newAdRadio div,.otherAd div
+{
+    float:left;
+}
+
+.defadBox div:first-child a
+{
+    margin-top:5px;   
+}
+
+.newAdRadio div:first-child a
+{
+    margin-top:1.5px;   
+}
+
+.otheradList
+{
+    margin-top:10px;
+    clear:both;
+    width:900px;
+}
+
+.otheradList div:first-child a
+{
+    margin-top:2px;   
+}
+
+.radiogroup,.othergroup
+{
+    width:18px;
+    height:18px;
+    display:inline-block;    
+}
+
+.radiodefault
+{
+    background:transparent url(images/cermanage/radio.gif) no-repeat top center;  
+}
+
+.radiodeact
+{
+    background:transparent url(images/cermanage/radio.gif) no-repeat center bottom;
+}
+
+.saveAdBtn
+{
+    width:70px;
+    height:30px;
+    color:White;
+    font-size:15px;
+    background-color:rgb(0,161,239);
+    line-height:30px;
+    display:inline-block;
+    margin:0 auto;
+}
+
+.saveAdBtn:hover
+{   
+    color:white;
+	font-size:15px;
+	text-decoration: none;
+	border:none;	
+    background-color:#3366FF;
+}
+
+.confirmbox
+{
+    border-bottom:none; 
+}
+
+.confirmbox .contentbox
+{
+    padding:0;  
+}
+
+.confirmbox #tablebox
+{
+    /*height:264px;*/
+    max-height:264px;
+    height: expression( this.scrollHeight > 264 ? "264px" : "auto" );
+}
+
+.confirmbox table
+{
+    width:1000px;
+    text-align:center;
+    vertical-align:middle;
+    border-collapse:collapse;
+}
+
+.confirmbox table a
+{
+    color:#1648FF;
+    text-decoration:none;
+}
+
+.confirmbox table a:hover
+{
+    text-decoration:underline;
+}
+
+.confirmbox table th
+{
+    height:35px;
+    border-bottom:1px solid rgb(216,227,233);
+}
+
+.confirmbox table tr
+{
+    height:43px;
+    border-bottom:1px solid rgb(216,227,233);
+}
+
+.confirmbox table td
+{
+    height:43px;
+    border-bottom:1px solid rgb(216,227,233);
+}
+
+#pagelist 
+{
+    width:980px;
+    border-bottom:1px solid rgb(216,227,233);
+}
+
+.addbtn
+{
+    width:18px;
+    height:23px;
+    display:inline-block;
+    background:url(images/cermanage/number_up_02.png); 
+    vertical-align:bottom;
+    margin-left:3px;
+}
+
+.addbtn:hover
+{
+    background:url(images/cermanage/number_hover_02.png); 
+}
+
+input.printtxt
+{
+    outline:none;
+    width:32px; 
+    height:18px;
+    text-align:center;
+}
+
+.reducebtn
+{
+    width:18px;
+    height:23px;
+    display:inline-block;
+    vertical-align:bottom;
+    background:url(images/cermanage/number_up_01.png);
+    margin-right:3px;
+}
+
+.reducebtn:hover
+{
+    background:url(images/cermanage/number_hover_01.png);
+}
+
+.相片信息
+{
+    width:150px;
+}
+
+.证件类型
+{
+    width:220px;   
+}
+
+.采集服务费
+{
+    width:140px;   
+}
+
+.冲印服务费
+{
+    width:140px;   
+}
+
+.冲印数量
+{
+    width:180px;   
+}
+
+.操作
+{
+    width:70px;
+}
+
+.小计
+{
+    width:100px;   
+}
+
+.pidtd,.图像号
+{
+    display:none;
+}
+
+.hidespan
+{
+    display:none;    
+}
+
+.calinfo
+{
+    padding:10px 0 0 0;
+    width:1000px;
+    height:115px;
+    margin:0 auto;
+    border-bottom:1px dashed gray;
+}
+
+.calinfo textarea
+{
+    border:1px solid rgb(216,227,233);
+    font-family:微软雅黑;
+    overflow-x:hidden;
+    overflow-y:auto;
+    width:300px;
+    height:70px;
+    font-size:14px;
+    line-height:18px;
+    outline:none;    
+    padding:6px;
+    resize:none;
+}
+
+.pre
+{
+    white-space: pre-wrap;
+    white-space: -moz-pre-wrap;
+    white-space: -pre-wrap;
+    white-space: -o-pre-wrap;
+    word-wrap: break-word; 
+    word-break:break-all;
+}
+
+#left_word
+{
+    color:Gray;
+    width:300px;
+    text-align:right;
+}
+
+#lnum
+{
+    color:Black;
+}
+
+.lbox,.rbox
+{
+    float:left;
+}
+
+.lbox
+{
+     width:430px;  
+}
+
+.rbox
+{
+    font-size:15px;
+    font-weight:bold;
+    width:540px;
+    text-align:right;
+}
+
+.rbox p
+{
+    line-height:27px;
+}
+
+.total
+{
+    width:940px;
+    font-size:16px;    
+    margin:6px auto 0;
+    font-weight:bolder;
+}
+
+.paydiv
+{
+    margin-top:8px;
+    margin-bottom:30px;
+    width:980px;  
+    height:40px; 
+}
+
+.gotopaybtn
+{
+    width:130px;
+    height:40px;
+    font-size:17px;
+    background-color:#eb5300;
+    line-height:40px;
+    float:right;
+    display:block;
+}
+
+.gotopaybtn:hover
+{   
+    background-color:#fe6c18;
+}

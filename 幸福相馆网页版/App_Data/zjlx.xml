@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<zjlx desc="证件类型字典">
+  <group value="1" name="出入境">
+    <item name="护照或港澳台通行证" value="10" />
+    <item name="往来港澳台通行证" value="11" />
+    <item name="港澳台居民出入境证件" value="12" />
+    <item name="驻澳门劳工证件" value="13" />
+    <item name="外国人签证" value="14" />
+    <item name="出入境口岸证件" value="15" />
+    <item name="澳门回乡证" value="16" />
+  </group>
+  <group value="2" name="二代证">
+    <item name="广东二代证" value="20" />
+    <item name="广西二代证" value="21" />
+    <item name="湖北二代证" value="22" />
+    <item name="湖南二代证" value="23" />
+    <item name="九江二代证" value="24" />
+  </group>
+  <group value="3" name="居住证">
+    <item name="广东居住证" value="31" />
+  </group>
+  <group value="4" name="驾驶证">
+    <item name="广东驾驶证" value="41" />
+    <item name="四川驾驶证" value="42" />
+  </group>
+  <group value="5" name="保安证">
+    <item name="保安员证" value="51" />
+  </group>
+  <group value="6" name="社保卡">
+    <item name="社会保障卡" value="61" />
+  </group>
+  <group value="7" name="标准寸照">
+    <item name="一寸照" value="81" />
+    <item name="二寸照" value="82" />
+    <item name="小一寸" value="83" />
+    <item name="大一寸" value="84" />
+    <item name="小二寸" value="85" />
+    <item name="大二寸" value="86" />
+  </group>
+  <group value="7" name="外国签证">
+    <item name="美国非移民签证" value="8A" />
+    <item name="日本签证" value="8B" />
+    <item name="英国签证" value="8C" />
+    <item name="法国签证" value="8D" />
+    <item name="德国签证" value="8E" />
+    <item name="比利时签证" value="8F" />
+    <item name="加拿大签证" value="8G" />
+    <item name="澳大利亚移民签证" value="8H" />
+    <item name="韩国签证" value="8I" />
+    <item name="新加坡签证" value="8J" />
+    <item name="俄罗斯签证" value="8K" />
+  </group>
+</zjlx>

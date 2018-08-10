@@ -1,0 +1,167 @@
+﻿
+#pictureView
+{
+position: absolute;
+z-index: 900;
+background-color: #444;
+display:none;
+}
+
+
+#pictureView h3
+{
+	height:41px;
+	background:#000;
+	position:relative;
+}
+
+
+#pictureView h3 em,#pictureView h3 em a
+{
+	padding:0 0 0 20px;
+	font-size:12px;
+	font-style:normal;
+	line-height:41px;
+	color:#eee;
+	font-weight:normal;
+	text-decoration:None;
+}
+
+#pictureView h3 em a:Hover
+{
+	text-decoration:underline;
+}
+
+#pictureView h3 a.uploadPicture
+{
+	position:absolute;
+	display:block;
+	width:119px;
+	height:32px;
+	top:5px;
+	right:100px;
+	background:url(images/myphoto/photo_dj_normal.png);
+}
+
+#pictureView h3 a.uploadPicture:hover
+{
+	background:url(images/myphoto/photo_dj_pressed.png);
+}
+
+
+#pictureView h3 a.closePictureView
+{
+	position:absolute;
+	display:block;
+	width:41px;
+	height:41px;
+	top:0px;
+	right:0px;
+	background:url(images/myphoto/photo_x_normal.png);
+}
+
+#pictureView h3 a.closePictureView:hover
+{
+	background:url(images/myphoto/photo_x_pressed.png);
+}
+
+#pictureViewContent
+{
+	padding:15px;
+	line-height:22px;
+	text-indent:28px;
+	font-size:14px;
+}
+
+
+#pvcBox
+{
+	width:1000px;
+	margin:0 auto;
+	position:relative;
+}
+
+#pictureViewContent h4
+{
+	color:#fff;
+	text-align:center;
+	font-weight:normal;
+	height:30px;
+	line-height:30px;
+	font-size:14px;
+}
+
+#pvcBox a
+{
+	display:block;
+	position:absolute;
+	width:41px;
+	height:70px;
+	top:265px;
+}
+
+#pvcBox a:hover
+{
+	 -moz-opacity:0.7;
+    opacity:.70;
+    filter:alpha(opacity=70);
+}
+
+#pvcBox a.prevPicture
+{
+	left:0px;
+	background:url(images/myphoto/photo_x_04.png);
+}
+
+#pvcBox a.nextPicture
+{
+	left:959px;
+	background:url(images/myphoto/photo_x_03.png);
+}
+
+#pvcPictureBox
+{
+	width:900px;
+	height:600px;
+	padding:0 9px;
+	position:absolute;
+	top:0;
+	left:41px;
+	text-align:center;
+	overflow:hidden;
+}
+
+
+#pvcLoader
+{
+	position:absolute;
+	top:236px;
+	left:436px;
+	display:none;
+}
+
+#pvcPictureBox img
+{
+	display:block;
+	margin:0 auto;
+}
+
+#pvcPictureBox a
+{
+	display:block;
+	position:absolute;
+	top:0;
+	right:9px;
+	width:37px;
+	height:30px;
+	background:url(images/myphoto/trash.jpg);
+	display:none;
+}
+
+#pvcPictureBox a:hover
+{
+	 -moz-opacity:0.8;
+    opacity:.80;
+    filter:alpha(opacity=80);
+}
+

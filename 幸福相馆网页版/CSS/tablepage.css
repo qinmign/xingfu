@@ -1,0 +1,32 @@
+﻿#pagelist 
+{
+    height:32px;
+    padding-right:20px;
+    margin:0 auto;
+    line-height:32px;
+    font-size:13px;
+    text-align:right;
+    background-color:rgb(247,247,247);
+}
+#pagelist span
+{
+	margin:0 4px;
+	color:rgb(168,168,168);
+	font-weight:bold;
+	letter-spacing:1px;
+}
+#pagelist span a
+{
+	height:40px;
+	color:rgb(4,161,242);
+	font-size: 14px;
+	text-decoration: none;
+}
+
+#pagelist span a:hover 
+{
+	color:rgb(4,161,242);
+	font-size: 14px;
+	text-decoration: none;
+	border-bottom: 2px solid rgb(4,161,242);
+}

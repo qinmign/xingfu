@@ -1,0 +1,340 @@
+﻿#content_r
+{
+    color:rgb(72,72,72);
+    min-height:432px;
+    height: expression( this.scrollHeight < 432 ? "432px" : "auto" );
+}
+
+#infoBox
+{
+    display:none;
+    height:auto;
+}
+
+#loadtable p
+{
+    font-size:12px;
+    margin:0;
+}
+
+.orderhead
+{
+    margin-top:7px;
+}
+
+.orderhead h4
+{
+    padding:0;
+    margin:0 440px 0 20px;
+}
+
+.r_title a
+{
+    color:#009BFB;
+    font-size:14px;
+    text-decoration:none;   
+}
+
+.r_title a:hover
+{
+    text-decoration:underline;
+}
+
+.propic
+{
+    margin:15px auto 0;
+    text-align:center;
+}
+
+.pointtd
+{
+    width:22px; 
+}
+
+.arrowtd
+{
+    width:185px;
+}
+
+.actpoint 
+{
+    width:10px;
+    height:12px;
+    overflow:hidden;
+    background:url(images/myorder/steps_01.png);
+    display:inline-block;
+}
+
+.waitpoint 
+{
+    width:10px;
+    height:12px;
+    overflow:hidden;
+    background:url(images/myorder/steps_03.png);
+    display:inline-block;
+}
+
+.actarrow 
+{
+    width:175px;
+    height:12px;
+    overflow:hidden;
+    background:url(images/myorder/steps_02.png);
+    display:inline-block;
+}
+
+.waitarrow 
+{
+    width:175px;
+    height:12px;
+    overflow:hidden;
+    background:url(images/myorder/steps_04.png);
+    display:inline-block;
+}
+
+.wordtable p
+{
+    margin:0;
+    padding:0;
+    text-align:center;
+}
+
+/*.w1
+{
+    width:105px;
+}
+
+.w2
+{
+    width:305px;
+}
+
+.w3
+{
+    width:115px;
+}
+
+.w4
+{
+    width:150px;
+}
+
+.w4 p
+{
+    position:relative;
+    left:70px;
+}*/
+
+.sw1
+{
+    width:230px;   
+}
+
+.sw2
+{
+    width:270px;   
+}
+
+.sw3
+{
+    width:233px;   
+}
+
+.green_w
+{
+    font-weight:bold;
+    color:rgb(115,169,70);
+}
+
+.b_gray_w
+{
+    font-weight:bold;
+    color:rgb(158,158,158);
+}
+
+.gray_w 
+{
+    font-size:12px;
+    color:rgb(158,158,158);  
+}
+
+.receiverbox
+{
+    padding:20px 20px 10px;    
+}
+
+.receiverbox h4,.oinfobox h4
+{  
+    font-size:14px;
+    margin:0 0 5px 0;
+    padding:0;
+}
+
+.receiverbox p
+{
+    margin:0;
+    padding:0;
+    line-height:25px;
+}
+
+.oinfobox h4
+{
+    margin-left:10px;   
+}
+
+.oinfobox
+{
+    padding:7px;
+}
+
+#tablebox table
+{
+    border-collapse:collapse;
+    font-size:12px;
+    border:1px solid #DFE3E6;
+    vertical-align:middle;
+    text-align:center;
+    margin:0 auto;
+}
+
+#tablebox table th
+{
+    height:30px;
+    background-color:rgb(230,247,255);
+}
+
+#tablebox table td
+{
+    height:110px;
+}
+
+#tablebox table tr:first-child td
+{
+    border-top:none;
+}
+
+#tablebox table td
+{
+    border-top:1px dashed gray;
+}
+
+.pitd div
+{
+    float:left;
+}
+
+.pitd div:first-child
+{
+    width:82px;
+    height:95px;    
+}
+
+.pitd img
+{
+    margin-left:7px; 
+    width:75px;
+    height:47px; 
+    display:block;
+}
+
+.sigleimg
+{
+    margin-top:20px;
+}
+
+.pitd p
+{
+    padding:0;
+    margin:0 0 0 7px;
+    line-height:23px;
+    text-align:left;
+}
+
+.opbtn
+{
+    width:60px;
+    height:22px;
+    line-height:22px;
+    margin:2px auto 2px;
+}
+
+.blue
+{
+    background-color:#1a97df;    
+}
+
+.blue:hover
+{
+    background-color:#3366FF;
+}
+
+.green
+{
+    background-color:#3eb373;
+}
+
+.green:hover
+{
+    background-color:#12a052;
+}
+
+.purple
+{
+    background-color:#ba71d4;   
+}
+
+.purple:hover
+{
+    background-color:#9241af;
+}
+
+.orange
+{
+    background-color:#FF9900;   
+}
+
+.orange:hover
+{
+    background-color:#FE6732;
+}
+
+.相片信息
+{
+    width:295px;   
+}
+
+.采集服务费
+{
+    width:105px;   
+}
+
+.冲印服务费
+{
+    width:95px;   
+}
+
+.冲印数量
+{
+    width:60px;   
+}
+
+.小计
+{
+    width:85px;
+}
+
+.操作
+{
+    width:88px;
+}
+
+.pre
+{
+    white-space: pre-wrap;
+    white-space: -moz-pre-wrap;
+    white-space: -pre-wrap;
+    white-space: -o-pre-wrap;
+    word-wrap: break-word; 
+    word-break:break-all;
+    width:703px;
+}

@@ -1,0 +1,110 @@
+﻿body 
+{
+    margin:0;
+    padding:0;
+    border:0;
+    font-size:14px;
+    font-family:微软雅黑;
+    background-color:White;
+}
+
+h1
+{
+	background:url(images/myphoto/photo_01.jpg) no-repeat 20px 30px;
+	width:870px;
+	margin:0 auto;
+	height:65px;
+	padding:30px 20px 0  110px;
+	font-size:22px;
+	border-bottom:3px solid #ddd;
+	color:#666;
+	font-family:微软雅黑;
+	font-weight:normal;
+	
+}
+
+
+#folder_box
+{
+	height:300px;
+	width:900px;
+	margin:0 auto;
+	padding:20px 50px 10px 50px;
+}
+
+.folder
+{
+	width:210px;
+	height:217px;
+	background:url(images/myphoto/photo_02.jpg) no-repeat 16px 16px;
+	float:left;
+	padding:20px;
+	
+}
+
+.folder img
+{
+	display:block;
+	width:202px;
+	height:202px;
+}
+
+.folder a img
+{
+	border:0;
+}
+
+.folder a:hover img
+{
+	 -moz-opacity:0.7;
+    opacity:.70;
+    filter:alpha(opacity=70);
+}
+
+.folder p
+{
+	padding:20px  0 0 0;
+	color:#888;
+	font-size:12px;
+}
+
+.folder a
+{
+    color:#333;
+    text-decoration:none;
+    font-size:14px;
+}
+
+.folder a:hover
+{
+	color:#666;
+}
+
+#question_box
+{
+	width:840px;
+	height:100px;
+	border:1px solid #ffe5ce;
+	background:#fffdee;
+	margin:0 auto 10px auto;
+	padding:20px 30px;
+}
+
+#question_box li
+{
+	list-style:none;
+	height:30px;
+	line-height:30px;
+}
+
+#question_box li a
+{
+	text-decoration:none;
+	color:#333;
+	font-size:12px;
+}
+
+#question_box li a:hover
+{
+	color:#666;
+}

@@ -1,0 +1,213 @@
+﻿#cerManagePage
+{
+    color:rgb(254,117,81);
+}
+
+*
+{
+    margin:0;
+    padding:0;
+    border:0;
+}
+
+.content
+{
+    width:1000px;    
+    height:100%;
+    margin:0 auto;
+}
+
+.orderinfo
+{
+    width:980px;
+    margin:0 auto 15px;
+    height:70px;
+    line-height:28px;
+    padding:10px 0 10px 20px;
+    margin-top:20px;
+    border:1px solid rgb(255,207,149);
+    background-color:rgb(255,248,232);
+}
+
+.orderinfo h3
+{
+    font-size:22px;
+    font-weight:normal;
+    color:rgb(129,171,27);
+}
+
+.orderinfo p
+{
+    margin-top:15px;
+    font-size:20px;
+}
+
+.c_orderinfo p
+{
+    margin-top:7px;
+    font-size:20px;   
+}
+
+.ewalletdiv
+{
+    width:900px;
+    border-bottom:1px dashed rgb(191,191,191);
+    margin-bottom:20px; 
+}
+
+.ewalletdiv a
+{
+    color:Black;
+    text-decoration:none;    
+}
+
+.payplatform
+{
+    margin-bottom:15px;   
+}
+
+.payplatform h4
+{
+    font-size:18px;
+    font-weight:normal;
+    margin-bottom:15px;
+}
+
+.payplatform img
+{
+    cursor:pointer;
+}
+
+.fillform table td
+{
+    height:46px;
+    vertical-align:middle;   
+}
+
+.radiogroup
+{
+    width:18px;
+    height:18px;
+    display:inline-block;    
+}
+
+.radiodefault
+{
+    background:transparent url(images/cermanage/radio.png) no-repeat top center;  
+}
+
+.radiodeact
+{
+    background:transparent url(images/cermanage/radio.png) no-repeat center bottom;
+}
+
+.tip_w
+{
+    color:rgb(112,112,112);    
+}
+
+.paybtn
+{
+    width:140px;
+    height:45px;
+    margin:0 auto;
+    font-size:19px;
+    background-color:#eb5300;
+    line-height:45px;
+    display:block;
+}
+
+.paybtn:hover
+{   
+    background-color:#fe6c18;
+}
+
+/*支付窗口*/
+#layout_w
+{
+    width:465px;
+    height:290px; 
+}
+
+.word_box
+{
+    width:445px;
+    height:130px;
+    padding:40px 0 0 20px;
+    line-height:30px;
+    border-bottom:1px solid rgb(229,229,229);
+}
+
+.word_box p
+{
+    font-size:16px;
+    color:rgb(102,102,102);
+}
+
+.word_box p:first-child
+{
+    font-weight:bolder;
+    color:rgb(102,102,102);
+}
+
+.btn_box
+{
+    text-align:center;
+    padding-top:17px;
+}
+
+.payok_btn 
+{
+    width:120px;
+    height:40px;
+    margin:0 auto;
+    color:rgb(102,102,102);
+    display:inline-block;
+    background-color:rgb(255,215,166);
+    line-height:40px;
+    font-size:17px;
+    margin-right:40px;
+}
+
+.payok_btn:hover
+{   
+    background-color:#FF9933;
+}
+
+.repay_btn 
+{
+    width:120px;
+    height:40px;
+    margin:0 auto;
+    color:rgb(102,102,102);
+    display:inline-block;
+    background-color:rgb(186,230,255);
+    line-height:40px;
+    font-size:17px;
+}
+
+.repay_btn:hover
+{   
+    background-color:#0099FF;
+}
+
+
+#headbox
+{
+    height:58px;
+    margin:10px 0 7px 0;
+}
+#headbox div
+{
+    height:58px;
+    float:left;
+}
+#headbox img,#headbox span
+{
+    float:left;
+}
+#headbox span
+{
+    margin-top:7px;
+    margin-left:15px;
+}

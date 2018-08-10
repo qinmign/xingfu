@@ -1,0 +1,155 @@
+﻿body {
+}
+
+#body-div
+{
+    width:1000px;
+    margin:5px auto;
+    border:1px solid rgb(216, 227, 233);
+}
+
+#new-value,#mod-code
+{
+    border:1px solid  rgb(216, 227, 233);
+    border-style:solid;
+    height:21px;
+    width:210px;
+    line-height:21px;
+    padding:4px 0 2px 6px;
+    font-size:14px;
+}
+
+#result-tips
+{
+    cursor::pointer;
+}
+
+
+#activity-email,#input-mod-code,#content-div
+{
+   margin:250px 0 100px 390px;  
+}
+
+.resend-msg
+{
+    cursor:pointer;
+    color:#26b9ff;
+}
+
+#tips
+{
+  margin:5px 0 5px 15px;
+  text-align:left;
+}
+
+#ok
+{
+    display:block;
+} 
+
+.button
+{
+   height:40px;
+   width:130px;
+   display:block;
+   text-align:center;
+   line-height:40px;
+   text-decoration:none;
+   color:White;
+   background-color:rgb(38,185,255);
+   margin:10px 0 0 0px;
+   cursor:pointer;
+   font-size:16px;
+}
+
+.button:hover
+{
+    background-color:rgb(55,210,255);
+} 
+
+#tips-div
+{
+    width:744px;
+    height:116px;
+    border:1px solid rgb(191,215,227);
+    background:rgb(232,247,254);
+    margin:0 auto;
+    margin-bottom:100px;
+} 
+
+#tips-div p
+{
+    text-align:center;
+    margin:50px auto;
+    font-size:12px;
+}
+#sended-email
+{
+   margin:100px 0 50px;  
+}
+
+.tips1
+{
+    color:rgb(255,94,48);
+    text-align:center;
+    font-size:22px;
+}
+
+.tips2
+{
+    display:block;
+    font-size:14px;
+    color:rgb(0,0,0);
+    text-align:center;
+}
+
+.tips3
+{
+   display:block;
+   font-size:12px;
+   color:rgb(0,0,0);
+   font-weight:bold;
+   margin:60px 0 0 290px;   
+}
+
+.resend
+{
+   color:rgb(255,94,48);
+   cursor:pointer;
+   text-align:center;
+   text-decoration:underline;
+}
+
+.tips4
+{
+   display:block;
+   font-size:12px;
+   color:rgb(0,0,0);
+   margin:6px 0 0 290px;   
+}
+
+.button2
+{
+   height:40px;
+   width:170px;
+   display:block;
+   text-align:center;
+   line-height:35px;
+   text-decoration:none;
+   color:White;
+   background-color:rgb(38,185,255);
+   margin:30px 0 0 410px;
+   cursor:pointer;
+   font-size:16px;
+}
+
+.button2:hover
+{
+    background-color:rgb(55,210,255);
+}
+
+#resendTips
+{
+    margin-left:10px;
+    color:red;
+}

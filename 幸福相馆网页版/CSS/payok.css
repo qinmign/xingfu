@@ -1,0 +1,267 @@
+﻿#cerManagePage
+{
+    color:rgb(254,117,81);
+}
+
+*
+{
+    margin:0;
+    padding:0;
+    border:0;
+}
+
+.content
+{
+    width:1000px;    
+    height:100%;
+    margin:0 auto;
+}
+
+.successtitle
+{
+    height:40px;
+    width:382px;
+    margin:20px auto 20px;
+    line-height:46px;    
+    text-align:center;  
+}
+
+.successtitle img,.successtitle p
+{
+    float:left;   
+}
+
+.big_w
+{
+    font-size:22px;
+    color:rgb(68,160,0);
+}
+
+.small_w
+{
+    font-size:16px;
+    color:rgb(108,108,108);
+}
+
+.headdiv h4:first-child
+{
+    float:left;   
+}
+
+.contentbox
+{
+    padding:10px 0 0 0;
+}
+
+.contentbox table
+{
+    border-collapse:collapse;
+    text-align:center;
+    width:975px;
+    margin:0 auto 10px;
+    vertical-align:middle;    
+}
+
+.contentbox table td
+{
+    border:1px solid #D8E3E9;
+}
+
+.first_tr
+{
+    height:160px;
+}
+
+.second_tr
+{
+    height:70px;
+    background-color:rgb(250,250,250);
+}
+
+.headtd
+{
+    width:175px;
+}
+
+.certd
+{
+    width:265px;
+}
+
+.hztd
+{
+    width:265px;
+}
+
+.infotd
+{
+    width:245px;
+    padding-left:20px;
+    line-height:30px;
+    text-align:left;
+}
+
+.bluebtn
+{
+    height:40px;
+    font-size:17px;
+    background-color:rgb(15,166,237);
+    line-height:40px;
+    display:inline-block;
+}
+
+.bluebtn:hover
+{   
+    background-color:rgb(10,126,217);
+}
+
+.orangebtn
+{
+    height:40px;
+    font-size:17px;
+    background-color:#FF9900;
+    line-height:40px;
+    display:inline-block;
+}
+
+.orangebtn:hover
+{   
+    background-color:rgb(254,103,50);
+}
+
+.greenbtn
+{
+    height:40px;
+    font-size:17px;
+    background-color:rgb(161,201,64);
+    line-height:40px;
+    display:inline-block;  
+}
+
+.greenbtn:hover
+{   
+    background-color:rgb(39,170,31);
+}
+
+.downmbbtn
+{
+    width:120px;
+    margin-right:20px;
+}
+
+.printphotobtn
+{
+    width:90px;
+}
+
+.downphotobtn,.printhzbtn,.continuebtn
+{
+    width:100px;   
+}
+
+#pagelist 
+{
+    height:32px;
+    width:980px;
+    padding-right:20px;
+    margin:0 auto;
+    line-height:32px;
+    font-size:13px;
+    text-align:right;
+    background-color:rgb(247,247,247);
+    border-bottom:1px solid rgb(216,227,233);
+}
+#pagelist span
+{
+	margin:0 4px;
+	color:rgb(168,168,168);
+	font-weight:bold;
+	letter-spacing:1px;
+}
+#pagelist span a
+{
+	height:40px;
+	color:rgb(4,161,242);
+	font-size: 14px;
+	text-decoration: none;
+}
+
+#pagelist span a:hover 
+{
+	color:rgb(4,161,242);
+	font-size: 14px;
+	text-decoration: none;
+	border-bottom: 2px solid rgb(4,161,242);
+}
+
+.wormtip
+{
+    width:980px;
+    margin-bottom:15px;
+}
+
+#layout_w {
+    height: 290px;
+    width: 465px;
+}
+.word_box {
+    border-bottom: 1px solid #E5E5E5;
+    height: 130px;
+    line-height: 30px;
+    padding: 40px 0 0 20px;
+    width: 445px;
+}
+.word_box p {
+    color: #666666;
+    font-size: 16px;
+}
+.btn_box {
+    padding-top: 17px;
+    text-align: center;
+}
+.payok_btn {
+    background-color: #FFD7A6;
+    color: #666666;
+    display: inline-block;
+    font-size: 17px;
+    height: 40px;
+    line-height: 40px;
+    margin: 0 40px 0 auto;
+    width: 120px;
+}
+.payok_btn:hover {
+    background-color: #FF9933;
+}
+.repay_btn {
+    background-color: #BAE6FF;
+    color: #666666;
+    display: inline-block;
+    font-size: 17px;
+    height: 40px;
+    line-height: 40px;
+    margin: 0 auto;
+    width: 120px;
+}
+.repay_btn:hover {
+    background-color: #0099FF;
+}
+
+#headbox
+{
+    height:58px;
+    margin:10px 0 0 0;
+}
+#headbox div
+{
+    height:58px;
+    float:left;
+}
+#headbox img,#headbox span
+{
+    float:left;
+}
+#headbox span
+{
+    margin-top:7px;
+    margin-left:15px;
+}

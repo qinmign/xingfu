@@ -1,0 +1,397 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<picmodel>
+
+  
+  <model  id="jsz" name="广东驾驶证" pidRegex="^ZCA[0-9A-Z]{12}$" >
+    <file>jsz_4r.jpg</file>
+    <resolution>300</resolution>
+    <countX>5</countX>
+    <countY>3</countY>
+    <imgWidth>260</imgWidth>
+    <imgHeight>378</imgHeight>
+    <startX>21</startX>
+    <startY>20</startY>
+    <spanX>19</spanX>
+    <spanY>15</spanY>
+    <sltWidth>260</sltWidth>
+    <sltHeight>378</sltHeight>
+    <sltX>1479</sltX>
+    <sltY>279</sltY>
+    <sltRFT>RotateNoneFlipNone</sltRFT>
+  </model>
+  <model id="crj" name="出入境" pidRegex="^([A-Z][0-9][0-9A-Z]{13})|(53[0-9]{13})$">
+    <file>crj_4r.jpg</file>
+    <resolution>300</resolution>
+    <countX>4</countX>
+    <countY>2</countY>
+    <imgWidth>390</imgWidth>
+    <imgHeight>567</imgHeight>
+    <startX>18</startX>
+    <startY>27</startY>
+    <spanX>14</spanX>
+    <spanY>17</spanY>
+    <sltWidth>91</sltWidth>
+    <sltHeight>133</sltHeight>
+    <sltX>1649</sltX>
+    <sltY>1065</sltY>
+    <sltRFT>Rotate270FlipNone</sltRFT>
+  </model>
+  <model id="jzz" name="广东居住证" pidRegex="^ZBA[0-9A-Z]{12}$">
+    <file>jzz_4r.jpg</file>
+    <resolution>350</resolution>
+    <countX>4</countX>
+    <countY>3</countY>
+    <imgWidth>358</imgWidth>
+    <imgHeight>441</imgHeight>
+    <startX>15</startX>
+    <startY>27</startY>
+    <spanX>16</spanX>
+    <spanY>12</spanY>
+    <sltWidth>358</sltWidth>
+    <sltHeight>441</sltHeight>
+    <sltX>1622</sltX>
+    <sltY>126</sltY>
+    <sltRFT>RotateNoneFlipNone</sltRFT>
+  </model>
+  <model id="bay" name="广东保安员证" pidRegex="^ZBB[0-9A-Z]{12}$">
+    <file>bay_4r.jpg</file>
+    <resolution>350</resolution>
+    <countX>4</countX>
+    <countY>3</countY>
+    <imgWidth>358</imgWidth>
+    <imgHeight>441</imgHeight>
+    <startX>15</startX>
+    <startY>27</startY>
+    <spanX>16</spanX>
+    <spanY>12</spanY>
+    <sltWidth>358</sltWidth>
+    <sltHeight>441</sltHeight>
+    <sltX>1622</sltX>
+    <sltY>126</sltY>
+    <sltRFT>RotateNoneFlipNone</sltRFT>
+  </model>
+  <model id="edz" name="二代证" pidRegex="^[A-Z]{2}[0-9][0-9A-Z]{12}$">
+    <file>edz_4r.jpg</file>
+    <resolution>350</resolution>
+    <countX>4</countX>
+    <countY>3</countY>
+    <imgWidth>358</imgWidth>
+    <imgHeight>441</imgHeight>
+    <startX>15</startX>
+    <startY>27</startY>
+    <spanX>16</spanX>
+    <spanY>12</spanY>
+    <sltWidth>358</sltWidth>
+    <sltHeight>441</sltHeight>
+    <sltX>1622</sltX>
+    <sltY>126</sltY>
+    <sltRFT>RotateNoneFlipNone</sltRFT>
+  </model>
+  <model id="81" name="一寸照" pidRegex="^ZH81[0-9A-Z]{14}$">
+    <file>81.jpg</file>
+    <resolution>300</resolution>
+    <countX>5</countX>
+    <countY>2</countY>
+    <imgWidth>295</imgWidth>
+    <imgHeight>413</imgHeight>
+    <startX>58</startX>
+    <startY>37</startY>
+    <spanX>51</spanX>
+    <spanY>30</spanY>
+    <sltWidth>134</sltWidth>
+    <sltHeight>189</sltHeight>
+    <sltX>51</sltX>
+    <sltY>984</sltY>
+    <sltRFT>RotateNoneFlipNone</sltRFT>
+  </model>
+  <model id="82" name="二寸照" pidRegex="^ZH82[0-9A-Z]{14}$">
+    <file>82.jpg</file>
+    <resolution>300</resolution>
+    <countX>3</countX>
+    <countY>2</countY>
+    <imgWidth>413</imgWidth>
+    <imgHeight>579</imgHeight>
+    <startX>24</startX>
+    <startY>18</startY>
+    <spanX>17</spanX>
+    <spanY>14</spanY>
+    <sltWidth>272</sltWidth>
+    <sltHeight>383</sltHeight>
+    <sltX>1429</sltX>
+    <sltY>279</sltY>
+    <sltRFT>RotateNoneFlipNone</sltRFT>
+  </model>
+  <model id="83" name="小一寸" pidRegex="^ZH83[0-9A-Z]{14}$">
+    <file>83.jpg</file>
+    <resolution>300</resolution>
+    <countX>5</countX>
+    <countY>3</countY>
+    <imgWidth>260</imgWidth>
+    <imgHeight>378</imgHeight>
+    <startX>21</startX>
+    <startY>20</startY>
+    <spanX>19</spanX>
+    <spanY>15</spanY>
+    <sltWidth>260</sltWidth>
+    <sltHeight>378</sltHeight>
+    <sltX>1479</sltX>
+    <sltY>279</sltY>
+    <sltRFT>RotateNoneFlipNone</sltRFT>
+  </model>
+
+  <model id="84" name="大一寸" pidRegex="^ZH84[0-9A-Z]{14}$">
+    <file>84.jpg</file>
+    <resolution>300</resolution>
+    <countX>4</countX>
+    <countY>2</countY>
+    <imgWidth>390</imgWidth>
+    <imgHeight>567</imgHeight>
+    <startX>18</startX>
+    <startY>27</startY>
+    <spanX>14</spanX>
+    <spanY>17</spanY>
+    <sltWidth>91</sltWidth>
+    <sltHeight>133</sltHeight>
+    <sltX>1649</sltX>
+    <sltY>1065</sltY>
+    <sltRFT>Rotate270FlipNone</sltRFT>
+  </model>
+
+  <model id="85" name="小二寸" pidRegex="^ZH85[0-9A-Z]{14}$">
+    <file>85.jpg</file>
+    <resolution>300</resolution>
+    <countX>3</countX>
+    <countY>2</countY>
+    <imgWidth>413</imgWidth>
+    <imgHeight>531</imgHeight>
+    <startX>37</startX>
+    <startY>38</startY>
+    <spanX>33</spanX>
+    <spanY>35</spanY>
+    <sltWidth>290</sltWidth>
+    <sltHeight>373</sltHeight>
+    <sltX>1454</sltX>
+    <sltY>274</sltY>
+    <sltRFT>RotateNoneFlipNone</sltRFT>
+  </model>
+
+  <model id="86" name="大二寸" pidRegex="^ZH86[0-9A-Z]{14}$">
+    <file>86.jpg</file>
+    <resolution>300</resolution>
+    <countX>4</countX>
+    <countY>1</countY>
+    <imgWidth>413</imgWidth>
+    <imgHeight>626</imgHeight>
+    <startX>31</startX>
+    <startY>98</startY>
+    <spanX>24</spanX>
+    <spanY>0</spanY>
+    <sltWidth>155</sltWidth>
+    <sltHeight>235</sltHeight>
+    <sltX>33</sltX>
+    <sltY>912</sltY>
+    <sltRFT>RotateNoneFlipNone</sltRFT>
+  </model>
+
+  <model id="8A" name="美国非移民签证" pidRegex="^ZH8A[0-9A-Z]{14}$">
+    <file>8A.jpg</file>
+    <resolution>300</resolution>
+    <countX>2</countX>
+    <countY>2</countY>
+    <imgWidth>591</imgWidth>
+    <imgHeight>591</imgHeight>
+    <startX>45</startX>
+    <startY>8</startY>
+    <spanX>28</spanX>
+    <spanY>9</spanY>
+    <sltWidth>323</sltWidth>
+    <sltHeight>323</sltHeight>
+    <sltX>1402</sltX>
+    <sltY>138</sltY>
+    <sltRFT>RotateNoneFlipNone</sltRFT>
+  </model>
+
+
+  <model id="8B" name="日本签证" pidRegex="^ZH8B[0-9A-Z]{14}$">
+    <file>8B.jpg</file>
+    <resolution>300</resolution>
+    <countX>2</countX>
+    <countY>2</countY>
+    <imgWidth>531</imgWidth>
+    <imgHeight>531</imgHeight>
+    <startX>111</startX>
+    <startY>56</startY>
+    <spanX>56</spanX>
+    <spanY>32</spanY>
+    <sltWidth>312</sltWidth>
+    <sltHeight>312</sltHeight>
+    <sltX>1402</sltX>
+    <sltY>144</sltY>
+    <sltRFT>RotateNoneFlipNone</sltRFT>
+  </model>
+  
+
+  <model id="8C" name="英国签证" pidRegex="^ZH8C[0-9A-Z]{14}$">
+    <file>8C.jpg</file>
+    <resolution>300</resolution>
+    <countX>3</countX>
+    <countY>2</countY>
+    <imgWidth>413</imgWidth>
+    <imgHeight>531</imgHeight>
+    <startX>67</startX>
+    <startY>53</startY>
+    <spanX>20</spanX>
+    <spanY>24</spanY>
+    <sltWidth>258</sltWidth>
+    <sltHeight>332</sltHeight>
+    <sltX>1477</sltX>
+    <sltY>134</sltY>
+    <sltRFT>RotateNoneFlipNone</sltRFT>
+  </model>
+
+  <model id="8D" name="法国签证" pidRegex="^ZH8D[0-9A-Z]{14}$">
+    <file>8D.jpg</file>
+    <resolution>300</resolution>
+    <countX>3</countX>
+    <countY>2</countY>
+    <imgWidth>413</imgWidth>
+    <imgHeight>531</imgHeight>
+    <startX>67</startX>
+    <startY>53</startY>
+    <spanX>20</spanX>
+    <spanY>24</spanY>
+    <sltWidth>258</sltWidth>
+    <sltHeight>332</sltHeight>
+    <sltX>1477</sltX>
+    <sltY>134</sltY>
+    <sltRFT>RotateNoneFlipNone</sltRFT>
+  </model>
+
+  <model id="8E" name="德国签证" pidRegex="^ZH8E[0-9A-Z]{14}$">
+    <file>8E.jpg</file>
+    <resolution>300</resolution>
+    <countX>3</countX>
+    <countY>2</countY>
+    <imgWidth>413</imgWidth>
+    <imgHeight>531</imgHeight>
+    <startX>67</startX>
+    <startY>53</startY>
+    <spanX>20</spanX>
+    <spanY>24</spanY>
+    <sltWidth>258</sltWidth>
+    <sltHeight>332</sltHeight>
+    <sltX>1477</sltX>
+    <sltY>134</sltY>
+    <sltRFT>RotateNoneFlipNone</sltRFT>
+  </model>
+
+  <model id="8F" name="比利时签证" pidRegex="^ZH8F[0-9A-Z]{14}$">
+    <file>8F.jpg</file>
+    <resolution>300</resolution>
+    <countX>3</countX>
+    <countY>2</countY>
+    <imgWidth>413</imgWidth>
+    <imgHeight>531</imgHeight>
+    <startX>67</startX>
+    <startY>53</startY>
+    <spanX>20</spanX>
+    <spanY>24</spanY>
+    <sltWidth>258</sltWidth>
+    <sltHeight>332</sltHeight>
+    <sltX>1477</sltX>
+    <sltY>134</sltY>
+    <sltRFT>RotateNoneFlipNone</sltRFT>
+  </model>
+
+  <model id="8G" name="加拿大签证" pidRegex="^ZH8G[0-9A-Z]{14}$">
+    <file>8G.jpg</file>
+    <resolution>300</resolution>
+    <countX>3</countX>
+    <countY>2</countY>
+    <imgWidth>413</imgWidth>
+    <imgHeight>531</imgHeight>
+    <startX>67</startX>
+    <startY>53</startY>
+    <spanX>20</spanX>
+    <spanY>24</spanY>
+    <sltWidth>258</sltWidth>
+    <sltHeight>332</sltHeight>
+    <sltX>1477</sltX>
+    <sltY>134</sltY>
+    <sltRFT>RotateNoneFlipNone</sltRFT>
+  </model>
+
+  <model id="8H" name="澳大利亚移民签证" pidRegex="^ZH8H[0-9A-Z]{14}$">
+    <file>8H.jpg</file>
+    <resolution>300</resolution>
+    <countX>3</countX>
+    <countY>2</countY>
+    <imgWidth>413</imgWidth>
+    <imgHeight>531</imgHeight>
+    <startX>67</startX>
+    <startY>53</startY>
+    <spanX>20</spanX>
+    <spanY>24</spanY>
+    <sltWidth>258</sltWidth>
+    <sltHeight>332</sltHeight>
+    <sltX>1477</sltX>
+    <sltY>134</sltY>
+    <sltRFT>RotateNoneFlipNone</sltRFT>
+  </model>
+
+  <model id="8I" name="韩国签证" pidRegex="^ZH8I[0-9A-Z]{14}$">
+    <file>8I.jpg</file>
+    <resolution>300</resolution>
+    <countX>3</countX>
+    <countY>2</countY>
+    <imgWidth>413</imgWidth>
+    <imgHeight>531</imgHeight>
+    <startX>67</startX>
+    <startY>53</startY>
+    <spanX>20</spanX>
+    <spanY>24</spanY>
+    <sltWidth>258</sltWidth>
+    <sltHeight>332</sltHeight>
+    <sltX>1477</sltX>
+    <sltY>134</sltY>
+    <sltRFT>RotateNoneFlipNone</sltRFT>
+  </model>
+
+  <model id="8J" name="新加坡签证" pidRegex="^ZH8J[0-9A-Z]{14}$">
+    <file>8J.jpg</file>
+    <resolution>300</resolution>
+    <countX>3</countX>
+    <countY>2</countY>
+    <imgWidth>413</imgWidth>
+    <imgHeight>531</imgHeight>
+    <startX>67</startX>
+    <startY>53</startY>
+    <spanX>20</spanX>
+    <spanY>24</spanY>
+    <sltWidth>258</sltWidth>
+    <sltHeight>332</sltHeight>
+    <sltX>1477</sltX>
+    <sltY>134</sltY>
+    <sltRFT>RotateNoneFlipNone</sltRFT>
+  </model>
+
+  <model id="8K" name="俄罗斯签证" pidRegex="^ZH8K[0-9A-Z]{14}$">
+    <file>8K.jpg</file>
+    <resolution>300</resolution>
+    <countX>3</countX>
+    <countY>2</countY>
+    <imgWidth>413</imgWidth>
+    <imgHeight>531</imgHeight>
+    <startX>67</startX>
+    <startY>53</startY>
+    <spanX>20</spanX>
+    <spanY>24</spanY>
+    <sltWidth>258</sltWidth>
+    <sltHeight>332</sltHeight>
+    <sltX>1477</sltX>
+    <sltY>134</sltY>
+    <sltRFT>RotateNoneFlipNone</sltRFT>
+  </model>
+  
+
+</picmodel>

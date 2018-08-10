@@ -1,0 +1,1 @@
+<%@ Page language="c#" AutoEventWireup="True" CodeBehind="Code.aspx.cs" Inherits="XF_Web_Concise.Code" %>

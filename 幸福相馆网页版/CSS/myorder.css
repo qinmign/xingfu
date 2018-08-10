@@ -1,0 +1,321 @@
+﻿#content_r
+{
+    font-size:12px;
+    color:rgb(72,72,72);
+    min-height:432px;
+    height: expression( this.scrollHeight < 432 ? "432px" : "auto" );
+    overflow:hidden;
+}
+
+#content_r #loadtable td
+{
+    border:none; 
+}
+
+#loadtable p
+{
+    font-size:12px;
+    margin:0;  
+}
+
+#tablebox
+{
+    min-height:480px;
+    height: expression( this.scrollHeight < 480 ? "480px" : "auto" );
+    overflow:hidden;
+}
+
+#tablebox table
+{
+    text-align:center;
+    border-collapse:collapse;
+    vertical-align:middle;
+}
+
+#tablebox table th
+{
+    height:35px;
+    font-size:15px;
+}
+
+#tablebox table tr
+{
+    border-bottom:1px solid #DFE3E6;
+}
+
+#tablebox table td
+{
+    vertical-align:middle;
+    border-left:1px solid #DFE3E6;
+    border-top:1px solid #DFE3E6;
+    border-bottom:1px solid #DFE3E6;
+    height:70px;
+}
+
+#tablebox table td.pitd
+{
+    border-left:none;
+    border-right:none;
+    border-top:1px solid #DFE3E6;
+    border-bottom:1px solid #DFE3E6;
+}
+
+.pitd p
+{
+    padding:0;
+    margin:0 auto;
+    line-height:20px;
+    width:190px;    
+    text-align:left;
+}
+
+#tablebox table td.optd
+{
+    border-right:none;
+}
+
+.optd a
+{
+    margin:0 auto 5px;
+    display:block;   
+}
+
+.paybtn
+{
+    width:40px;
+    height:22px;
+    background-color:#FF9900;
+    line-height:22px;
+}
+
+.paybtn:hover
+{   
+    background-color:rgb(254,103,50);
+}
+
+.delbtn
+{
+    width:40px;
+    height:22px;
+    background-color:rgb(0,161,239);
+    line-height:22px;
+}
+.delbtn:hover
+{   
+    background-color:#3366FF;
+}
+
+.dellinkbtn
+{
+    color:Blue;
+    text-decoration:none;
+}
+.dellinkbtn:hover
+{    
+    text-decoration:underline;
+}
+
+.相片信息
+{
+    width:280px;
+}
+
+.订单号
+{
+    width:150px;
+}
+
+.总额
+{
+    width:50px;
+}
+
+.下单时间
+{
+    width:140px;
+}
+
+.支付状态
+{
+    width:65px;
+}
+
+.操作
+{
+    width:55px;
+}
+
+#content_r #pagelist
+{
+    height: 45px;
+    overflow:hidden;
+}
+
+#content_r #pagelist div
+{
+    float:left;
+}
+
+.leftDiv,.rightDiv
+{
+    float:left;
+    padding-left:8px;    
+}
+
+.leftDiv
+{
+    height:45px;
+    width:54px;
+    padding-top:8px;
+}
+
+.rightDiv
+{
+    height:39px;
+    width:80px;
+    padding-top:7px;
+}
+
+#content_r #pagelist #bottomOP
+{
+    width:200px;
+    height:45px;
+    text-align:left;
+}
+
+#content_r #pagelist #pageLinkOP
+{
+    width:523px;
+    height:45px;
+    line-height: 45px; 
+}
+
+#pagelist .batchbtn
+{
+    width:80px;
+    height:32px;
+    color:White;
+    font-size:14px;
+    background-color:rgb(0,161,239);
+    line-height:32px;
+    display:block;  
+}
+
+#pagelist .batchbtn:hover
+{   
+    color:white;
+	font-size:14px;
+	text-decoration: none;
+	border:none;	
+    background-color:#3366FF;
+}
+
+#pagelist .batchbtn_gray
+{
+    width:80px;
+    height:32px;
+    color:gray;
+    font-size:14px;
+    background-color:gray;
+    line-height:32px;
+    display:block;  
+}
+
+#orderframe
+{
+    width:100%;
+    height:100%;
+}
+
+.orderlink
+{
+    color:#009BFB;
+    text-decoration:none;   
+}
+
+.orderlink:hover
+{
+    text-decoration:underline;   
+}
+
+/*支付窗口*/
+.pay_box
+{
+    width:465px;
+    height:290px; 
+}
+
+.word_box
+{
+    width:445px;
+    height:130px;
+    padding:40px 0 0 20px;
+    line-height:30px;
+    border-bottom:1px solid rgb(229,229,229);
+}
+
+.word_box p
+{
+    font-size:16px;
+    color:rgb(102,102,102);
+    margin:0;
+    padding:0;
+}
+
+.word_box p:first-child
+{
+    font-weight:bolder;
+    color:rgb(102,102,102);
+}
+
+.btn_box
+{
+    text-align:center;
+    padding-top:17px;
+}
+
+.payok_btn 
+{
+    width:120px;
+    height:40px;
+    margin:0 auto;
+    color:rgb(102,102,102);
+    display:inline-block;
+    background-color:rgb(255,215,166);
+    line-height:40px;
+    font-size:17px;
+    margin-right:40px;
+}
+
+.payok_btn:hover
+{   
+    background-color:#FF9933;
+}
+
+.repay_btn 
+{
+    width:120px;
+    height:40px;
+    margin:0 auto;
+    color:rgb(102,102,102);
+    display:inline-block;
+    background-color:rgb(186,230,255);
+    line-height:40px;
+    font-size:17px;
+}
+
+.repay_btn:hover
+{   
+    background-color:#0099FF;
+}
+
+#noOrder a
+{
+    color:#009BFB;
+    text-decoration:underline;
+}
+
+#noOrder a:hover
+{
+    text-decoration:underline;
+}

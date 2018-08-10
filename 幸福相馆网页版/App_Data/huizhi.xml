@@ -1,0 +1,762 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<huizhi>
+  <fontGroup>
+    <font name="1"  font-size="9" font-family="宋体" font-style="Regular"></font>
+    <font name="2"  font-size="20" font-family="黑体" font-style="Regular"></font>
+    <font name="3"  font-size="40" font-family="C39HrP24DhTt" font-style="Regular"></font>
+    <font name="4"  font-size="9" font-family="宋体" font-style="Bold"></font>
+    <font name="5"  font-size="11" font-family="宋体" font-style="Bold"></font>
+    <font name="6"  font-size="9" font-family="宋体" font-style="Underline"></font>
+  </fontGroup>
+  <page id="jsz" name="广东驾驶证" pidRegex="^ZCA[0-9A-Z]{12}$" font="1">
+    <!--<img x="5" y="5">hzsy.gif</img>-->
+    <img x="180" y="300">tb.png</img>   
+    <pic x="600" y="100" w="124" h="166"></pic>
+    <rect x="5" y="5" w="770" h="350" dash-style="Solid" pen-width="2"></rect>
+    <rect x="5" y="380" w="770" h="130" dash-style="Solid" pen-width="2"></rect>
+    <line x1="30" y1="75" x2="755" y2="75"  dash-style="Solid" pen-width="1"></line>
+    <line x1="30" y1="370" x2="235" y2="370"  dash-style="Dash" pen-width="1"></line>
+    <line x1="550" y1="370" x2="755" y2="370"  dash-style="Dash" pen-width="1"></line>
+
+    <text x="175" y="20" font="2">广东省机动车驾驶证数字相片采集回执</text>
+    <text x="223" y="55">服务单位：中国电信办证直通车证件用数字相片采集服务中心</text>
+    <text x="35" y="88" >____________先生 / 女士 身份证明号码：</text>
+    <text x="275" font="6" y="88" info="true">$sfzmhm$</text>
+    <text x="35" y="110">您的相片符合《广东省机动车驾驶证数字相片技术要求》，请持此回执、贴表相片及申请材料</text>
+    <text x="11" y="132">尽快到当地交管部门申办（本回执及数字相片180天内有效）。</text>
+        
+    <text x="140" y="150" info="true" font="3">*$sfzmhm$*</text>
+    <text x="35" y="212" font="5">相片基本信息：</text>
+    <text x="35" y="232" info="true">相片图像号：$pid$</text>
+    <text x="35" y="250" info="true">申办证件类型：$zjlx$</text>
+    <text x="35" y="268" info="true">户口(居住)地：$hkd$</text>
+    <text x="35" y="286" info="true">采集时间：$cjsj$</text>
+    <text x="35" y="304">递交单位：我的幸福相馆</text>
+    <text x="35" y="322">递交方式：个人自拍</text>
+    <text x="590" y="277" font="4">我已核实身份证明信息无误</text>
+    <text x="610" y="297" font="4">并且相片为我本人</text>
+    <text x="590" y="335" font="4">签名_________________</text>
+    <text x="238" y="362">请沿虚线剪开，并妥善保存以下相片信息至成功拿到证件</text>
+    <text x="11" y="390" info="true">相片图像号：$pid$    采集时间：$cjsj$</text>
+    <text x="11" y="408">采集之日起30天内，您可以登录“e证通”客户端免费补打本回执，详情请登录</text>
+    <text x="450" y="408" font="6">http://bzztc.gdbnet.cn/ezkj/</text>
+    <text x="628" y="408">进行了解。</text>
+    <text x="11" y="426">本回执使用过程中如有任何疑问，请及时拨打客户服务热线：020-38059396。</text>
+    <text x="11" y="450" font="4">温馨提示——二代证、居住证、驾驶证相片都可以在家自拍啦！</text>
+    <text x="11" y="468">为满足广大群众更多的证件办理服务需求，“我的幸福相馆”在原有服务的基础上，特别推出广东省二代身份证、居住证及驾驶证的证件</text>
+    <text x="11" y="486">相片自拍服务，在更大范围内帮助您实现“自己的证照自己照”，现在就登录“e证通”客户端体验吧！</text>
+    <img x="59" y="362">jdz.jpg</img>
+  </page>
+
+
+  <page id="bayz" name="广东保安员证" pidRegex="^ZBB[0-9A-Z]{12}$" font="1">
+    <!--<img x="5" y="5">hzsy.gif</img>-->
+    <img x="180" y="300">tb.png</img>
+    <pic x="600" y="100" w="133" h="166"></pic>
+    <rect x="5" y="5" w="770" h="350" dash-style="Solid" pen-width="2"></rect>
+    <rect x="5" y="380" w="770" h="130" dash-style="Solid" pen-width="2"></rect>
+    <line x1="30" y1="75" x2="755" y2="75"  dash-style="Solid" pen-width="1"></line>
+    <line x1="30" y1="370" x2="235" y2="370"  dash-style="Dash" pen-width="1"></line>
+    <line x1="550" y1="370" x2="755" y2="370"  dash-style="Dash" pen-width="1"></line>
+
+    <text x="175" y="20" font="2">广 东 省 保 安 员 证 数 字 相 片 采 集 回 执</text>
+    <text x="223" y="55">服务单位：中国电信办证直通车证件用数字相片采集服务中心</text>
+    <text x="35" y="90">您的相片符合《广东省保安员证制证用数字相片技术要求》，请持此回执及申请材料尽快到居住地公安</text>
+    <text x="11" y="112">派出所或乡镇、街道流动人口服务管理机构申办（本回执及数字相片30天内有效）。</text>
+    <text x="140" y="145" info="true" font="3">*$pid$*</text>
+    <text x="35" y="212" font="5">相片基本信息：</text>
+    <text x="35" y="232" info="true">相片图像号：$pid$</text>
+    <text x="35" y="250" info="true">申办证件类型：$zjlx$</text>
+    <text x="35" y="268" info="true">户口(居住)地：$hkd$</text>
+    <text x="35" y="286" info="true">采集时间：$cjsj$</text>
+    <text x="35" y="304">递交单位：我的幸福相馆</text>
+    <text x="35" y="322">递交方式：个人自拍</text>
+    <text x="595" y="277" font="4">我已核实基本信息无误</text>
+    <text x="610" y="297" font="4">并且相片为我本人</text>
+    <text x="590" y="335" font="4">签名_________________</text>
+    <text x="238" y="362">请沿虚线剪开，并妥善保存以下相片信息至成功拿到证件</text>
+    <text x="11" y="390" info="true">相片图像号：$pid$    采集时间：$cjsj$</text>
+    <text x="11" y="408">采集之日起30天内，您可以登录“e证通”客户端免费补打本回执，详情请登录</text>
+    <text x="450" y="408" font="6">http://bzztc.gdbnet.cn/ezkj/</text>
+    <text x="628" y="408">进行了解。</text>
+    <text x="11" y="426">本回执使用过程中如有任何疑问，请及时拨打客户服务热线：020-38059396。</text>
+    <text x="11" y="450" font="4">温馨提示——二代证、居住证、驾驶证相片都可以在家自拍啦！</text>
+    <text x="11" y="468">为满足广大群众更多的证件办理服务需求，“我的幸福相馆”在原有服务的基础上，特别推出广东省二代身份证、居住证及驾驶证的证件</text>
+    <text x="11" y="486">相片自拍服务，在更大范围内帮助您实现“自己的证照自己照”，现在就登录“e证通”客户端体验吧！</text>
+    <img x="59" y="362">jdz.jpg</img>
+  </page>
+
+
+  <page id="jzz" name="广东居住证" pidRegex="^ZBA[0-9A-Z]{12}$" font="1">
+    <!--<img x="5" y="5">hzsy.gif</img>-->
+    <img x="180" y="300">tb.png</img>
+    <pic x="600" y="100" w="133" h="166"></pic>
+    <rect x="5" y="5" w="770" h="350" dash-style="Solid" pen-width="2"></rect>
+    <rect x="5" y="380" w="770" h="130" dash-style="Solid" pen-width="2"></rect>
+    <line x1="30" y1="75" x2="755" y2="75"  dash-style="Solid" pen-width="1"></line>
+    <line x1="30" y1="370" x2="235" y2="370"  dash-style="Dash" pen-width="1"></line>
+    <line x1="550" y1="370" x2="755" y2="370"  dash-style="Dash" pen-width="1"></line>
+
+    <text x="175" y="20" font="2">广 东 省 居 住 证 数 字 相 片 采 集 回 执</text>
+    <text x="223" y="55">服务单位：中国电信办证直通车证件用数字相片采集服务中心</text>
+    <text x="35" y="90">您的相片符合《广东省居住证制证用数字相片技术要求》，请持此回执及申请材料尽快到居住地公安</text>
+    <text x="11" y="112">派出所或乡镇、街道流动人口服务管理机构申办（本回执及数字相片30天内有效）。</text>
+    <text x="140" y="145" info="true" font="3">*$pid$*</text>
+    <text x="35" y="212" font="5">相片基本信息：</text>
+    <text x="35" y="232" info="true">相片图像号：$pid$</text>
+    <text x="35" y="250" info="true">申办证件类型：$zjlx$</text>
+    <text x="35" y="268" info="true">户口(居住)地：$hkd$</text>
+    <text x="35" y="286" info="true">采集时间：$cjsj$</text>
+    <text x="35" y="304">递交单位：我的幸福相馆</text>
+    <text x="35" y="322">递交方式：个人自拍</text>
+    <text x="595" y="277" font="4">我已核实基本信息无误</text>
+    <text x="610" y="297" font="4">并且相片为我本人</text>
+    <text x="590" y="335" font="4">签名_________________</text>
+    <text x="238" y="362">请沿虚线剪开，并妥善保存以下相片信息至成功拿到证件</text>
+    <text x="11" y="390" info="true">相片图像号：$pid$    采集时间：$cjsj$</text>
+    <text x="11" y="408">采集之日起30天内，您可以登录“e证通”客户端免费补打本回执，详情请登录</text>
+    <text x="450" y="408" font="6">http://bzztc.gdbnet.cn/ezkj/</text>
+    <text x="628" y="408">进行了解。</text>
+    <text x="11" y="426">本回执使用过程中如有任何疑问，请及时拨打客户服务热线：020-38059396。</text>
+    <text x="11" y="450" font="4">温馨提示——二代证、居住证、驾驶证相片都可以在家自拍啦！</text>
+    <text x="11" y="468">为满足广大群众更多的证件办理服务需求，“我的幸福相馆”在原有服务的基础上，特别推出广东省二代身份证、居住证及驾驶证的证件</text>
+    <text x="11" y="486">相片自拍服务，在更大范围内帮助您实现“自己的证照自己照”，现在就登录“e证通”客户端体验吧！</text>
+    <img x="59" y="362">jdz.jpg</img>
+  </page>
+
+  <page id="gdcrj" name="港澳居民來往內地通行證" pidRegex="^Z[0-9]{12}1[0-9A-Z]$" font="1">
+    <pic x="600" y="100" w="124" h="166"></pic>
+    <rect x="5" y="5" w="770" h="380" dash-style="Solid" pen-width="2"></rect>
+    <line x1="30" y1="75" x2="755" y2="75"  dash-style="Solid" pen-width="1"></line>
+    <line x1="11" y1="125" x2="155" y2="125"  dash-style="Solid" pen-width="1"></line>
+    <line x1="245" y1="125" x2="340" y2="125"  dash-style="Solid" pen-width="1"></line>
+
+    <text x="175" y="20" font="2">港澳居民來往內地通行證數字相片採集回執</text>
+    <text x="223" y="55">服務單位：中國電信辦證直通車證件用數字相片采集服務中心</text>
+    <text x="35" y="90">您的相片符合《中華人民共和國港澳居民來往內地通行證數位相片技術要求》，申辦證件類型為：</text>
+    <text x="11" y="112" info="true">港澳居民來往內地通行證，相片圖像號為：$pid$。請持此回執及相關資料到有關部門辦</text>
+    <text x="11" y="134">理證件（本回執及數字相片6個月內有效）。</text>
+    <text x="140" y="155" info="true" font="3">*$pid$*</text>
+    <text x="35" y="212" font="5">重要提示：</text>
+    <text x="35" y="232">您的滿意是照相館行業健康發展的有效保障。</text>
+    <text x="35" y="250">☆收費應明碼標價，列出各項明細，在顧客接受服務前協商好價格；</text>
+    <text x="35" y="268">☆本回執即拍即取，不得額外收取回執加急費用；</text>
+    <text x="35" y="286">☆不得假借政府名義以“XX(定點）照相館”等宣傳誤導群眾。</text>
+    <text x="35" y="304">本中心將建立照相館“誠信檔案”，凡是被群眾實名投訴的，一經核實，將記錄在案並按有關規定</text>
+    <text x="35" y="322">進行處理。客服及投訴電話：（86）400-830-8669。</text>
+    <text x="35" y="354" font="4" info="true">採集單位：$unit_name$      聯繫電話：$tel_num$      採集時間：$cjsj$</text>
+
+    <text x="595" y="277" font="4">我已核实基本信息无误</text>
+    <text x="610" y="297" font="4">并且相片为我本人</text>
+    <text x="590" y="335" font="4">签名_________________</text>
+  </page>
+
+  <page id="cqcrj" name="重庆出入境" pidRegex="^I02[0-9A-Z]{12}$" font="1">
+    <!--<img x="5" y="5">hzsy.gif</img>-->
+    <img x="180" y="300">tb.png</img>
+    <pic x="600" y="100" w="124" h="166"></pic>
+    <rect x="5" y="5" w="770" h="350" dash-style="Solid" pen-width="2"></rect>
+    <rect x="5" y="380" w="770" h="70" dash-style="Solid" pen-width="2"></rect>
+    <line x1="30" y1="75" x2="755" y2="75"  dash-style="Solid" pen-width="1"></line>
+    <line x1="30" y1="370" x2="235" y2="370"  dash-style="Dash" pen-width="1"></line>
+    <line x1="550" y1="370" x2="755" y2="370"  dash-style="Dash" pen-width="1"></line>
+
+    <text x="175" y="20" font="2">重庆市出入境证件数字相片采集回执</text>
+    <text x="223" y="55">服务单位：中国电信办证直通车证件用数字相片采集服务中心</text>
+    <text x="35" y="90">您的相片符合《中华人民共和国出入境证件数字相片技术要求》，请持此回执及身份证、户口本原</text>
+    <text x="11" y="112">件尽快到户口所在地出入境管理部门申办（本回执及数字相片6个月内有效）。</text>
+    <text x="140" y="145" info="true" font="3">*$pid$*</text>
+    <text x="35" y="212" font="5">相片基本信息：</text>
+    <text x="35" y="232" info="true">相片图像号：$pid$</text>
+    <text x="35" y="250" info="true">申办证件类型：$zjlx$</text>
+    <text x="35" y="268" info="true">户口(居住)地：$hkd$</text>
+    <text x="35" y="286" info="true">采集时间：$cjsj$</text>
+    <text x="35" y="304">递交单位：我的幸福相馆</text>
+    <text x="35" y="322">递交方式：个人自拍</text>
+    <text x="595" y="277" font="4">我已核实基本信息无误</text>
+    <text x="610" y="297" font="4">并且相片为我本人</text>
+    <text x="590" y="335" font="4">签名_________________</text>
+    <text x="238" y="362">请沿虚线剪开，并妥善保存以下相片信息至成功拿到证件</text>
+    <text x="11" y="390" info="true">相片图像号：$pid$    采集时间：$cjsj$</text>
+    <text x="11" y="408">采集之日起90天内，您可以登录“e证通”客户端免费补打本回执，详情请登录</text>
+    <text x="450" y="408" font="6">http://bzztc.gdbnet.cn/ezkj/</text>
+    <text x="628" y="408">进行了解。</text>
+    <text x="11" y="426">本回执使用过程中如有任何疑问，请及时拨打客户服务热线：020-38059396。</text>
+    <img x="59" y="362">jdz.jpg</img>
+  </page>
+
+
+  <page id="kmcrj" name="云南省出入境" pidRegex="^(I03[0-9A-Z]{12})|(53[0-9]{13})$" font="1">
+    <!--<img x="5" y="5">hzsy.gif</img>-->
+    <img x="180" y="328">tb.png</img>
+    <pic x="600" y="100" w="124" h="166"></pic>
+    <rect x="5" y="5" w="770" h="368" dash-style="Solid" pen-width="2"></rect>
+    <rect x="5" y="398" w="770" h="70" dash-style="Solid" pen-width="2"></rect>
+    <line x1="30" y1="75" x2="755" y2="75"  dash-style="Solid" pen-width="1"></line>
+    <line x1="30" y1="388" x2="235" y2="388"  dash-style="Dash" pen-width="1"></line>
+    <line x1="550" y1="388" x2="755" y2="388"  dash-style="Dash" pen-width="1"></line>
+
+    <text x="175" y="20" font="2">云南省出入境证件数字相片采集回执</text>
+    <text x="223" y="55">服务单位：中国电信办证直通车证件用数字相片采集服务中心</text>
+    <text x="35" y="90">您的相片符合《中华人民共和国出入境证件数字相片技术要求》，请持此回执及身份证、户口本原</text>
+    <text x="11" y="112">件尽快到户口所在地出入境管理部门申办（本回执及数字相片6个月内有效）。</text>
+    <text x="140" y="145" info="true" font="3">*$pid$*</text>
+    <text x="35" y="212" font="5">相片基本信息：</text>
+    <text x="35" y="230" info="true">身份证明号码：$sfzmhm$</text>
+    <text x="35" y="248" info="true">相片图像号：$pid$</text>
+    <text x="35" y="270" info="true">申办证件类型：$zjlx$</text>
+    <text x="35" y="290" info="true">户口(居住)地：$hkd$</text>
+    <text x="35" y="310" info="true">采集时间：$cjsj$</text>
+    <text x="35" y="330">递交单位：我的幸福相馆</text>
+    <text x="35" y="350">递交方式：个人自拍</text>
+    <text x="595" y="277" font="4">我已核实基本信息无误</text>
+    <text x="610" y="297" font="4">并且相片为我本人</text>
+    <text x="590" y="335" font="4">签名_________________</text>
+    <text x="238" y="380">请沿虚线剪开，并妥善保存以下相片信息至成功拿到证件</text>
+    <text x="11" y="408" info="true">相片图像号：$pid$    采集时间：$cjsj$</text>
+    <text x="11" y="426">采集之日起90天内，您可以登录“e证通”客户端免费补打本回执，详情请登录</text>
+    <text x="450" y="426" font="6">http://bzztc.gdbnet.cn/ezkj/</text>
+    <text x="628" y="426">进行了解。</text>
+    <text x="11" y="442">本回执使用过程中如有任何疑问，请及时拨打客户服务热线：020-38059396。</text>
+    <img x="59" y="380">jdz.jpg</img>
+  </page>
+
+
+  <page id="gzcrj" name="贵州出入境" pidRegex="^I04[0-9A-Z]{12}$" font="1">
+    <!--<img x="5" y="5">hzsy.gif</img>-->
+    <img x="180" y="300">tb.png</img>
+    <pic x="600" y="100" w="124" h="166"></pic>
+    <rect x="5" y="5" w="770" h="350" dash-style="Solid" pen-width="2"></rect>
+    <rect x="5" y="380" w="770" h="70" dash-style="Solid" pen-width="2"></rect>
+    <line x1="30" y1="75" x2="755" y2="75"  dash-style="Solid" pen-width="1"></line>
+    <line x1="30" y1="370" x2="235" y2="370"  dash-style="Dash" pen-width="1"></line>
+    <line x1="550" y1="370" x2="755" y2="370"  dash-style="Dash" pen-width="1"></line>
+
+    <text x="175" y="20" font="2">贵州省出入境证件数字相片采集回执</text>
+    <text x="223" y="55">服务单位：中国电信办证直通车证件用数字相片采集服务中心</text>
+    <text x="35" y="90">您的相片符合《中华人民共和国出入境证件数字相片技术要求》，请持此回执及身份证、户口本原</text>
+    <text x="11" y="112">件尽快到户口所在地出入境管理部门申办（本回执及数字相片6个月内有效）。</text>
+    <text x="140" y="145" info="true" font="3">*$pid$*</text>
+    <text x="35" y="212" font="5">相片基本信息：</text>
+    <text x="35" y="232" info="true">相片图像号：$pid$</text>
+    <text x="35" y="250" info="true">申办证件类型：$zjlx$</text>
+    <text x="35" y="268" info="true">户口(居住)地：$hkd$</text>
+    <text x="35" y="286" info="true">采集时间：$cjsj$</text>
+    <text x="35" y="304">递交单位：我的幸福相馆</text>
+    <text x="35" y="322">递交方式：个人自拍</text>
+    <text x="595" y="277" font="4">我已核实基本信息无误</text>
+    <text x="610" y="297" font="4">并且相片为我本人</text>
+    <text x="590" y="335" font="4">签名_________________</text>
+    <text x="238" y="362">请沿虚线剪开，并妥善保存以下相片信息至成功拿到证件</text>
+    <text x="11" y="390" info="true">相片图像号：$pid$    采集时间：$cjsj$</text>
+    <text x="11" y="408">采集之日起90天内，您可以登录“e证通”客户端免费补打本回执，详情请登录</text>
+    <text x="450" y="408" font="6">http://bzztc.gdbnet.cn/ezkj/</text>
+    <text x="628" y="408">进行了解。</text>
+    <text x="11" y="426">本回执使用过程中如有任何疑问，请及时拨打客户服务热线：020-38059396。</text>
+    <img x="59" y="362">jdz.jpg</img>
+  </page>
+
+
+  <page id="gxcrj" name="广西出入境" pidRegex="^I05[0-9A-Z]{12}$" font="1">
+    <!--<img x="5" y="5">hzsy.gif</img>-->
+    <img x="180" y="300">tb.png</img>
+    <pic x="600" y="100" w="124" h="166"></pic>
+    <rect x="5" y="5" w="770" h="350" dash-style="Solid" pen-width="2"></rect>
+    <rect x="5" y="380" w="770" h="70" dash-style="Solid" pen-width="2"></rect>
+    <line x1="30" y1="75" x2="755" y2="75"  dash-style="Solid" pen-width="1"></line>
+    <line x1="30" y1="370" x2="235" y2="370"  dash-style="Dash" pen-width="1"></line>
+    <line x1="550" y1="370" x2="755" y2="370"  dash-style="Dash" pen-width="1"></line>
+
+    <text x="175" y="20" font="2">广西区出入境证件数字相片采集回执</text>
+    <text x="223" y="55">服务单位：中国电信办证直通车证件用数字相片采集服务中心</text>
+    <text x="35" y="90">您的相片符合《中华人民共和国出入境证件数字相片技术要求》，请持此回执及身份证、户口本原</text>
+    <text x="11" y="112">件尽快到户口所在地出入境管理部门申办（本回执及数字相片6个月内有效）。</text>
+    <text x="140" y="145" info="true" font="3">*$pid$*</text>
+    <text x="35" y="212" font="5">相片基本信息：</text>
+    <text x="35" y="232" info="true">相片图像号：$pid$</text>
+    <text x="35" y="250" info="true">申办证件类型：$zjlx$</text>
+    <text x="35" y="268" info="true">户口(居住)地：$hkd$</text>
+    <text x="35" y="286" info="true">采集时间：$cjsj$</text>
+    <text x="35" y="304">递交单位：我的幸福相馆</text>
+    <text x="35" y="322">递交方式：个人自拍</text>
+    <text x="595" y="277" font="4">我已核实基本信息无误</text>
+    <text x="610" y="297" font="4">并且相片为我本人</text>
+    <text x="590" y="335" font="4">签名_________________</text>
+    <text x="238" y="362">请沿虚线剪开，并妥善保存以下相片信息至成功拿到证件</text>
+    <text x="11" y="390" info="true">相片图像号：$pid$    采集时间：$cjsj$</text>
+    <text x="11" y="408">采集之日起90天内，您可以登录“e证通”客户端免费补打本回执，详情请登录</text>
+    <text x="450" y="408" font="6">http://bzztc.gdbnet.cn/ezkj/</text>
+    <text x="628" y="408">进行了解。</text>
+    <text x="11" y="426">本回执使用过程中如有任何疑问，请及时拨打客户服务热线：020-38059396。</text>
+    <img x="59" y="362">jdz.jpg</img>
+  </page>
+
+
+  <page id="sccrj" name="四川出入境" pidRegex="^I06[0-9A-Z]{12}$" font="1">
+    <!--<img x="5" y="5">hzsy.gif</img>-->
+    <img x="180" y="300">tb.png</img>
+    <pic x="600" y="100" w="124" h="166"></pic>
+    <rect x="5" y="5" w="770" h="350" dash-style="Solid" pen-width="2"></rect>
+    <rect x="5" y="380" w="770" h="70" dash-style="Solid" pen-width="2"></rect>
+    <line x1="30" y1="75" x2="755" y2="75"  dash-style="Solid" pen-width="1"></line>
+    <line x1="30" y1="370" x2="235" y2="370"  dash-style="Dash" pen-width="1"></line>
+    <line x1="550" y1="370" x2="755" y2="370"  dash-style="Dash" pen-width="1"></line>
+
+    <text x="175" y="20" font="2">四川省出入境证件数字相片采集回执</text>
+    <text x="223" y="55">服务单位：中国电信办证直通车证件用数字相片采集服务中心</text>
+    <text x="35" y="90">您的相片符合《中华人民共和国出入境证件数字相片技术要求》，请持此回执及身份证、户口本原</text>
+    <text x="11" y="112">件尽快到户口所在地出入境管理部门申办（本回执及数字相片6个月内有效）。</text>
+    <text x="140" y="145" info="true" font="3">*$pid$*</text>
+    <text x="35" y="212" font="5">相片基本信息：</text>
+    <text x="35" y="232" info="true">相片图像号：$pid$</text>
+    <text x="35" y="250" info="true">申办证件类型：$zjlx$</text>
+    <text x="35" y="268" info="true">户口(居住)地：$hkd$</text>
+    <text x="35" y="286" info="true">采集时间：$cjsj$</text>
+    <text x="35" y="304">递交单位：我的幸福相馆</text>
+    <text x="35" y="322">递交方式：个人自拍</text>
+    <text x="595" y="277" font="4">我已核实基本信息无误</text>
+    <text x="610" y="297" font="4">并且相片为我本人</text>
+    <text x="590" y="335" font="4">签名_________________</text>
+    <text x="238" y="362">请沿虚线剪开，并妥善保存以下相片信息至成功拿到证件</text>
+    <text x="11" y="390" info="true">相片图像号：$pid$    采集时间：$cjsj$</text>
+    <text x="11" y="408">采集之日起90天内，您可以登录“e证通”客户端免费补打本回执，详情请登录</text>
+    <text x="450" y="408" font="6">http://bzztc.gdbnet.cn/ezkj/</text>
+    <text x="628" y="408">进行了解。</text>
+    <text x="11" y="426">本回执使用过程中如有任何疑问，请及时拨打客户服务热线：020-38059396。</text>
+    <img x="59" y="362">jdz.jpg</img>
+  </page>
+
+
+  <page id="gdcrj" name="广东出入境" pidRegex="^[A-HJ-Z][0-9][0-9A-Z]{13}$" font="1">
+    <!--<img x="5" y="5">hzsy.gif</img>-->
+    <img x="180" y="300">tb.png</img>
+    <pic x="600" y="100" w="124" h="166"></pic>
+    <rect x="5" y="5" w="770" h="350" dash-style="Solid" pen-width="2"></rect>
+    <rect x="5" y="380" w="770" h="130" dash-style="Solid" pen-width="2"></rect>
+    <line x1="30" y1="75" x2="755" y2="75"  dash-style="Solid" pen-width="1"></line>
+    <line x1="30" y1="370" x2="235" y2="370"  dash-style="Dash" pen-width="1"></line>
+    <line x1="550" y1="370" x2="755" y2="370"  dash-style="Dash" pen-width="1"></line>
+
+    <text x="175" y="20" font="2">广东省出入境证件数字相片采集回执</text>
+    <text x="223" y="55">服务单位：中国电信办证直通车证件用数字相片采集服务中心</text>
+    <text x="35" y="90">您的相片符合《中华人民共和国出入境证件数字相片技术要求》，请持此回执及身份证、户口本原</text>
+    <text x="11" y="112">件尽快到户口所在地出入境管理部门申办（本回执及数字相片6个月内有效）。</text>
+    <text x="140" y="145" info="true" font="3">*$pid$*</text>
+    <text x="35" y="212" font="5">相片基本信息：</text>
+    <text x="35" y="232" info="true">相片图像号：$pid$</text>
+    <text x="35" y="250" info="true">申办证件类型：$zjlx$</text>
+    <text x="35" y="268" info="true">户口(居住)地：$hkd$</text>
+    <text x="35" y="286" info="true">采集时间：$cjsj$</text>
+    <text x="35" y="304">递交单位：我的幸福相馆</text>
+    <text x="35" y="322">递交方式：个人自拍</text>
+    <text x="595" y="277" font="4">我已核实基本信息无误</text>
+    <text x="610" y="297" font="4">并且相片为我本人</text>
+    <text x="590" y="335" font="4">签名_________________</text>
+    <text x="238" y="362">请沿虚线剪开，并妥善保存以下相片信息至成功拿到证件</text>
+    <text x="11" y="390" info="true">相片图像号：$pid$    采集时间：$cjsj$</text>
+    <text x="11" y="408">采集之日起30天内，您可以登录“e证通”客户端免费补打本回执，详情请登录</text>
+    <text x="450" y="408" font="6">http://bzztc.gdbnet.cn/ezkj/</text>
+    <text x="628" y="408">进行了解。</text>
+    <text x="11" y="426">本回执使用过程中如有任何疑问，请及时拨打客户服务热线：020-38059396。</text>
+    <text x="11" y="450" font="4">温馨提示——二代证、居住证、驾驶证相片都可以在家自拍啦！</text>
+    <text x="11" y="468">为满足广大群众更多的证件办理服务需求，“我的幸福相馆”在原有服务的基础上，特别推出广东省二代身份证、居住证及驾驶证的证件</text>
+    <text x="11" y="486">相片自拍服务，在更大范围内帮助您实现“自己的证照自己照”，现在就登录“e证通”客户端体验吧！</text>
+    <img x="59" y="362">jdz.jpg</img>
+  </page>
+
+  <page id="gdedz" name="社会保障卡" pidRegex="^C[A-Z]{1}2[0-9A-Z]{12}$" font="1">
+    <img x="170" y="407">tb.png</img>
+    <pic x="600" y="100" w="133" h="166"></pic>
+    <rect x="5" y="5" w="770" h="460" dash-style="Solid" pen-width="2"></rect>
+    <line x1="30" y1="75" x2="755" y2="75"  dash-style="Solid" pen-width="1"></line>
+
+    <text x="175" y="20" font="2">（广东·珠海）社会保障卡数字相片采集回执</text>
+    <text x="223" y="55">服务单位：中国电信办证直通车证件用数字相片采集服务中心</text>
+    <text x="35" y="88">____________先生 / 女士 原身份证号码：________________________</text>
+    <text x="35" y="110">您的相片符合《社会保障卡数字相片技术要求》，请持此回执和申请材料及时到当地社保管理部门申办</text>
+    <text x="11" y="132">（本回执及数字相片60天内有效）。</text>
+    <text x="140" y="150" info="true" font="3">*$pid$*</text>
+    <text x="35" y="212" font="5">重要提示：</text>
+    <text x="35" y="232">(1)社会保障卡数字相片的拍摄以社会保障卡服务部门（社保经办机构、街道镇人社所、村居、服</text>
+    <text x="35" y="252">务银行）通知为准，没有被要求提供制卡相片的暂不用拍摄。</text>
+    <text x="35" y="272">(2)拍摄社会保障卡数字相片时取得的居民身份证数字相片采集回执，在回执及相片有效期内可用</text>
+    <text x="35" y="292">于申办居民身份证，请注意保管好相关回执。</text>
+    <text x="35" y="312" font="5">相片基本信息：</text>
+    <text x="35" y="332" info="true">相片图像号：$pid$</text>
+    <text x="35" y="349" info="true">申办证件类型：社会保障卡</text>
+    <text x="35" y="369" info="true">户口(居住)地：$hkd$</text>
+    <text x="35" y="389" info="true">采集时间：$cjsj$</text>
+    <text x="35" y="409">递交单位：我的幸福相馆</text>
+    <text x="35" y="429">递交方式：个人自拍</text>
+    <text x="595" y="277" font="4">我已核实基本信息无误</text>
+    <text x="610" y="297" font="4">并且相片为我本人</text>
+    <text x="590" y="335" font="4">签名_________________</text>
+  </page>
+
+  <page id="gdedz" name="社会保障卡" pidRegex="^D[A-Z]{1}2[0-9A-Z]{12}$" font="1">
+    <img x="170" y="407">tb.png</img>
+    <pic x="600" y="100" w="133" h="166"></pic>
+    <rect x="5" y="5" w="770" h="460" dash-style="Solid" pen-width="2"></rect>
+    <line x1="30" y1="75" x2="755" y2="75"  dash-style="Solid" pen-width="1"></line>
+
+    <text x="175" y="20" font="2">（广东·汕头）社会保障卡数字相片采集回执</text>
+    <text x="223" y="55">服务单位：中国电信办证直通车证件用数字相片采集服务中心</text>
+    <text x="35" y="88">____________先生 / 女士 原身份证号码：________________________</text>
+    <text x="35" y="110">您的相片符合《社会保障卡数字相片技术要求》，请持此回执和申请材料及时到当地社保管理部门申办</text>
+    <text x="11" y="132">（本回执及数字相片半年内有效）。</text>
+    <text x="140" y="150" info="true" font="3">*$pid$*</text>
+    <text x="35" y="212" font="5">重要提示：</text>
+    <text x="35" y="232">(1)社会保障卡数字相片的拍摄以社会保障卡服务部门（社保经办机构、街道镇人社所、村居、服</text>
+    <text x="35" y="252">务银行）通知为准，没有被要求提供制卡相片的暂不用拍摄。</text>
+    <text x="35" y="272">(2)拍摄社会保障卡数字相片时取得的居民身份证数字相片采集回执，在回执及相片有效期内可用</text>
+    <text x="35" y="292">于申办居民身份证，请注意保管好相关回执。</text>
+    <text x="35" y="312" font="5">相片基本信息：</text>
+    <text x="35" y="332" info="true">相片图像号：$pid$</text>
+    <text x="35" y="349" info="true">申办证件类型：社会保障卡</text>
+    <text x="35" y="369" info="true">户口(居住)地：$hkd$</text>
+    <text x="35" y="389" info="true">采集时间：$cjsj$</text>
+    <text x="35" y="409">递交单位：我的幸福相馆</text>
+    <text x="35" y="429">递交方式：个人自拍</text>
+    <text x="595" y="277" font="4">我已核实基本信息无误</text>
+    <text x="610" y="297" font="4">并且相片为我本人</text>
+    <text x="590" y="335" font="4">签名_________________</text>
+  </page>
+  
+  <page id="gdedz" name="广东二代证" pidRegex="^[ABE-Y][A-Z][0-9A-Z]{13}$" font="1">
+    <!--<img x="5" y="5">hzsy.gif</img>-->
+    <img x="180" y="300">tb.png</img>
+    <pic x="600" y="100" w="133" h="166"></pic>
+    <rect x="5" y="5" w="770" h="350" dash-style="Solid" pen-width="2"></rect>
+    <rect x="5" y="380" w="770" h="130" dash-style="Solid" pen-width="2"></rect>
+    <line x1="30" y1="75" x2="755" y2="75"  dash-style="Solid" pen-width="1"></line>
+    <line x1="30" y1="370" x2="235" y2="370"  dash-style="Dash" pen-width="1"></line>
+    <line x1="550" y1="370" x2="755" y2="370"  dash-style="Dash" pen-width="1"></line>
+
+    <text x="175" y="20" font="2">广东省第二代居民身份证数字相片采集回执</text>
+    <text x="223" y="55">服务单位：中国电信办证直通车证件用数字相片采集服务中心</text>
+    <text x="35" y="88">____________先生 / 女士 原身份证号码：________________________</text>
+    <text x="35" y="110">您的相片符合《GA461-2004居民身份证制证用数字相片技术要求》，请持此回执及申请材料尽快</text>
+    <text x="11" y="132">到户口所在地派出所（办证中心）申办（本回执及数字相片60天内有效）。</text>
+    <text x="140" y="150" info="true" font="3">*$pid$*</text>
+    <text x="35" y="212" font="5">相片基本信息：</text>
+    <text x="35" y="232" info="true">相片图像号：$pid$</text>
+    <text x="35" y="250" info="true">申办证件类型：$zjlx$</text>
+    <text x="35" y="268" info="true">户口(居住)地：$hkd$</text>
+    <text x="35" y="286" info="true">采集时间：$cjsj$</text>
+    <text x="35" y="304">递交单位：我的幸福相馆</text>
+    <text x="35" y="322">递交方式：个人自拍</text>
+    <text x="595" y="277" font="4">我已核实基本信息无误</text>
+    <text x="610" y="297" font="4">并且相片为我本人</text>
+    <text x="590" y="335" font="4">签名_________________</text>
+    <text x="238" y="362">请沿虚线剪开，并妥善保存以下相片信息至成功拿到证件</text>
+    <text x="11" y="390" info="true">相片图像号：$pid$    采集时间：$cjsj$</text>
+    <text x="11" y="408">采集之日起60天内，您可以登录“e证通”客户端免费补打本回执，详情请登录</text>
+    <text x="450" y="408" font="6">http://bzztc.gdbnet.cn/ezkj/</text>
+    <text x="628" y="408">进行了解。</text>
+    <text x="11" y="426">本回执使用过程中如有任何疑问，请及时拨打客户服务热线：020-38059396。</text>
+    <text x="11" y="450" font="4">温馨提示——二代证、居住证、驾驶证相片都可以在家自拍啦！</text>
+    <text x="11" y="468">为满足广大群众更多的证件办理服务需求，“我的幸福相馆”在原有服务的基础上，特别推出广东省二代身份证、居住证及驾驶证的证件</text>
+    <text x="11" y="486">相片自拍服务，在更大范围内帮助您实现“自己的证照自己照”，现在就登录“e证通”客户端体验吧！</text>
+    <img x="59" y="362">jdz.jpg</img>
+  </page>
+
+  <page id="gdzhedz" name="广东珠海二代证" pidRegex="^C[A-Z]1[0-9A-Z]{12}$" font="1">
+    <!--<img x="5" y="5">hzsy.gif</img>-->
+    <img x="180" y="300">tb.png</img>
+    <pic x="600" y="100" w="133" h="166"></pic>
+    <rect x="5" y="5" w="770" h="350" dash-style="Solid" pen-width="2"></rect>
+    <rect x="5" y="380" w="770" h="130" dash-style="Solid" pen-width="2"></rect>
+    <line x1="30" y1="75" x2="755" y2="75"  dash-style="Solid" pen-width="1"></line>
+    <line x1="30" y1="370" x2="235" y2="370"  dash-style="Dash" pen-width="1"></line>
+    <line x1="550" y1="370" x2="755" y2="370"  dash-style="Dash" pen-width="1"></line>
+
+    <text x="175" y="20" font="2">广东省第二代居民身份证数字相片采集回执</text>
+    <text x="223" y="55">服务单位：中国电信办证直通车证件用数字相片采集服务中心</text>
+    <text x="35" y="88">____________先生 / 女士 原身份证号码：________________________</text>
+    <text x="35" y="110">您的相片符合《GA461-2004居民身份证制证用数字相片技术要求》，请持此回执及申请材料尽快</text>
+    <text x="11" y="132">到户口所在地派出所（办证中心）申办（本回执及数字相片60天内有效）。</text>
+    <text x="140" y="150" info="true" font="3">*$pid$*</text>
+    <text x="35" y="212" font="5">相片基本信息：</text>
+    <text x="35" y="232" info="true">相片图像号：$pid$</text>
+    <text x="35" y="250" info="true">申办证件类型：$zjlx$</text>
+    <text x="35" y="268" info="true">户口(居住)地：$hkd$</text>
+    <text x="35" y="286" info="true">采集时间：$cjsj$</text>
+    <text x="35" y="304">递交单位：我的幸福相馆</text>
+    <text x="35" y="322">递交方式：个人自拍</text>
+    <text x="595" y="277" font="4">我已核实基本信息无误</text>
+    <text x="610" y="297" font="4">并且相片为我本人</text>
+    <text x="590" y="335" font="4">签名_________________</text>
+    <text x="238" y="362">请沿虚线剪开，并妥善保存以下相片信息至成功拿到证件</text>
+    <text x="11" y="390" info="true">相片图像号：$pid$    采集时间：$cjsj$</text>
+    <text x="11" y="408">采集之日起60天内，您可以登录“e证通”客户端免费补打本回执，详情请登录</text>
+    <text x="450" y="408" font="6">http://bzztc.gdbnet.cn/ezkj/</text>
+    <text x="628" y="408">进行了解。</text>
+    <text x="11" y="426">本回执使用过程中如有任何疑问，请及时拨打客户服务热线：020-38059396。</text>
+    <text x="11" y="450" font="4">温馨提示——二代证、居住证、驾驶证相片都可以在家自拍啦！</text>
+    <text x="11" y="468">为满足广大群众更多的证件办理服务需求，“我的幸福相馆”在原有服务的基础上，特别推出广东省二代身份证、居住证及驾驶证的证件</text>
+    <text x="11" y="486">相片自拍服务，在更大范围内帮助您实现“自己的证照自己照”，现在就登录“e证通”客户端体验吧！</text>
+    <img x="59" y="362">jdz.jpg</img>
+
+    <img x="180" y="900">tb.png</img>
+    <pic x="600" y="700" w="133" h="166"></pic>
+    <rect x="5" y="605" w="770" h="350" dash-style="Solid" pen-width="2"></rect>
+    <rect x="5" y="980" w="770" h="130" dash-style="Solid" pen-width="2"></rect>
+    <line x1="30" y1="675" x2="755" y2="675"  dash-style="Solid" pen-width="1"></line>
+    <line x1="30" y1="970" x2="235" y2="970"  dash-style="Dash" pen-width="1"></line>
+    <line x1="550" y1="970" x2="755" y2="970"  dash-style="Dash" pen-width="1"></line>
+
+    <text x="175" y="620" font="2">珠海市社会保障卡数字相片采集回执</text>
+    <text x="223" y="655">服务单位：中国电信办证直通车证件用数字相片采集服务中心</text>
+    <text x="35" y="688">____________先生 / 女士 原身份证号码：________________________</text>
+    <text x="35" y="710">您的相片符合《珠海市社会保障卡数字相片技术要求》，请持此回执及申请材料尽快到户口所在地</text>
+    <text x="11" y="732">派出所（办证中心）申办（本回执及数字相片60天内有效）。</text>
+    <text x="140" y="750" info="true" font="3">*$pid$*</text>
+    <text x="35" y="812" font="5">相片基本信息：</text>
+    <text x="35" y="832" info="true">相片图像号：$pid$</text>
+    <text x="35" y="850" info="true">申办证件类型：社会保障卡</text>
+    <text x="35" y="868" info="true">户口(居住)地：$hkd$</text>
+    <text x="35" y="886" info="true">采集时间：$cjsj$</text>
+    <text x="35" y="904">递交单位：我的幸福相馆</text>
+    <text x="35" y="922">递交方式：个人自拍</text>
+    <text x="595" y="877" font="4">我已核实基本信息无误</text>
+    <text x="610" y="897" font="4">并且相片为我本人</text>
+    <text x="590" y="935" font="4">签名_________________</text>
+    <text x="238" y="962">请沿虚线剪开，并妥善保存以下相片信息至成功拿到证件</text>
+    <text x="11" y="990" info="true">相片图像号：$pid$    采集时间：$cjsj$</text>
+    <text x="11" y="1008">采集之日起60天内，您可以登录“e证通”客户端免费补打本回执，详情请登录</text>
+    <text x="450" y="1008" font="6">http://bzztc.gdbnet.cn/ezkj/</text>
+    <text x="628" y="1008">进行了解。</text>
+    <text x="11" y="1026">本回执使用过程中如有任何疑问，请及时拨打客户服务热线：020-38059396。</text>
+    <text x="11" y="1050" font="4">温馨提示——二代证、居住证、驾驶证相片都可以在家自拍啦！</text>
+    <text x="11" y="1068">为满足广大群众更多的证件办理服务需求，“我的幸福相馆”在原有服务的基础上，特别推出广东省二代身份证、居住证及驾驶证的证件</text>
+    <text x="11" y="1086">相片自拍服务，在更大范围内帮助您实现“自己的证照自己照”，现在就登录“e证通”客户端体验吧！</text>
+    <img x="59" y="962">jdz.jpg</img>    
+    
+  </page>
+
+  <page id="gdzhedz" name="广东汕头二代证" pidRegex="^D[A-Z]1[0-9A-Z]{12}$" font="1">
+    <!--<img x="5" y="5">hzsy.gif</img>-->
+    <img x="180" y="300">tb.png</img>
+    <pic x="600" y="100" w="133" h="166"></pic>
+    <rect x="5" y="5" w="770" h="350" dash-style="Solid" pen-width="2"></rect>
+    <rect x="5" y="380" w="770" h="130" dash-style="Solid" pen-width="2"></rect>
+    <line x1="30" y1="75" x2="755" y2="75"  dash-style="Solid" pen-width="1"></line>
+    <line x1="30" y1="370" x2="235" y2="370"  dash-style="Dash" pen-width="1"></line>
+    <line x1="550" y1="370" x2="755" y2="370"  dash-style="Dash" pen-width="1"></line>
+
+    <text x="175" y="20" font="2">广东省第二代居民身份证数字相片采集回执</text>
+    <text x="223" y="55">服务单位：中国电信办证直通车证件用数字相片采集服务中心</text>
+    <text x="35" y="88">____________先生 / 女士 原身份证号码：________________________</text>
+    <text x="35" y="110">您的相片符合《GA461-2004居民身份证制证用数字相片技术要求》，请持此回执及申请材料尽快</text>
+    <text x="11" y="132">到户口所在地派出所（办证中心）申办（本回执及数字相片60天内有效）。</text>
+    <text x="140" y="150" info="true" font="3">*$pid$*</text>
+    <text x="35" y="212" font="5">相片基本信息：</text>
+    <text x="35" y="232" info="true">相片图像号：$pid$</text>
+    <text x="35" y="250" info="true">申办证件类型：$zjlx$</text>
+    <text x="35" y="268" info="true">户口(居住)地：$hkd$</text>
+    <text x="35" y="286" info="true">采集时间：$cjsj$</text>
+    <text x="35" y="304">递交单位：我的幸福相馆</text>
+    <text x="35" y="322">递交方式：个人自拍</text>
+    <text x="595" y="277" font="4">我已核实基本信息无误</text>
+    <text x="610" y="297" font="4">并且相片为我本人</text>
+    <text x="590" y="335" font="4">签名_________________</text>
+    <text x="238" y="362">请沿虚线剪开，并妥善保存以下相片信息至成功拿到证件</text>
+    <text x="11" y="390" info="true">相片图像号：$pid$    采集时间：$cjsj$</text>
+    <text x="11" y="408">采集之日起60天内，您可以登录“e证通”客户端免费补打本回执，详情请登录</text>
+    <text x="450" y="408" font="6">http://bzztc.gdbnet.cn/ezkj/</text>
+    <text x="628" y="408">进行了解。</text>
+    <text x="11" y="426">本回执使用过程中如有任何疑问，请及时拨打客户服务热线：020-38059396。</text>
+    <text x="11" y="450" font="4">温馨提示——二代证、居住证、驾驶证相片都可以在家自拍啦！</text>
+    <text x="11" y="468">为满足广大群众更多的证件办理服务需求，“我的幸福相馆”在原有服务的基础上，特别推出广东省二代身份证、居住证及驾驶证的证件</text>
+    <text x="11" y="486">相片自拍服务，在更大范围内帮助您实现“自己的证照自己照”，现在就登录“e证通”客户端体验吧！</text>
+    <img x="59" y="362">jdz.jpg</img>
+
+    <img x="180" y="900">tb.png</img>
+    <pic x="600" y="700" w="133" h="166"></pic>
+    <rect x="5" y="605" w="770" h="350" dash-style="Solid" pen-width="2"></rect>
+    <rect x="5" y="980" w="770" h="130" dash-style="Solid" pen-width="2"></rect>
+    <line x1="30" y1="675" x2="755" y2="675"  dash-style="Solid" pen-width="1"></line>
+    <line x1="30" y1="970" x2="235" y2="970"  dash-style="Dash" pen-width="1"></line>
+    <line x1="550" y1="970" x2="755" y2="970"  dash-style="Dash" pen-width="1"></line>
+
+    <text x="175" y="620" font="2">汕头市社会保障卡数字相片采集回执</text>
+    <text x="223" y="655">服务单位：中国电信办证直通车证件用数字相片采集服务中心</text>
+    <text x="35" y="688">____________先生 / 女士 原身份证号码：________________________</text>
+    <text x="35" y="710">您的相片符合《汕头市社会保障卡数字相片技术要求》，请持此回执及申请材料尽快到户口所在地</text>
+    <text x="11" y="732">派出所（办证中心）申办（本回执及数字相片60天内有效）。</text>
+    <text x="140" y="750" info="true" font="3">*$pid$*</text>
+    <text x="35" y="812" font="5">相片基本信息：</text>
+    <text x="35" y="832" info="true">相片图像号：$pid$</text>
+    <text x="35" y="850" info="true">申办证件类型：社会保障卡</text>
+    <text x="35" y="868" info="true">户口(居住)地：$hkd$</text>
+    <text x="35" y="886" info="true">采集时间：$cjsj$</text>
+    <text x="35" y="904">递交单位：我的幸福相馆</text>
+    <text x="35" y="922">递交方式：个人自拍</text>
+    <text x="595" y="877" font="4">我已核实基本信息无误</text>
+    <text x="610" y="897" font="4">并且相片为我本人</text>
+    <text x="590" y="935" font="4">签名_________________</text>
+    <text x="238" y="962">请沿虚线剪开，并妥善保存以下相片信息至成功拿到证件</text>
+    <text x="11" y="990" info="true">相片图像号：$pid$    采集时间：$cjsj$</text>
+    <text x="11" y="1008">采集之日起60天内，您可以登录“e证通”客户端免费补打本回执，详情请登录</text>
+    <text x="450" y="1008" font="6">http://bzztc.gdbnet.cn/ezkj/</text>
+    <text x="628" y="1008">进行了解。</text>
+    <text x="11" y="1026">本回执使用过程中如有任何疑问，请及时拨打客户服务热线：020-38059396。</text>
+    <text x="11" y="1050" font="4">温馨提示——二代证、居住证、驾驶证相片都可以在家自拍啦！</text>
+    <text x="11" y="1068">为满足广大群众更多的证件办理服务需求，“我的幸福相馆”在原有服务的基础上，特别推出广东省二代身份证、居住证及驾驶证的证件</text>
+    <text x="11" y="1086">相片自拍服务，在更大范围内帮助您实现“自己的证照自己照”，现在就登录“e证通”客户端体验吧！</text>
+    <img x="59" y="962">jdz.jpg</img>
+
+  </page>
+
+  <page id="gdedz" name="江西九江二代证" pidRegex="^ZA05[0-9A-Z]{11}$" font="1">
+    <!--<img x="5" y="5">hzsy.gif</img>-->
+    <img x="180" y="300">tb.png</img>
+    <pic x="600" y="100" w="133" h="166"></pic>
+    <rect x="5" y="5" w="770" h="350" dash-style="Solid" pen-width="2"></rect>
+    <rect x="5" y="380" w="770" h="130" dash-style="Solid" pen-width="2"></rect>
+    <line x1="30" y1="75" x2="755" y2="75"  dash-style="Solid" pen-width="1"></line>
+    <line x1="30" y1="370" x2="235" y2="370"  dash-style="Dash" pen-width="1"></line>
+    <line x1="550" y1="370" x2="755" y2="370"  dash-style="Dash" pen-width="1"></line>
+
+    <text x="175" y="20" font="2">九江第二代居民身份证数字相片采集回执</text>
+    <text x="223" y="55">服务单位：中国电信办证直通车证件用数字相片采集服务中心</text>
+    <text x="35" y="88">____________先生 / 女士 原身份证号码：________________________</text>
+    <text x="35" y="110">您的相片符合《GA461-2004居民身份证制证用数字相片技术要求》，请持此回执及申请材料尽快</text>
+    <text x="11" y="132">到户口所在地派出所（办证中心）申办（本回执及数字相片60天内有效）。</text>
+    <text x="140" y="150" info="true" font="3">*$pid$*</text>
+    <text x="35" y="212" font="5">相片基本信息：</text>
+    <text x="35" y="232" info="true">相片图像号：$pid$</text>
+    <text x="35" y="250" info="true">申办证件类型：$zjlx$</text>
+    <text x="35" y="268" info="true">户口(居住)地：$hkd$</text>
+    <text x="35" y="286" info="true">采集时间：$cjsj$</text>
+    <text x="35" y="304">递交单位：我的幸福相馆</text>
+    <text x="35" y="322">递交方式：个人自拍</text>
+    <text x="595" y="277" font="4">我已核实基本信息无误</text>
+    <text x="610" y="297" font="4">并且相片为我本人</text>
+    <text x="590" y="335" font="4">签名_________________</text>
+    <text x="238" y="362">请沿虚线剪开，并妥善保存以下相片信息至成功拿到证件</text>
+    <text x="11" y="390" info="true">相片图像号：$pid$    采集时间：$cjsj$</text>
+    <text x="11" y="408">采集之日起60天内，您可以登录“e证通”客户端免费补打本回执，详情请登录</text>
+    <text x="450" y="408" font="6">http://bzztc.gdbnet.cn/ezkj/</text>
+    <text x="628" y="408">进行了解。</text>
+    <text x="11" y="426">本回执使用过程中如有任何疑问，请及时拨打客户服务热线：020-38059396。</text>
+    <text x="11" y="450" font="4">温馨提示——二代证、居住证、驾驶证相片都可以在家自拍啦！</text>
+    <text x="11" y="468">为满足广大群众更多的证件办理服务需求，“我的幸福相馆”在原有服务的基础上，特别推出广东省二代身份证、居住证及驾驶证的证件</text>
+    <text x="11" y="486">相片自拍服务，在更大范围内帮助您实现“自己的证照自己照”，现在就登录“e证通”客户端体验吧！</text>
+    <img x="59" y="362">jdz.jpg</img>
+  </page>
+
+  <page id="gdedz" name="广西二代证" pidRegex="^ZA03[0-9A-Z]{11}$" font="1">
+    <img x="415" y="265">tb.png</img>
+    <pic x="600" y="100" w="133" h="166"></pic>
+    <rect x="5" y="5" w="770" h="410" dash-style="Solid" pen-width="2"></rect>
+    <line x1="30" y1="75" x2="755" y2="75"  dash-style="Solid" pen-width="1"></line>
+    <line x1="175" y1="467" x2="220" y2="467"  dash-style="Solid" pen-width="1"></line>
+    <line x1="105" y1="507" x2="200" y2="507"  dash-style="Solid" pen-width="1"></line>
+    <line x1="300" y1="507" x2="500" y2="507"  dash-style="Solid" pen-width="1"></line>
+    <line x1="117" y1="527" x2="500" y2="527"  dash-style="Solid" pen-width="1"></line>
+    <line x1="107" y1="547" x2="500" y2="547"  dash-style="Solid" pen-width="1"></line>
+
+    <text x="80" y="20" font="2">广西籍在粤人员第二代居民身份证数字相片采集回执</text>
+    <text x="223" y="55">服务单位：中国电信办证直通车证件用数字相片采集服务中心</text>
+    <text x="35" y="88">____________先生 / 女士 原身份证号码：________________________</text>
+    <text x="35" y="110">您的相片符合《GA461-2004居民身份证制证用数字相片技术要求》，凭此回执及委托书，</text>
+    <text x="11" y="132">可由被委托人在户籍所在地派出所申办二代证（本回执及数字相片90天内有效）。</text>
+    <text x="140" y="150" info="true" font="3">*$pid$*</text>
+    <text x="35" y="212" font="5">相片基本信息：</text>
+    <text x="35" y="232" info="true">相片图像号：$pid$</text>
+    <text x="35" y="250" info="true">申办证件类型：$zjlx$</text>
+    <text x="35" y="268" info="true">户口(居住)地：$hkd$</text>
+    <text x="300" y="232" info="true">采集时间：$cjsj$</text>
+    <text x="300" y="250">递交单位：我的幸福相馆</text>
+    <text x="300" y="268">递交方式：个人自拍</text>
+    <text x="35" y="288" font="5">重要提示</text>
+    <text x="35" y="308">本回执使用过程中如有任何疑问，请及时拨打客户服务热线：020-38059396。</text>
+    <text x="35" y="328">如遇到办证困难，请在正常办公时间拨打广西公安厅户政管理部门咨询电话：0771-2892339。</text>
+    <text x="35" y="348">采集之日起90天内，您可以登录“我的幸福相馆”客户端免费补打本回执，详情请登录</text>
+    <text x="35" y="368">http://bzztc.gdbnet.cn/xfxg/进行了解。</text>
+    <text x="240" y="388">[注：回执及委托书须用A4规格纸张打印在一起才有效]</text>
+    <text x="595" y="277" font="4">我已核实基本信息无误</text>
+    <text x="610" y="297" font="4">并且相片为我本人</text>
+    <text x="590" y="335" font="4">签名_________________</text>
+    <text x="310" y="425" font="2">委  托  书</text>
+    <text x="38" y="455">因本人长期在外，现委托</text>
+    <text x="223" y="455">凭本人签字的《广西籍在粤人员第二代居民身份证数字相片采集回执》代理申办第二代居民身份证，并</text>
+    <text x="11" y="475">由被委托人持本人居民户口簿到户籍地公安派出所履行户口核对手续。本人保证申报信息真实准确，如有虚假，本人承担法律责任。</text>
+    <text x="11" y="495">委托人（签名）：</text>
+    <text x="205" y="495">公民身份证号码：</text>
+    <text x="11" y="515">委托人现居住地址：</text>
+    <text x="11" y="535">委托人联系电话：</text>
+  </page>
+
+  <page id="gdcrj" name="湖南二代证" pidRegex="^ZA02[0-9A-Z]{11}$" font="1">
+    <pic x="600" y="100" w="124" h="166"></pic>
+    <rect x="5" y="5" w="770" h="405" dash-style="Solid" pen-width="2"></rect>
+    <line x1="30" y1="75" x2="755" y2="75"  dash-style="Solid" pen-width="1"></line>
+    <line x1="520" y1="105" x2="580" y2="105"  dash-style="Solid" pen-width="1"></line>
+    <line x1="120" y1="125" x2="215" y2="125"  dash-style="Solid" pen-width="1"></line>
+
+    <text x="15" y="20" font="2">湖南籍在粤人员异地办理第二代居民身份证数字相片采集回执</text>
+    <text x="223" y="55">服务单位：中国电信办证直通车证件用数字相片采集服务中心</text>
+    <text x="59" y="90" info="true">您的相片符合《GA461-2004居民身份证制证用数字相片技术要求》，申办证件类型为：湖南二代证</text>
+    <text x="35" y="112" info="true">相片图像号为：$pid$。请持此回执及本人第一代居民身份证或户口簿原件和复印件到附近的</text>
+    <text x="35" y="134">湖南籍在粤人员第二代居民身份证异地预受理代办服务点申办（本回执及数字相片30天内有效）。</text>
+    <text x="140" y="155" info="true" font="3">*$pid$*</text>
+    <text x="35" y="212" font="5">重要提示：</text>
+    <text x="59" y="232">照相馆需妥善保存回执上的数字相片。办证者如因本人户籍信息数据问题不能办证的，可在1</text>
+    <text x="35" y="250">个月内持本回执（加盖办证服务点验章有效）并携带U盘到照相馆免费拷取本人的二代证数字相</text>
+    <text x="35" y="268">片，回执由照相馆收回。</text>
+    <text x="59" y="286">湖南籍在粤人员第二代居民身份证异地预受理代办服务点：</text>
+    <text x="59" y="304">东莞：东莞市莞太大道44号二楼（老总站人行天桥一侧） 电话：0769-23033576</text>
+    <text x="59" y="322">中山：中山市富华道中南服饰广场10栋67号铺 电话：0760-86232270</text>
+    <text x="59" y="340">深圳：龙华新区观澜大道62号（竹村公交站旁王老五食坊三楼） 电话：0755-27706077</text>
+    <text x="59" y="358">佛山：佛山市敦厚南路188号（佛山市火车站正对面） 电话：0757-82806909</text>
+    <text x="35" y="380" font="4" info="true">採集單位：$unit_name$      聯繫電話：$tel_num$      採集時間：$cjsj$</text>
+
+    <text x="595" y="277" font="4">我已核实基本信息无误</text>
+    <text x="610" y="297" font="4">并且相片为我本人</text>
+    <text x="590" y="335" font="4">签名_________________</text>
+  </page>
+
+  <page id="gdcrj" name="湖北二代证" pidRegex="^ZA04[0-9A-Z]{11}$" font="1">
+    <pic x="600" y="100" w="124" h="166"></pic>
+    <rect x="5" y="5" w="770" h="465" dash-style="Solid" pen-width="2"></rect>
+    <line x1="30" y1="75" x2="755" y2="75"  dash-style="Solid" pen-width="1"></line>
+    <line x1="520" y1="105" x2="580" y2="105"  dash-style="Solid" pen-width="1"></line>
+    <line x1="120" y1="125" x2="215" y2="125"  dash-style="Solid" pen-width="1"></line>
+    <line x1="170" y1="517" x2="225" y2="517"  dash-style="Solid" pen-width="1"></line>
+
+    <text x="15" y="20" font="2">湖北籍在粤人员第二代居民身份证数字相片采集回执</text>
+    <text x="223" y="55">服务单位：中国电信办证直通车证件用数字相片采集服务中心</text>
+    <text x="59" y="90" info="true">您的相片符合《GA461-2004居民身份证制证用数字相片技术要求》，申办证件类型为：湖北二代证</text>
+    <text x="35" y="112" info="true">相片图像号为：$pid$。请持此回执及本人第一代居民身份证或户口簿原件和复印件到附近的</text>
+    <text x="35" y="134">湖南籍在粤人员第二代居民身份证异地预受理代办服务点申办（本回执及数字相片90天内有效）。</text>
+    <text x="140" y="155" info="true" font="3">*$pid$*</text>
+    <text x="35" y="212" font="5">重要提示：</text>
+    <text x="59" y="232">您的满意是照相馆行业健康发展的有效保障。</text>
+    <text x="35" y="250">照相馆应自觉遵守《证件用数字相片采集行业（照相馆）行为规范》，积极争创“诚信相馆”：</text>
+    <text x="35" y="268">☆收费应明码标价，列出各项明细，在顾客接受服务前协商好价格；</text>
+    <text x="59" y="286">☆本回执即拍即取，不得额外收取回执加急费用；</text>
+    <text x="59" y="304">☆不得假借政府名义以“XX指定（定点）照相馆”等宣传误导群众。</text>
+    <text x="59" y="322">本中心将建立照相馆“诚信档案”，凡是被群众实名投诉的，一经核实，将记录在案并按有关规定</text>
+    <text x="35" y="340">进行处理。客服及投诉电话：400-830-8669。</text>
+    <text x="59" y="358" info="true">您的暂住地址是：$zzd$，联系电话：$lxdh$。如遇办证困难，请在正常办公时间拨打湖北省公安厅户政</text>
+    <text x="35" y="376">管理部门咨询电话：027-67122699。</text>
+    <text x="59" y="394" font="4">本中心仅为湖北籍在粤人员提供二代证相片采集服务，因填写虚假信息导致不能办证的，</text>
+    <text x="35" y="412" font="4">责任自负！</text>
+    <text x="35" y="430" font="4" info="true">採集單位：$unit_name$      聯繫電話：$tel_num$      採集時間：$cjsj$</text>
+    <text x="250" y="452">[注：回执及委托书须用A4规格纸张打印在一起才有效]</text>
+
+    <text x="595" y="277" font="4">我已核实基本信息无误</text>
+    <text x="610" y="297" font="4">并且相片为我本人</text>
+    <text x="590" y="335" font="4">签名_________________</text>
+
+    <text x="310" y="475" font="2">委  托  书</text>
+    <text x="38" y="505">因本人长期在外，现委托</text>
+    <text x="223" y="505">凭本人签字的《广西籍在粤人员第二代居民身份证数字相片采集回执》代理申办第二代居民身份证，并</text>
+    <text x="11" y="523">由被委托人持本人居民户口簿到户籍地公安派出所履行户口核对手续。本人保证申报信息真实准确，如有虚假，本人承担法律责任。</text>
+
+  </page>
+  
+  
+</huizhi>

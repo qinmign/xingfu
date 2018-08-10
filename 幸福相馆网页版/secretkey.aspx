@@ -1,0 +1,1 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="secretkey.aspx.cs" Inherits="XF_Web_Concise.secretkey" %>

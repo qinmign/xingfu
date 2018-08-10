@@ -1,0 +1,99 @@
+﻿#messageBoxBG
+{
+	opacity: 0.5;
+filter: Alpha(Opacity=50);
+position: absolute;
+z-index: 1000;
+background-color: #fff;
+text-align: center;
+left: 0;
+top: 0;
+}
+
+
+#messageBox
+{
+position: absolute;
+z-index: 1001;
+background-color: #fff;
+width:350px;
+border:1px solid #ccc;
+}
+
+
+#messageBox h3
+{
+	height:35px;
+	border-bottom:1px solid #ccc;
+	background:#eee;
+	position:relative;
+}
+
+#messageBox h3 em
+{
+	padding:0 0 0 15px;
+	font-size:16px;
+	font-style:normal;
+	line-height:35px;
+	color:rgb(242,80,32);
+	font-weight:normal;
+}
+
+#messageBox h3 a
+{
+	position:absolute;
+	display:block;
+	width:20px;
+	height:20px;
+	top:3px;
+	right:3px;
+	color:#666;
+	text-decoration:none;
+	text-align:center;
+	line-height:20px;
+	border:1px solid #eee;
+    font-family:宋体;
+    font-size:14px;
+}
+
+#messageBox h3 a:hover
+{
+	border:1px solid #ccc;
+	width:20px;
+	height:20px;
+}
+
+#messageBoxContent
+{
+	padding:15px;
+	line-height:22px;
+	text-indent:28px;
+	font-size:14px;
+}
+
+
+#messageBoxBottom
+{
+	text-align:center;
+	padding:10px 0;
+}
+
+#messageBoxBottom a
+{
+	display:inline-block;
+	width:80px;
+	height:30px;
+	line-height:30px;
+	text-decoration:none;
+	text-align:center;
+	border:1px solid #ccc;
+	background:#eee;
+	color:#666;
+	margin:0 20px;
+}
+
+#messageBoxBottom a:hover
+{
+	background:#41add7;
+	color:#fff;
+}

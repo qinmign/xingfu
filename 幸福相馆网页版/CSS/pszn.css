@@ -1,0 +1,108 @@
+﻿body
+{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 14px;
+    font-family: 微软雅黑;
+    background-color: White;
+}
+
+#shootGuidePage
+{
+    color:rgb(254,117,81); 
+}
+
+#content
+{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+#content img
+{
+    margin: 30px auto 30px;
+}
+
+#gxxg ul
+{
+    color:White;   
+}
+
+#gxxg ul li
+{
+    width:250px;    
+    list-style:none;
+    float:left;
+}
+
+#download-btn-box,#web-btn-box
+{    
+    float:left;   
+}
+
+#download-btn-box
+{
+    width:435px;
+    height:320px;    
+    padding:200px 0 0 50px;
+}
+
+#web-btn-box
+{
+    width:430px;
+    height:210px;    
+    padding:410px 0 0 55px;
+}
+
+#android-btn, #iphone-btn, #ipad-btn
+{
+    width: 82px;
+    height: 98px;
+    float:left;
+    display: block;
+    margin-right:22px;
+}
+
+#android-btn
+{
+    background: url(images/bz/xfxg_index_normal_01.png);
+}
+
+#iphone-btn
+{
+    background: url(images/bz/xfxg_index_normal_02.png);
+}
+
+#ipad-btn
+{
+    background: url(images/bz/xfxg_index_normal_03.png);
+}
+
+#android-btn:hover
+{
+    background: url(images/bz/xfxg_index_pressed_01.png);
+}
+
+#iphone-btn:hover
+{
+    background: url(images/bz/xfxg_index_pressed_02.png);
+}
+
+#ipad-btn:hover
+{
+    background: url(images/bz/xfxg_index_pressed_03.png);
+}
+
+#web-btn
+{
+    width:295px;
+    height:63px;
+    display:block;
+    background: url(images/bz/tx_btn_normal_01.png);
+}
+
+#web-btn:hover
+{
+    background: url(images/bz/tx_btn_pressed_01.png);
+}

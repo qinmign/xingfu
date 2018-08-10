@@ -1,0 +1,1184 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<picmodel>
+
+  <model name="出入境" mb="4R6" pidRegex="^([A-Z][0-9][0-9A-Z]{13})|(53[0-9]{13})|(ZH9[A-D]{1}[0-9A-Z]{14})$">
+    <file>crjmb_bd_04.jpg</file>
+    <rsl>300</rsl>
+    <img x="29" y="28"></img>
+    <img x="447" y="28"></img>
+    <img x="866" y="28"></img>
+    <img x="29" y="612"></img>
+    <img x="447" y="612"></img>
+    <img x="866" y="612"></img>
+    <img x="1347" y="104"></img>
+  </model>
+  <model name="出入境" mb="4R8" pidRegex="^([A-Z][0-9][0-9A-Z]{13})|(53[0-9]{13})|(ZH9[A-D]{1}[0-9A-Z]{14})$">
+    <file>crjmb_bd_03.jpg</file>
+    <rsl>300</rsl>
+    <img x="18" y="27"></img>
+    <img x="422" y="27"></img>
+    <img x="827" y="27"></img>
+    <img x="1231" y="27"></img>
+    <img x="18" y="611"></img>
+    <img x="422" y="611"></img>
+    <img x="827" y="611"></img>
+    <img x="1231" y="611"></img>
+    <img w="91" h="133" x="1649" y="1085" rft="270"></img>
+  </model>
+  <model name="出入境" mb="3R4" pidRegex="^([A-Z][0-9][0-9A-Z]{13})|(53[0-9]{13})|(ZH9[A-D]{1}[0-9A-Z]{14})$">
+    <file>crjmb_bd_01.jpg</file>
+    <rsl>300</rsl>
+    <img x="87" y="29"></img>
+    <img x="574" y="29"></img>
+    <img x="87" y="612"></img>
+    <img x="574" y="612"></img>
+    <img w="122" h="176" x="80" y="1226"></img>    
+  </model>
+  <model name="出入境" mb="3R3" pidRegex="^([A-Z][0-9][0-9A-Z]{13})|(53[0-9]{13})|(ZH9[A-D]{1}[0-9A-Z]{14})$">
+    <file>crjmb_bd_02.jpg</file>
+    <rsl>300</rsl>
+    <img x="110" y="109"></img>
+    <img x="555" y="109"></img>
+    <img x="1000" y="109"></img>
+    <img w="122" h="176" x="80" y="788"></img>
+  </model>
+  <model name="出入境" mb="3R5" pidRegex="^([A-Z][0-9][0-9A-Z]{13})|(53[0-9]{13})|(ZH9[A-D]{1}[0-9A-Z]{14})$">
+    <file>crjmb_bd_06.jpg</file>
+    <rsl>300</rsl>
+    <img x="32" y="29"></img>
+    <img x="449" y="29"></img>
+    <img x="865" y="29"></img>
+    <img x="33" y="633" rft="270"></img>
+    <img x="686" y="633" rft="270"></img>
+    <img x="1303" y="865" w="81" h="118" rft="270"></img>
+  </model>
+  <model name="出入境" mb="4R4" pidRegex="^([A-Z][0-9][0-9A-Z]{13})|(53[0-9]{13})|(53[0-9]{13})|(ZH9[A-D]{1}[0-9A-Z]{14})$">
+    <file>crjmb_bd_05.jpg</file>
+    <rsl>300</rsl>
+    <img x="36" y="28"></img>
+    <img x="462" y="28"></img>
+    <img x="36" y="616"></img>
+    <img x="462" y="616"></img>
+    <img x="1150" y="247"></img>
+  </model>
+
+  
+  <model name="广东驾驶证" mb="4R12" pidRegex="^(ZCA[0-9A-Z]{12})|(ZH94[0-9A-Z]{14})$">
+    <file>jszmb_04.jpg</file>
+    <rsl>300</rsl>
+    <img x="47" y="20"></img>
+    <img x="371" y="20"></img>
+    <img x="695" y="20"></img>
+    <img x="1019" y="20"></img>
+    <img x="47" y="413"></img>
+    <img x="371" y="413"></img>
+    <img x="695" y="413"></img>
+    <img x="1019" y="413"></img>
+    <img x="47" y="806"></img>
+    <img x="371" y="806"></img>
+    <img x="695" y="806"></img>
+    <img x="1019" y="806"></img>
+    <img x="1432" y="279"></img>
+  </model>
+  <model  id="jsz" name="广东驾驶证" mb="4R8" pidRegex="^(ZCA[0-9A-Z]{12})|(ZH94[0-9A-Z]{14})$">
+    <file>jszmb_01.jpg</file>
+    <rsl>300</rsl>
+    <img x="55" y="88"></img>
+    <img x="379" y="88"></img>
+    <img x="703" y="88"></img>
+    <img x="1027" y="88"></img>
+    <img x="55" y="541"></img>
+    <img x="379" y="541"></img>
+    <img x="703" y="541"></img>
+    <img x="1027" y="541"></img>
+    <img x="1432" y="279"></img>
+  </model>
+  <model name="广东驾驶证" mb="3R6" pidRegex="^(ZCA[0-9A-Z]{12})|(ZH94[0-9A-Z]{14})$">
+    <file>jszmb_02.jpg</file>
+    <rsl>300</rsl>
+    <img x="64" y="44"></img>
+    <img x="388" y="44"></img>
+    <img x="712" y="44"></img>
+    <img x="64" y="497"></img>
+    <img x="388" y="497"></img>
+    <img x="712" y="497"></img>
+    <img x="1142" y="221"></img>
+  </model>
+  <model name="广东驾驶证" mb="3R10" pidRegex="^ZCA[0-9A-Z]{12}|(ZH94[0-9A-Z]{14})$">
+    <file>jszmb_03.jpg</file>
+    <rsl>300</rsl>
+    <img x="48" y="20"></img>
+    <img x="334" y="20"></img>
+    <img x="620" y="20"></img>
+    <img x="906" y="20"></img>
+    <img x="1192" y="20"></img>
+    <img x="48" y="413"></img>
+    <img x="334" y="413"></img>
+    <img x="620" y="413"></img>
+    <img x="906" y="413"></img>
+    <img x="1192" y="413"></img>
+    <img x="99" y="837" w="91" h="133"></img>
+  </model>
+
+  <model id="bay" mb="4R12" name="广东保安员证" pidRegex="^(ZBB[0-9A-Z]{12})|(ZH95[0-9A-Z]{14})$">
+    <file>bayz_02.jpg</file>
+    <rsl>350</rsl>
+    <img x="12" y="11" w="307" h="378"></img>
+    <img x="333" y="11" w="307" h="378"></img>
+    <img x="654" y="11" w="307" h="378"></img>
+    <img x="974" y="11" w="307" h="378"></img>
+    <img x="12" y="399" w="307" h="378"></img>
+    <img x="333" y="399" w="307" h="378"></img>
+    <img x="654" y="399" w="307" h="378"></img>
+    <img x="974" y="399" w="307" h="378"></img>
+    <img x="12" y="787" w="307" h="378"></img>
+    <img x="333" y="787" w="307" h="378"></img>
+    <img x="654" y="787" w="307" h="378"></img>
+    <img x="974" y="787" w="307" h="378"></img>
+    <img x="1392" y="109" w="307" h="378"></img>
+  </model>
+  <!--<model id="bay" mb="4R12" name="广东保安员证" pidRegex="^ZBB[0-9A-Z]{12}$">
+    <file>bayz_02.jpg</file>
+    <rsl>350</rsl>
+    <img x="15" y="13"></img>
+    <img x="389" y="13"></img>
+    <img x="763" y="13"></img>
+    <img x="1137" y="13"></img>
+    <img x="15" y="466"></img>
+    <img x="389" y="466"></img>
+    <img x="763" y="466"></img>
+    <img x="1137" y="466"></img>
+    <img x="15" y="919"></img>
+    <img x="389" y="919"></img>
+    <img x="763" y="919"></img>
+    <img x="1137" y="919"></img>
+    <img x="1609" y="126" w="358" h="441"></img>
+  </model>-->
+  <model id="bay" mb="4R6" name="广东保安员证" pidRegex="^(ZBB[0-9A-Z]{12})|(ZH95[0-9A-Z]{14})$">
+    <file>bayz_01.jpg</file>
+    <rsl>350</rsl>
+    <img x="135" y="106" w="307" h="378"></img>
+    <img x="490" y="106" w="307" h="378"></img>
+    <img x="845" y="106" w="307" h="378"></img>
+    <img x="135" y="572" w="307" h="378"></img>
+    <img x="490" y="572" w="307" h="378"></img>
+    <img x="845" y="572" w="307" h="378"></img>
+    <img x="1391" y="108" w="307" h="378"></img>
+  </model>
+  <model id="bay" mb="3R6" name="广东保安员证" pidRegex="^(ZBB[0-9A-Z]{12})|(ZH95[0-9A-Z]{14})$">
+    <file>bayz_03.jpg</file>
+    <rsl>350</rsl>
+    <img x="45" y="66" w="307" h="378"></img>
+    <img x="398" y="66" w="307" h="378"></img>
+    <img x="751" y="66" w="307" h="378"></img>
+    <img x="45" y="507" w="307" h="378"></img>
+    <img x="398" y="507" w="307" h="378"></img>
+    <img x="751" y="507" w="307" h="378"></img>
+    <img x="1148" y="174" w="307" h="378"></img>
+  </model>
+  <model id="bay" mb="3R8" name="广东保安员证" pidRegex="^(ZBB[0-9A-Z]{12})|(ZH95[0-9A-Z]{14})$">
+    <file>bayz_04.jpg</file>
+    <rsl>350</rsl>
+    <img x="64" y="41" w="307" h="378"></img>
+    <img x="417" y="41" w="307" h="378"></img>
+    <img x="770" y="41" w="307" h="378"></img>
+    <img x="1123" y="41" w="307" h="378"></img>
+    <img x="64" y="438" w="307" h="378"></img>
+    <img x="417" y="438" w="307" h="378"></img>
+    <img x="770" y="438" w="307" h="378"></img>
+    <img x="1123" y="438" w="307" h="378"></img>
+    <img x="85" y="867" w="96" h="118"></img>
+  </model>
+
+
+  <model name="居民身份证" mb="4R12" pidRegex="^([A-Z]{2}1[0-9A-Z]{12})|(Z[HR]92[0-9A-Z]{14})$">
+    <file>edzmb_04.jpg</file>
+    <rsl>350</rsl>
+    <img x="13" y="11" w="307" h="378"></img>
+    <img x="334" y="11" w="307" h="378"></img>
+    <img x="655" y="11" w="307" h="378"></img>
+    <img x="975" y="11" w="307" h="378"></img>
+    <img x="13" y="399" w="307" h="378"></img>
+    <img x="334" y="399" w="307" h="378"></img>
+    <img x="655" y="399" w="307" h="378"></img>
+    <img x="975" y="399" w="307" h="378"></img>
+    <img x="13" y="787" w="307" h="378"></img>
+    <img x="334" y="787" w="307" h="378"></img>
+    <img x="655" y="787" w="307" h="378"></img>
+    <img x="975" y="787" w="307" h="378"></img>
+    <img x="1379" y="107" w="307" h="378"></img>
+  </model>
+  <model name="居民身份证" mb="3R8" pidRegex="^([A-Z]{2}1[0-9A-Z]{12})|(Z[HR]92[0-9A-Z]{14})$">
+    <file>edzmb_01.jpg</file>
+    <rsl>350</rsl>
+    <img x="67" y="22" w="307" h="378"></img>
+    <img x="420" y="22" w="307" h="378"></img>
+    <img x="773" y="22" w="307" h="378"></img>
+    <img x="1126" y="22" w="307" h="378"></img>
+    <img x="67" y="419" w="307" h="378"></img>
+    <img x="420" y="419" w="307" h="378"></img>
+    <img x="773" y="419" w="307" h="378"></img>
+    <img x="1126" y="419" w="307" h="378"></img>
+    <img x="100" y="836" w="115" h="142"></img>
+  </model>
+  <model name="居民身份证" mb="3R6" pidRegex="^([A-Z]{2}1[0-9A-Z]{12})|(Z[HR]92[0-9A-Z]{14})$">
+    <file>edzmb_02.jpg</file>
+    <rsl>350</rsl>
+    <img x="46" y="66" w="307" h="378"></img>
+    <img x="399" y="66" w="307" h="378"></img>
+    <img x="752" y="66" w="307" h="378"></img>
+    <img x="46" y="507" w="307" h="378"></img>
+    <img x="399" y="507" w="307" h="378"></img>
+    <img x="752" y="507" w="307" h="378"></img>
+    <img x="1149" y="176" w="307" h="378"></img>
+  </model>
+  <model name="居民身份证" mb="4R6" pidRegex="^([A-Z]{2}1[0-9A-Z]{12})|(Z[HR]92[0-9A-Z]{14})$">
+    <file>edzmb_03.jpg</file>
+    <rsl>350</rsl>
+    <img x="47" y="99" w="307" h="378"></img>
+    <img x="402" y="99" w="307" h="378"></img>
+    <img x="757" y="99" w="307" h="378"></img>
+    <img x="47" y="565" w="307" h="378"></img>
+    <img x="402" y="565" w="307" h="378"></img>
+    <img x="757" y="565" w="307" h="378"></img>
+    <img x="1309" y="267" w="307" h="378"></img>
+  </model>
+
+
+  <model name="九江居民身份证" mb="4R12" pidRegex="^ZA05[0-9A-Z]{11}$">
+    <file>edzmb_04.jpg</file>
+    <rsl>350</rsl>
+    <img x="13" y="11" w="307" h="378"></img>
+    <img x="334" y="11" w="307" h="378"></img>
+    <img x="655" y="11" w="307" h="378"></img>
+    <img x="975" y="11" w="307" h="378"></img>
+    <img x="13" y="399" w="307" h="378"></img>
+    <img x="334" y="399" w="307" h="378"></img>
+    <img x="655" y="399" w="307" h="378"></img>
+    <img x="975" y="399" w="307" h="378"></img>
+    <img x="13" y="787" w="307" h="378"></img>
+    <img x="334" y="787" w="307" h="378"></img>
+    <img x="655" y="787" w="307" h="378"></img>
+    <img x="975" y="787" w="307" h="378"></img>
+    <img x="1379" y="107" w="307" h="378"></img>
+  </model>
+  <model name="九江居民身份证" mb="3R8" pidRegex="^ZA05[0-9A-Z]{11}$">
+    <file>edzmb_01.jpg</file>
+    <rsl>350</rsl>
+    <img x="67" y="22" w="307" h="378"></img>
+    <img x="420" y="22" w="307" h="378"></img>
+    <img x="773" y="22" w="307" h="378"></img>
+    <img x="1126" y="22" w="307" h="378"></img>
+    <img x="67" y="419" w="307" h="378"></img>
+    <img x="420" y="419" w="307" h="378"></img>
+    <img x="773" y="419" w="307" h="378"></img>
+    <img x="1126" y="419" w="307" h="378"></img>
+    <img x="100" y="836" w="115" h="142"></img>
+  </model>
+  <model name="九江居民身份证" mb="3R6" pidRegex="^ZA05[0-9A-Z]{11}$">
+    <file>edzmb_02.jpg</file>
+    <rsl>350</rsl>
+    <img x="46" y="66" w="307" h="378"></img>
+    <img x="399" y="66" w="307" h="378"></img>
+    <img x="752" y="66" w="307" h="378"></img>
+    <img x="46" y="507" w="307" h="378"></img>
+    <img x="399" y="507" w="307" h="378"></img>
+    <img x="752" y="507" w="307" h="378"></img>
+    <img x="1149" y="176" w="307" h="378"></img>
+  </model>
+  <model name="九江居民身份证" mb="4R6" pidRegex="^ZA05[0-9A-Z]{11}$">
+    <file>edzmb_03.jpg</file>
+    <rsl>350</rsl>
+    <img x="47" y="99" w="307" h="378"></img>
+    <img x="402" y="99" w="307" h="378"></img>
+    <img x="757" y="99" w="307" h="378"></img>
+    <img x="47" y="565" w="307" h="378"></img>
+    <img x="402" y="565" w="307" h="378"></img>
+    <img x="757" y="565" w="307" h="378"></img>
+    <img x="1309" y="267" w="307" h="378"></img>
+  </model>
+
+  
+  <model name="湖南居民身份证" mb="4R12" pidRegex="^ZA02[0-9A-Z]{11}$">
+    <file>edzmb_04.jpg</file>
+    <rsl>350</rsl>
+    <img x="13" y="11" w="307" h="378"></img>
+    <img x="334" y="11" w="307" h="378"></img>
+    <img x="655" y="11" w="307" h="378"></img>
+    <img x="975" y="11" w="307" h="378"></img>
+    <img x="13" y="399" w="307" h="378"></img>
+    <img x="334" y="399" w="307" h="378"></img>
+    <img x="655" y="399" w="307" h="378"></img>
+    <img x="975" y="399" w="307" h="378"></img>
+    <img x="13" y="787" w="307" h="378"></img>
+    <img x="334" y="787" w="307" h="378"></img>
+    <img x="655" y="787" w="307" h="378"></img>
+    <img x="975" y="787" w="307" h="378"></img>
+    <img x="1379" y="107" w="307" h="378"></img>
+  </model>
+  <model name="湖南居民身份证" mb="3R8" pidRegex="^ZA02[0-9A-Z]{11}$">
+    <file>edzmb_01.jpg</file>
+    <rsl>350</rsl>
+    <img x="67" y="22" w="307" h="378"></img>
+    <img x="420" y="22" w="307" h="378"></img>
+    <img x="773" y="22" w="307" h="378"></img>
+    <img x="1126" y="22" w="307" h="378"></img>
+    <img x="67" y="419" w="307" h="378"></img>
+    <img x="420" y="419" w="307" h="378"></img>
+    <img x="773" y="419" w="307" h="378"></img>
+    <img x="1126" y="419" w="307" h="378"></img>
+    <img x="100" y="836" w="115" h="142"></img>
+  </model>
+  <model name="湖南居民身份证" mb="3R6" pidRegex="^ZA02[0-9A-Z]{11}$">
+    <file>edzmb_02.jpg</file>
+    <rsl>350</rsl>
+    <img x="46" y="66" w="307" h="378"></img>
+    <img x="399" y="66" w="307" h="378"></img>
+    <img x="752" y="66" w="307" h="378"></img>
+    <img x="46" y="507" w="307" h="378"></img>
+    <img x="399" y="507" w="307" h="378"></img>
+    <img x="752" y="507" w="307" h="378"></img>
+    <img x="1149" y="176" w="307" h="378"></img>
+  </model>
+  <model name="湖南居民身份证" mb="4R6" pidRegex="^ZA02[0-9A-Z]{11}$">
+    <file>edzmb_03.jpg</file>
+    <rsl>350</rsl>
+    <img x="47" y="99" w="307" h="378"></img>
+    <img x="402" y="99" w="307" h="378"></img>
+    <img x="757" y="99" w="307" h="378"></img>
+    <img x="47" y="565" w="307" h="378"></img>
+    <img x="402" y="565" w="307" h="378"></img>
+    <img x="757" y="565" w="307" h="378"></img>
+    <img x="1309" y="267" w="307" h="378"></img>
+  </model>
+
+
+  <model name="湖北居民身份证" mb="4R12" pidRegex="^ZA04[0-9A-Z]{11}$">
+    <file>edzmb_04.jpg</file>
+    <rsl>350</rsl>
+    <img x="13" y="11" w="307" h="378"></img>
+    <img x="334" y="11" w="307" h="378"></img>
+    <img x="655" y="11" w="307" h="378"></img>
+    <img x="975" y="11" w="307" h="378"></img>
+    <img x="13" y="399" w="307" h="378"></img>
+    <img x="334" y="399" w="307" h="378"></img>
+    <img x="655" y="399" w="307" h="378"></img>
+    <img x="975" y="399" w="307" h="378"></img>
+    <img x="13" y="787" w="307" h="378"></img>
+    <img x="334" y="787" w="307" h="378"></img>
+    <img x="655" y="787" w="307" h="378"></img>
+    <img x="975" y="787" w="307" h="378"></img>
+    <img x="1379" y="107" w="307" h="378"></img>
+  </model>
+  <model name="湖北居民身份证" mb="3R8" pidRegex="^ZA04[0-9A-Z]{11}$">
+    <file>edzmb_01.jpg</file>
+    <rsl>350</rsl>
+    <img x="67" y="22" w="307" h="378"></img>
+    <img x="420" y="22" w="307" h="378"></img>
+    <img x="773" y="22" w="307" h="378"></img>
+    <img x="1126" y="22" w="307" h="378"></img>
+    <img x="67" y="419" w="307" h="378"></img>
+    <img x="420" y="419" w="307" h="378"></img>
+    <img x="773" y="419" w="307" h="378"></img>
+    <img x="1126" y="419" w="307" h="378"></img>
+    <img x="100" y="836" w="115" h="142"></img>
+  </model>
+  <model name="湖北居民身份证" mb="3R6" pidRegex="^ZA04[0-9A-Z]{11}$">
+    <file>edzmb_02.jpg</file>
+    <rsl>350</rsl>
+    <img x="46" y="66" w="307" h="378"></img>
+    <img x="399" y="66" w="307" h="378"></img>
+    <img x="752" y="66" w="307" h="378"></img>
+    <img x="46" y="507" w="307" h="378"></img>
+    <img x="399" y="507" w="307" h="378"></img>
+    <img x="752" y="507" w="307" h="378"></img>
+    <img x="1149" y="176" w="307" h="378"></img>
+  </model>
+  <model name="湖北居民身份证" mb="4R6" pidRegex="^ZA04[0-9A-Z]{11}$">
+    <file>edzmb_03.jpg</file>
+    <rsl>350</rsl>
+    <img x="47" y="99" w="307" h="378"></img>
+    <img x="402" y="99" w="307" h="378"></img>
+    <img x="757" y="99" w="307" h="378"></img>
+    <img x="47" y="565" w="307" h="378"></img>
+    <img x="402" y="565" w="307" h="378"></img>
+    <img x="757" y="565" w="307" h="378"></img>
+    <img x="1309" y="267" w="307" h="378"></img>
+  </model>
+  
+
+  <model name="广西居民身份证" mb="4R12" pidRegex="^ZA03[0-9A-Z]{11}$">
+    <file>edzmb_04.jpg</file>
+    <rsl>350</rsl>
+    <img x="13" y="11" w="307" h="378"></img>
+    <img x="334" y="11" w="307" h="378"></img>
+    <img x="655" y="11" w="307" h="378"></img>
+    <img x="975" y="11" w="307" h="378"></img>
+    <img x="13" y="399" w="307" h="378"></img>
+    <img x="334" y="399" w="307" h="378"></img>
+    <img x="655" y="399" w="307" h="378"></img>
+    <img x="975" y="399" w="307" h="378"></img>
+    <img x="13" y="787" w="307" h="378"></img>
+    <img x="334" y="787" w="307" h="378"></img>
+    <img x="655" y="787" w="307" h="378"></img>
+    <img x="975" y="787" w="307" h="378"></img>
+    <img x="1379" y="107" w="307" h="378"></img>
+  </model>
+  <model name="广西居民身份证" mb="3R8" pidRegex="^ZA03[0-9A-Z]{11}$">
+    <file>edzmb_01.jpg</file>
+    <rsl>350</rsl>
+    <img x="67" y="22" w="307" h="378"></img>
+    <img x="420" y="22" w="307" h="378"></img>
+    <img x="773" y="22" w="307" h="378"></img>
+    <img x="1126" y="22" w="307" h="378"></img>
+    <img x="67" y="419" w="307" h="378"></img>
+    <img x="420" y="419" w="307" h="378"></img>
+    <img x="773" y="419" w="307" h="378"></img>
+    <img x="1126" y="419" w="307" h="378"></img>
+    <img x="100" y="836" w="115" h="142"></img>
+  </model>
+  <model name="广西居民身份证" mb="3R6" pidRegex="^ZA03[0-9A-Z]{11}$">
+    <file>edzmb_02.jpg</file>
+    <rsl>350</rsl>
+    <img x="46" y="66" w="307" h="378"></img>
+    <img x="399" y="66" w="307" h="378"></img>
+    <img x="752" y="66" w="307" h="378"></img>
+    <img x="46" y="507" w="307" h="378"></img>
+    <img x="399" y="507" w="307" h="378"></img>
+    <img x="752" y="507" w="307" h="378"></img>
+    <img x="1149" y="176" w="307" h="378"></img>
+  </model>
+  <model name="广西居民身份证" mb="4R6" pidRegex="^ZA03[0-9A-Z]{11}$">
+    <file>edzmb_03.jpg</file>
+    <rsl>350</rsl>
+    <img x="47" y="99" w="307" h="378"></img>
+    <img x="402" y="99" w="307" h="378"></img>
+    <img x="757" y="99" w="307" h="378"></img>
+    <img x="47" y="565" w="307" h="378"></img>
+    <img x="402" y="565" w="307" h="378"></img>
+    <img x="757" y="565" w="307" h="378"></img>
+    <img x="1309" y="267" w="307" h="378"></img>
+  </model>
+
+
+  <model name="社会保障卡" mb="4R12" pidRegex="^([A-Z]{2}2[0-9A-Z]{12})|(Z[HR]96[0-9A-Z]{14})$">
+    <file>sbk_04.jpg</file>
+    <rsl>350</rsl>
+    <img x="13" y="11" w="307" h="378"></img>
+    <img x="334" y="11" w="307" h="378"></img>
+    <img x="655" y="11" w="307" h="378"></img>
+    <img x="975" y="11" w="307" h="378"></img>
+    <img x="15" y="399" w="307" h="378"></img>
+    <img x="334" y="399" w="307" h="378"></img>
+    <img x="655" y="399" w="307" h="378"></img>
+    <img x="975" y="399" w="307" h="378"></img>
+    <img x="13" y="787" w="307" h="378"></img>
+    <img x="334" y="787" w="307" h="378"></img>
+    <img x="655" y="787" w="307" h="378"></img>
+    <img x="975" y="787" w="307" h="378"></img>
+    <img x="1379" y="107" w="307" h="378"></img>
+  </model>
+  <model name="社会保障卡" mb="3R8" pidRegex="^([A-Z]{2}2[0-9A-Z]{12})|(Z[HR]96[0-9A-Z]{14})$">
+    <file>sbk_01.jpg</file>
+    <rsl>350</rsl>
+    <img x="67" y="24" w="307" h="378"></img>
+    <img x="420" y="24" w="307" h="378"></img>
+    <img x="773" y="24" w="307" h="378"></img>
+    <img x="1126" y="24" w="307" h="378"></img>
+    <img x="67" y="421" w="307" h="378"></img>
+    <img x="420" y="421" w="307" h="378"></img>
+    <img x="773" y="421" w="307" h="378"></img>
+    <img x="1126" y="421" w="307" h="378"></img>
+    <img x="74" y="836" w="116" h="143"></img>
+  </model>
+  <model name="社会保障卡" mb="3R6" pidRegex="^([A-Z]{2}2[0-9A-Z]{12})|(Z[HR]96[0-9A-Z]{14})$">
+    <file>sbk_02.jpg</file>
+    <rsl>350</rsl>
+    <img x="21" y="48" w="307" h="378"></img>
+    <img x="350" y="48" w="307" h="378"></img>
+    <img x="680" y="48" w="307" h="378"></img>
+    <img x="21" y="489" w="307" h="378"></img>
+    <img x="350" y="489" w="307" h="378"></img>
+    <img x="680" y="489" w="307" h="378"></img>
+    <img x="1102" y="94" w="307" h="378"></img>
+  </model>
+  <model name="社会保障卡" mb="4R6" pidRegex="^([A-Z]{2}2[0-9A-Z]{12})|(Z[HR]96[0-9A-Z]{14})$">
+    <file>sbk_03.jpg</file>
+    <rsl>350</rsl>
+    <img x="36" y="87" w="307" h="378"></img>
+    <img x="391" y="87" w="307" h="378"></img>
+    <img x="746" y="87" w="307" h="378"></img>
+    <img x="36" y="553" w="307" h="378"></img>
+    <img x="391" y="553" w="307" h="378"></img>
+    <img x="746" y="553" w="307" h="378"></img>
+    <img x="1289" y="106" w="307" h="378"></img>
+  </model>
+
+
+  <model name="广东居住证" mb="4R12" pidRegex="^(ZBA[0-9A-Z]{12})|(ZH93[0-9A-Z]{14})$">
+    <file>jzzmb_04.jpg</file>
+    <rsl>350</rsl>
+    <img x="13" y="11" w="307" h="378"></img>
+    <img x="334" y="11" w="307" h="378"></img>
+    <img x="655" y="11" w="307" h="378"></img>
+    <img x="975" y="11" w="307" h="378"></img>
+    <img x="13" y="399" w="307" h="378"></img>
+    <img x="334" y="399" w="307" h="378"></img>
+    <img x="655" y="399" w="307" h="378"></img>
+    <img x="975" y="399" w="307" h="378"></img>
+    <img x="13" y="787" w="307" h="378"></img>
+    <img x="334" y="787" w="307" h="378"></img>
+    <img x="655" y="787" w="307" h="378"></img>
+    <img x="975" y="787" w="307" h="378"></img>
+    <img x="1379" y="107" w="307" h="378"></img>
+  </model>
+  <model name="广东居住证" mb="3R8" pidRegex="^(ZBA[0-9A-Z]{12})|(ZH93[0-9A-Z]{14})$">
+    <file>jzzmb_01.jpg</file>
+    <rsl>350</rsl>
+    <img x="67" y="24" w="307" h="378"></img>
+    <img x="420" y="24" w="307" h="378"></img>
+    <img x="773" y="24" w="307" h="378"></img>
+    <img x="1126" y="24" w="307" h="378"></img>
+    <img x="67" y="421" w="307" h="378"></img>
+    <img x="420" y="421" w="307" h="378"></img>
+    <img x="773" y="421" w="307" h="378"></img>
+    <img x="1126" y="421" w="307" h="378"></img>
+    <img x="74" y="836" w="116" h="143"></img>
+  </model>
+  <model name="广东居住证" mb="3R6" pidRegex="^(ZBA[0-9A-Z]{12})|(ZH93[0-9A-Z]{14})$">
+    <file>jzzmb_02.jpg</file>
+    <rsl>350</rsl>
+    <img x="21" y="48" w="307" h="378"></img>
+    <img x="350" y="48" w="307" h="378"></img>
+    <img x="680" y="48" w="307" h="378"></img>
+    <img x="21" y="489" w="307" h="378"></img>
+    <img x="350" y="489" w="307" h="378"></img>
+    <img x="680" y="489" w="307" h="378"></img>
+    <img x="1102" y="94" w="307" h="378"></img>
+  </model>
+  <model name="广东居住证" mb="4R6" pidRegex="^(ZBA[0-9A-Z]{12})|(ZH93[0-9A-Z]{14})$">
+    <file>jzzmb_03.jpg</file>
+    <rsl>350</rsl>
+    <img x="36" y="87" w="307" h="378"></img>
+    <img x="391" y="87" w="307" h="378"></img>
+    <img x="746" y="87" w="307" h="378"></img>
+    <img x="36" y="553" w="307" h="378"></img>
+    <img x="391" y="553" w="307" h="378"></img>
+    <img x="746" y="553" w="307" h="378"></img>
+    <img x="1289" y="106" w="307" h="378"></img>
+  </model>
+
+  <model name="简历照" mb="4R10" pidRegex="^ZH89[0-9A-Z]{14}$">
+    <file>jlz.jpg</file>
+    <rsl>300</rsl>
+    <img x="58" y="37"></img>
+    <img x="404" y="37"></img>
+    <img x="750" y="37"></img>
+    <img x="1096" y="37"></img>
+    <img x="1442" y="37"></img>
+    <img x="58" y="480"></img>
+    <img x="404" y="480"></img>
+    <img x="750" y="480"></img>
+    <img x="1096" y="480"></img>
+    <img x="1442" y="480"></img>
+    <img x="51" y="984" w="134" h="189"></img>
+  </model>
+
+  <model name="一寸照" mb="4R10" pidRegex="^ZH81[0-9A-Z]{14}$">
+    <file>cz_1c.jpg</file>
+    <rsl>300</rsl>
+    <img x="58" y="37"></img>
+    <img x="404" y="37"></img>
+    <img x="750" y="37"></img>
+    <img x="1096" y="37"></img>
+    <img x="1442" y="37"></img>
+    <img x="58" y="480"></img>
+    <img x="404" y="480"></img>
+    <img x="750" y="480"></img>
+    <img x="1096" y="480"></img>
+    <img x="1442" y="480"></img>
+    <img x="51" y="984" w="134" h="189"></img>
+  </model>
+  <model name="一寸照" mb="3R8" pidRegex="^ZH81[0-9A-Z]{14}$">
+    <file>3Rcz_1c.jpg</file>
+    <rsl>300</rsl>
+    <img x="84" y="15"></img>
+    <img x="430" y="15"></img>
+    <img x="776" y="15"></img>
+    <img x="1122" y="15"></img>
+    <img x="84" y="442"></img>
+    <img x="430" y="442"></img>
+    <img x="776" y="442"></img>
+    <img x="1122" y="442"></img>
+    <img x="74" y="874" w="122" h="172"></img>
+  </model>
+
+
+  <model name="二寸照" mb="4R6" pidRegex="^ZH82[0-9A-Z]{14}$">
+    <file>cz_2c.jpg</file>
+    <rsl>300</rsl>
+    <img x="24" y="18"></img>
+    <img x="454" y="18"></img>
+    <img x="884" y="18"></img>
+    <img x="24" y="611"></img>
+    <img x="454" y="611"></img>
+    <img x="884" y="611"></img>
+    <img x="1429" y="279" w="272" h="383"></img>
+  </model>
+  <model name="二寸照" mb="3R4" pidRegex="^ZH82[0-9A-Z]{14}$">
+    <file>3Rcz_2c.jpg</file>
+    <rsl>300</rsl>
+    <img x="15" y="77" rft="270"></img>
+    <img x="613" y="77" rft="270"></img>
+    <img x="15" y="561" rft="270"></img>
+    <img x="613" y="561" rft="270"></img>
+    <img x="1236" y="171" w="238" h="336"></img>
+  </model>
+
+
+  <model name="小一寸" mb="4R15" pidRegex="^ZH83[0-9A-Z]{14}$">
+    <file>cz_x1c.jpg</file>
+    <rsl>300</rsl>
+    <img x="21" y="20"></img>
+    <img x="300" y="20"></img>
+    <img x="579" y="20"></img>
+    <img x="858" y="20"></img>
+    <img x="1137" y="20"></img>
+    <img x="21" y="413"></img>
+    <img x="300" y="413"></img>
+    <img x="579" y="413"></img>
+    <img x="858" y="413"></img>
+    <img x="1137" y="413"></img>
+    <img x="21" y="806"></img>
+    <img x="300" y="806"></img>
+    <img x="579" y="806"></img>
+    <img x="858" y="806"></img>
+    <img x="1137" y="806"></img>
+    <img x="1479" y="279"></img>
+  </model>
+  <model name="小一寸" mb="3R8" pidRegex="^ZH83[0-9A-Z]{14}$">
+    <file>3Rcz_x1c.jpg</file>
+    <rsl>300</rsl>
+    <img x="19" y="121"></img>
+    <img x="298" y="121"></img>
+    <img x="577" y="121"></img>
+    <img x="856" y="121"></img>
+    <img x="19" y="552"></img>
+    <img x="298" y="552"></img>
+    <img x="577" y="552"></img>
+    <img x="856" y="552"></img>
+    <img x="1196" y="124"></img>
+  </model>
+
+  <model name="大一寸" mb="4R8" pidRegex="^ZH84[0-9A-Z]{14}$">
+    <file>cz_d1c.jpg</file>
+    <rsl>300</rsl>
+    <img x="18" y="27"></img>
+    <img x="422" y="27"></img>
+    <img x="826" y="27"></img>
+    <img x="1230" y="27"></img>
+    <img x="18" y="611"></img>
+    <img x="422" y="611"></img>
+    <img x="826" y="611"></img>
+    <img x="1230" y="611"></img>
+    <img x="1649" y="1065" w="91" h="133" rft="270"></img>
+  </model>
+  <model name="大一寸" mb="3R5" pidRegex="^ZH84[0-9A-Z]{14}$">
+    <file>3Rcz_d1c.jpg</file>
+    <rsl>300</rsl>
+    <img x="51" y="31"></img>
+    <img x="471" y="31"></img>
+    <img x="891" y="31"></img>
+    <img x="51" y="631" rft="270"></img>
+    <img x="714" y="631" rft="270"></img>
+    <img x="1352" y="913" w="91" h="133" rft="270"></img>
+  </model>
+
+
+  <model name="小二寸" mb="4R6" pidRegex="^ZH85[0-9A-Z]{14}$">
+    <file>cz_x2c.jpg</file>
+    <rsl>300</rsl>
+    <img x="37" y="38"></img>
+    <img x="483" y="38"></img>
+    <img x="929" y="38"></img>
+    <img x="37" y="604"></img>
+    <img x="483" y="604"></img>
+    <img x="929" y="604"></img>
+    <img x="1454" y="274" w="290" h="373"></img>
+  </model>
+  <model name="小二寸" mb="3R4" pidRegex="^ZH85[0-9A-Z]{14}$">
+    <file>3Rcz_x2c.jpg</file>
+    <rsl>300</rsl>
+    <img x="22" y="96" rft="270"></img>
+    <img x="588" y="96" rft="270"></img>
+    <img x="22" y="542" rft="270"></img>
+    <img x="588" y="542" rft="270"></img>
+    <img x="1175" y="180" w="290" h="373"></img>
+  </model>
+
+
+  <model  name="大二寸" mb="4R4" pidRegex="^ZH86[0-9A-Z]{14}$">
+    <file>cz_d2c.jpg</file>
+    <rsl>300</rsl>
+    <img x="31" y="98"></img>
+    <img x="468" y="98"></img>
+    <img x="905" y="98"></img>
+    <img x="1342" y="98"></img>
+    <img x="33" y="912" w="156" h="235"></img>
+  </model>
+  <model  name="大二寸" mb="3R3" pidRegex="^ZH86[0-9A-Z]{14}$">
+    <file>3Rcz_d2c.jpg</file>
+    <rsl>300</rsl>
+    <img x="73" y="84"></img>
+    <img x="544" y="84"></img>
+    <img x="1015" y="84"></img>
+    <img x="35" y="796" w="156" h="235"></img>
+  </model>
+  
+  
+  <model mb="4R4" name="美国非移民签证" pidRegex="^ZH8A[0-9A-Z]{14}$">
+    <file>ggqz_mg.jpg</file>
+    <rsl>300</rsl>
+    <img x="59" y="8" w="591" h="591"></img>
+    <img x="678" y="8" w="591" h="591"></img>
+    <img x="59" y="608" w="591" h="591"></img>
+    <img x="678" y="608" w="591" h="591"></img>
+    <img x="1402" y="138" w="323" h="323"></img>
+  </model>
+  <model mb="3R2" name="美国非移民签证" pidRegex="^ZH8A[0-9A-Z]{14}$">
+    <file>ggqz_mg_02.jpg</file>
+    <rsl>300</rsl>
+    <img x="106" y="49"></img>
+    <img x="804" y="49"></img>
+    <img x="61" y="752" w="239" h="239"></img>
+  </model>
+
+
+  <model mb="4R4" name="日本签证" pidRegex="^ZH8B[0-9A-Z]{14}$">
+    <file>ggqz_rb.jpg</file>
+    <rsl>300</rsl>
+    <img x="103" y="56"></img>
+    <img x="690" y="56"></img>
+    <img x="103" y="619"></img>
+    <img x="690" y="619"></img>
+    <img x="1402" y="144" w="312" h="312"></img>
+  </model>
+  <model mb="3R2" name="日本签证" pidRegex="^ZH8B[0-9A-Z]{14}$">
+    <file>ggqz_rb_02.jpg</file>
+    <rsl>300</rsl>
+    <img x="12" y="259"></img>
+    <img x="556" y="259"></img>
+    <img x="1145" y="91" w="312" h="312"></img>
+  </model>
+  
+  <model mb="4R6" name="加拿大签证" pidRegex="^ZH8G[0-9A-Z]{14}$">
+    <file>ggqz_jnd.jpg</file>
+    <rsl>300</rsl>
+    <img x="67" y="53"></img>
+    <img x="500" y="53"></img>
+    <img x="933" y="53"></img>
+    <img x="67" y="608"></img>
+    <img x="500" y="608"></img>
+    <img x="933" y="608"></img>
+    <img x="1477" y="134" w="258" h="332"></img>
+  </model>
+  <model mb="3R4" name="加拿大签证" pidRegex="^ZH8G[0-9A-Z]{14}$">
+    <file>ggqz_jnd_02.jpg</file>
+    <rsl>300</rsl>
+    <img x="31" y="89" rft="270"></img>
+    <img x="593" y="89" rft="270"></img>
+    <img x="31" y="548" rft="270"></img>
+    <img x="593" y="548" rft="270"></img>
+    <img x="1200" y="119" w="258" h="332"></img>
+  </model>
+  
+
+  <model mb="4R6" name="澳大利亚移民签证" pidRegex="^ZH8H[0-9A-Z]{14}$">
+    <file>ggqz_adly.jpg</file>
+    <rsl>300</rsl>
+    <img x="67" y="53"></img>
+    <img x="500" y="53"></img>
+    <img x="933" y="53"></img>
+    <img x="67" y="608"></img>
+    <img x="500" y="608"></img>
+    <img x="933" y="608"></img>
+    <img x="1477" y="134" w="258" h="332"></img>
+  </model>
+  <model mb="3R4" name="澳大利亚移民签证" pidRegex="^ZH8H[0-9A-Z]{14}$">
+    <file>ggqz_adly_02.jpg</file>
+    <rsl>300</rsl>
+    <img x="31" y="89" rft="270"></img>
+    <img x="593" y="89" rft="270"></img>
+    <img x="31" y="548" rft="270"></img>
+    <img x="593" y="548" rft="270"></img>
+    <img x="1200" y="119" w="258" h="332"></img>
+  </model>
+  
+
+  <model mb="4R6" name="韩国签证" pidRegex="^ZH8I[0-9A-Z]{14}$">
+    <file>ggqz_hg.jpg</file>
+    <rsl>300</rsl>
+    <img x="67" y="53"></img>
+    <img x="500" y="53"></img>
+    <img x="933" y="53"></img>
+    <img x="67" y="608"></img>
+    <img x="500" y="608"></img>
+    <img x="933" y="608"></img>
+    <img x="1477" y="134" w="258" h="332"></img>
+  </model>
+  <model mb="3R4" name="韩国签证" pidRegex="^ZH8I[0-9A-Z]{14}$">
+    <file>ggqz_hg_02.jpg</file>
+    <rsl>300</rsl>
+    <img x="31" y="89" rft="270"></img>
+    <img x="593" y="89" rft="270"></img>
+    <img x="31" y="548" rft="270"></img>
+    <img x="593" y="548" rft="270"></img>
+    <img x="1200" y="119" w="258" h="332"></img>
+  </model>
+
+
+  <model mb="4R6" name="新加坡签证" pidRegex="^ZH8J[0-9A-Z]{14}$">
+    <file>ggqz_xjp.jpg</file>
+    <rsl>300</rsl>
+    <img x="67" y="53"></img>
+    <img x="500" y="53"></img>
+    <img x="933" y="53"></img>
+    <img x="67" y="608"></img>
+    <img x="500" y="608"></img>
+    <img x="933" y="608"></img>
+    <img x="1477" y="134" w="258" h="332"></img>
+  </model>
+  <model mb="3R4" name="新加坡签证" pidRegex="^ZH8J[0-9A-Z]{14}$">
+    <file>ggqz_xjp_02.jpg</file>
+    <rsl>300</rsl>
+    <img x="31" y="89" rft="270"></img>
+    <img x="593" y="89" rft="270"></img>
+    <img x="31" y="548" rft="270"></img>
+    <img x="593" y="548" rft="270"></img>
+    <img x="1200" y="119" w="258" h="332"></img>
+  </model>
+
+  <model mb="4R6" name="泰国签证" pidRegex="^ZH8L[0-9A-Z]{14}$">
+    <file>ggqz_tg.jpg</file>
+    <rsl>300</rsl>
+    <img x="67" y="53"></img>
+    <img x="500" y="53"></img>
+    <img x="933" y="53"></img>
+    <img x="67" y="608"></img>
+    <img x="500" y="608"></img>
+    <img x="933" y="608"></img>
+    <img x="1477" y="134" w="258" h="332"></img>
+  </model>
+
+  <model mb="4R6" name="缅甸签证" pidRegex="^ZH8M[0-9A-Z]{14}$">
+    <file>ggqz_md.jpg</file>
+    <rsl>300</rsl>
+    <img x="67" y="53"></img>
+    <img x="500" y="53"></img>
+    <img x="933" y="53"></img>
+    <img x="67" y="608"></img>
+    <img x="500" y="608"></img>
+    <img x="933" y="608"></img>
+    <img x="1477" y="134" w="258" h="332"></img>
+  </model>
+
+  <model mb="4R6" name="越南签证" pidRegex="^ZH8N[0-9A-Z]{14}$">
+    <file>ggqz_yn.jpg</file>
+    <rsl>300</rsl>
+    <img x="67" y="53"></img>
+    <img x="500" y="53"></img>
+    <img x="933" y="53"></img>
+    <img x="67" y="608"></img>
+    <img x="500" y="608"></img>
+    <img x="933" y="608"></img>
+    <img x="1477" y="134" w="258" h="332"></img>
+  </model>
+
+  <model mb="4R6" name="尼泊尔签证" pidRegex="^ZH8O[0-9A-Z]{14}$">
+    <file>ggqz_nbe.jpg</file>
+    <rsl>300</rsl>
+    <img x="67" y="53"></img>
+    <img x="500" y="53"></img>
+    <img x="933" y="53"></img>
+    <img x="67" y="608"></img>
+    <img x="500" y="608"></img>
+    <img x="933" y="608"></img>
+    <img x="1477" y="134" w="258" h="332"></img>
+  </model>
+
+  <model mb="4R6" name="印度签证" pidRegex="^ZH8P[0-9A-Z]{14}$">
+    <file>ggqz_yd.jpg</file>
+    <rsl>300</rsl>
+    <img x="59" y="8" w="591" h="591"></img>
+    <img x="678" y="8" w="591" h="591"></img>
+    <img x="59" y="608" w="591" h="591"></img>
+    <img x="678" y="608" w="591" h="591"></img>
+    <img x="1402" y="138" w="323" h="323"></img>
+  </model>
+
+  <model mb="4R6" name="马来西亚签证" pidRegex="^ZH8Q[0-9A-Z]{14}$">
+    <file>ggqz_mlxy.jpg</file>
+    <rsl>300</rsl>
+    <img x="67" y="53"></img>
+    <img x="500" y="53"></img>
+    <img x="933" y="53"></img>
+    <img x="67" y="608"></img>
+    <img x="500" y="608"></img>
+    <img x="933" y="608"></img>
+    <img x="1477" y="134" w="258" h="332"></img>
+  </model>
+
+  <model mb="4R6" name="菲律宾签证" pidRegex="^ZH8R[0-9A-Z]{14}$">
+    <file>ggqz_flb.jpg</file>
+    <rsl>300</rsl>
+    <img x="67" y="53"></img>
+    <img x="500" y="53"></img>
+    <img x="933" y="53"></img>
+    <img x="67" y="608"></img>
+    <img x="500" y="608"></img>
+    <img x="933" y="608"></img>
+    <img x="1477" y="134" w="258" h="332"></img>
+  </model>
+
+  <model mb="4R6" name="印尼签证" pidRegex="^ZH8S[0-9A-Z]{14}$">
+    <file>ggqz_ydnxy.jpg</file>
+    <rsl>300</rsl>
+    <img x="67" y="53"></img>
+    <img x="500" y="53"></img>
+    <img x="933" y="53"></img>
+    <img x="67" y="608"></img>
+    <img x="500" y="608"></img>
+    <img x="933" y="608"></img>
+    <img x="1477" y="134" w="258" h="332"></img>
+  </model>
+
+  <model mb="4R6" name="新西兰签证" pidRegex="^ZH8T[0-9A-Z]{14}$">
+    <file>ggqz_xxl.jpg</file>
+    <rsl>300</rsl>
+    <img x="67" y="53"></img>
+    <img x="500" y="53"></img>
+    <img x="933" y="53"></img>
+    <img x="67" y="608"></img>
+    <img x="500" y="608"></img>
+    <img x="933" y="608"></img>
+    <img x="1477" y="134" w="258" h="332"></img>
+  </model>
+
+  <model mb="4R6" name="土耳其签证" pidRegex="^ZH8U[0-9A-Z]{14}$">
+    <file>ggqz_trq.jpg</file>
+    <rsl>300</rsl>
+    <img x="67" y="53"></img>
+    <img x="500" y="53"></img>
+    <img x="933" y="53"></img>
+    <img x="67" y="608"></img>
+    <img x="500" y="608"></img>
+    <img x="933" y="608"></img>
+    <img x="1477" y="134" w="258" h="332"></img>
+  </model>
+
+  <model mb="4R6" name="南非签证" pidRegex="^ZH8V[0-9A-Z]{14}$">
+    <file>ggqz_nf.jpg</file>
+    <rsl>300</rsl>
+    <img x="67" y="53"></img>
+    <img x="500" y="53"></img>
+    <img x="933" y="53"></img>
+    <img x="67" y="608"></img>
+    <img x="500" y="608"></img>
+    <img x="933" y="608"></img>
+    <img x="1477" y="134" w="258" h="332"></img>
+  </model>
+
+  <model mb="4R6" name="阿联酋签证" pidRegex="^ZH8W[0-9A-Z]{14}$">
+    <file>ggqz_alq.jpg</file>
+    <rsl>300</rsl>
+    <img x="67" y="53"></img>
+    <img x="500" y="53"></img>
+    <img x="933" y="53"></img>
+    <img x="67" y="608"></img>
+    <img x="500" y="608"></img>
+    <img x="933" y="608"></img>
+    <img x="1477" y="134" w="258" h="332"></img>
+  </model>
+
+  <model mb="4R6" name="沙特阿拉伯" pidRegex="^ZH8X[0-9A-Z]{14}$">
+    <file>ggqz_stalb.jpg</file>
+    <rsl>300</rsl>
+    <img x="67" y="53"></img>
+    <img x="500" y="53"></img>
+    <img x="933" y="53"></img>
+    <img x="67" y="608"></img>
+    <img x="500" y="608"></img>
+    <img x="933" y="608"></img>
+    <img x="1477" y="134" w="258" h="332"></img>
+  </model>
+
+  <model mb="4R6" name="埃及签证" pidRegex="^ZH8Y[0-9A-Z]{14}$">
+    <file>ggqz_aj.jpg</file>
+    <rsl>300</rsl>
+    <img x="67" y="53"></img>
+    <img x="500" y="53"></img>
+    <img x="933" y="53"></img>
+    <img x="67" y="608"></img>
+    <img x="500" y="608"></img>
+    <img x="933" y="608"></img>
+    <img x="1477" y="134" w="258" h="332"></img>埃及签证
+  </model>
+  
+  <model mb="4R6" name="欧洲签证" pidRegex="^ZH8Z[0-9A-Z]{14}$">
+    <file>ggqz_oz.jpg</file>
+    <rsl>300</rsl>
+    <img x="67" y="53"></img>
+    <img x="500" y="53"></img>
+    <img x="933" y="53"></img>
+    <img x="67" y="608"></img>
+    <img x="500" y="608"></img>
+    <img x="933" y="608"></img>
+    <img x="1477" y="134" w="258" h="332"></img>
+  </model>
+  <model mb="3R4" name="欧洲签证" pidRegex="^ZH8Z[0-9A-Z]{14}$">
+    <file>ggqz_oz_02.jpg</file>
+    <rsl>300</rsl>
+    <img x="31" y="89" rft="270"></img>
+    <img x="593" y="89" rft="270"></img>
+    <img x="31" y="548" rft="270"></img>
+    <img x="593" y="548" rft="270"></img>
+    <img x="1200" y="119" w="258" h="332"></img>
+  </model>
+
+<model mb="4R6" name="英国签证" pidRegex="^ZH8C[0-9A-Z]{14}$">
+    <file>ggqz_yg.jpg</file>
+    <rsl>300</rsl>
+    <img x="67" y="53"></img>
+    <img x="500" y="53"></img>
+    <img x="933" y="53"></img>
+    <img x="67" y="608"></img>
+    <img x="500" y="608"></img>
+    <img x="933" y="608"></img>
+    <img x="1477" y="134" w="258" h="332"></img>
+  </model>
+  <model mb="3R4" name="英国签证" pidRegex="^ZH8C[0-9A-Z]{14}$">
+    <file>ggqz_yg_02.jpg</file>
+    <rsl>300</rsl>
+    <img x="31" y="89" rft="270"></img>
+    <img x="593" y="89" rft="270"></img>
+    <img x="31" y="548" rft="270"></img>
+    <img x="593" y="548" rft="270"></img>
+    <img x="1200" y="119" w="258" h="332"></img>
+  </model>
+
+  <model mb="4R6" name="法国签证" pidRegex="^ZH8D[0-9A-Z]{14}$">
+    <file>ggqz_fg.jpg</file>
+    <rsl>300</rsl>
+    <img x="67" y="53"></img>
+    <img x="500" y="53"></img>
+    <img x="933" y="53"></img>
+    <img x="67" y="608"></img>
+    <img x="500" y="608"></img>
+    <img x="933" y="608"></img>
+    <img x="1477" y="134" w="258" h="332"></img>
+  </model>
+  <model mb="3R4" name="法国签证" pidRegex="^ZH8D[0-9A-Z]{14}$">
+    <file>ggqz_fg_02.jpg</file>
+    <rsl>300</rsl>
+    <img x="31" y="89" rft="270"></img>
+    <img x="593" y="89" rft="270"></img>
+    <img x="31" y="548" rft="270"></img>
+    <img x="593" y="548" rft="270"></img>
+    <img x="1200" y="119" w="258" h="332"></img>
+  </model>
+
+  <model mb="4R6" name="德国签证" pidRegex="^ZH8E[0-9A-Z]{14}$">
+    <file>ggqz_dg.jpg</file>
+    <rsl>300</rsl>
+    <img x="67" y="53"></img>
+    <img x="500" y="53"></img>
+    <img x="933" y="53"></img>
+    <img x="67" y="608"></img>
+    <img x="500" y="608"></img>
+    <img x="933" y="608"></img>
+    <img x="1477" y="134" w="258" h="332"></img>
+  </model>
+  <model mb="3R4" name="德国签证" pidRegex="^ZH8E[0-9A-Z]{14}$">
+    <file>ggqz_dg_02.jpg</file>
+    <rsl>300</rsl>
+    <img x="31" y="89" rft="270"></img>
+    <img x="593" y="89" rft="270"></img>
+    <img x="31" y="548" rft="270"></img>
+    <img x="593" y="548" rft="270"></img>
+    <img x="1200" y="119" w="258" h="332"></img>
+  </model>  
+
+  <model mb="4R6" name="比利时签证" pidRegex="^ZH8F[0-9A-Z]{14}$">
+    <file>ggqz_bls.jpg</file>
+    <rsl>300</rsl>
+    <img x="67" y="53"></img>
+    <img x="500" y="53"></img>
+    <img x="933" y="53"></img>
+    <img x="67" y="608"></img>
+    <img x="500" y="608"></img>
+    <img x="933" y="608"></img>
+    <img x="1477" y="134" w="258" h="332"></img>
+  </model>
+  <model mb="3R4" name="比利时签证" pidRegex="^ZH8F[0-9A-Z]{14}$">
+    <file>ggqz_bls_02.jpg</file>
+    <rsl>300</rsl>
+    <img x="31" y="89" rft="270"></img>
+    <img x="593" y="89" rft="270"></img>
+    <img x="31" y="548" rft="270"></img>
+    <img x="593" y="548" rft="270"></img>
+    <img x="1200" y="119" w="258" h="332"></img>
+  </model>
+
+  <model mb="4R6" name="俄罗斯签证" pidRegex="^ZH8K[0-9A-Z]{14}$">
+    <file>ggqz_els.jpg</file>
+    <rsl>300</rsl>
+    <img x="67" y="53"></img>
+    <img x="500" y="53"></img>
+    <img x="933" y="53"></img>
+    <img x="67" y="608"></img>
+    <img x="500" y="608"></img>
+    <img x="933" y="608"></img>
+    <img x="1477" y="134" w="258" h="332"></img>
+  </model>
+  <model mb="3R4" name="俄罗斯签证" pidRegex="^ZH8K[0-9A-Z]{14}$">
+    <file>ggqz_els_02.jpg</file>
+    <rsl>300</rsl>
+    <img x="31" y="89" rft="270"></img>
+    <img x="593" y="89" rft="270"></img>
+    <img x="31" y="548" rft="270"></img>
+    <img x="593" y="548" rft="270"></img>
+    <img x="1200" y="119" w="258" h="332"></img>
+  </model>
+
+  <model name="毕业证" mb="4R6" pidRegex="^ZH87[0-9A-Z]{14}$">
+    <file>byz_4r_01.jpg</file>
+    <rsl>300</rsl>
+    <img x="29" y="28"></img>
+    <img x="447" y="28"></img>
+    <img x="866" y="28"></img>
+    <img x="29" y="612"></img>
+    <img x="447" y="612"></img>
+    <img x="866" y="612"></img>
+    <img x="1347" y="104"></img>
+  </model>
+
+  <model name="学籍相片" mb="4R12" pidRegex="^ZH88[0-9A-Z]{14}$">
+    <file>xjxp_4R_01.jpg</file>
+    <rsl>350</rsl>
+    <img x="20" y="27" w="307" h="378"></img>
+    <img x="341" y="27" w="307" h="378"></img>
+    <img x="662" y="27" w="307" h="378"></img>
+    <img x="982" y="27" w="307" h="378"></img>
+    <img x="20" y="415" w="307" h="378"></img>
+    <img x="341" y="415" w="307" h="378"></img>
+    <img x="662" y="415" w="307" h="378"></img>
+    <img x="982" y="415" w="307" h="378"></img>
+    <img x="20" y="803" w="307" h="378"></img>
+    <img x="341" y="803" w="307" h="378"></img>
+    <img x="662" y="803" w="307" h="378"></img>
+    <img x="982" y="803" w="307" h="378"></img>
+    <img x="1402" y="131" w="307" h="378"></img>
+  </model>
+
+
+</picmodel>

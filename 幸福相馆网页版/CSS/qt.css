@@ -1,0 +1,184 @@
+﻿#homePage
+{
+    color:rgb(254,117,81); 
+}
+
+.content 
+{
+    width:1000px;
+    height:630px;
+    margin:0 auto;
+    overflow:hidden;
+}
+
+.leftbg,.rightbg
+{
+    width:50%;
+    height:630px;
+    top:123px;
+    z-index:-1;
+    position:absolute;
+    overflow:hidden;
+}
+
+.leftbg 
+{
+    background:url(images/qt/proscenium_left_01.jpg) repeat-x;
+    left:0;
+}
+
+.rightbg
+{
+    background:url(images/qt/proscenium_right_03.jpg) repeat-x;
+    right:0;
+}
+
+.midbg 
+{
+    width:1000px;
+    height:630px;
+    margin:0 auto;    
+}
+
+.lightbox 
+{
+    width:1000px;
+    height:128px;
+    background:url(images/qt/proscenium_02.jpg);
+    overflow:hidden;
+}
+
+.leftbox 
+{
+    width:256px;
+    height:306px;
+    background:url(images/qt/proscenium_04.jpg);
+    float:left;
+    overflow:hidden;
+}
+
+.midbox 
+{
+    width:475px;
+    height:306px;
+    background:url(images/qt/proscenium_05.jpg);
+    float:left;
+    overflow:hidden;
+}
+
+.rightbox 
+{
+    width:269px;
+    height:306px;
+    background:url(images/qt/proscenium_06.jpg);
+    float:left;
+}
+
+.deskbox 
+{
+    width:1000px;
+    height:196px;
+    clear:both;
+    background:url(images/qt/proscenium_07.jpg);
+}
+
+.typechoose 
+{
+    margin:0;
+    padding:0;
+    border:0;
+    list-style:none;
+    position:relative;
+    top:47px;
+    left:32px;
+}
+
+.typechoose li
+{
+    height:31px;   
+}
+
+.typechoose a
+{
+    width:90px;
+    text-decoration:none;
+    display:inline-block;
+    color:White;
+}
+
+.typechoose a:hover
+{
+    color:#FFDB14;   
+}
+
+.Miss a 
+{
+    position:relative;
+}
+
+#img1 
+{
+    width:198px;
+    height:178px;
+    display:inline-block;
+    top:97px;
+    left:166px;
+}
+
+#img1.hover 
+{
+    background:url(images/qt/proscenium_09.jpg);
+}
+
+#img2 
+{
+    width:139px;
+    height:49px;
+    display:inline-block;
+    top:-30px;
+    left:90px;
+}
+
+#img2.hover 
+{
+    background:url(images/qt/jrzzcl.gif);
+}
+
+#img3 
+{
+    width:90px;
+    height:24px;
+    display:inline-block;
+    top:97px;
+    left:20px;
+    background:url(images/qt/fwsf.gif);
+}
+
+#img4 
+{
+    width:198px;
+    height:144px;
+    position:absolute;
+    z-index:100;
+    display:none;
+    /*top:350px;
+    right:370px;*/
+    background:url(images/qt/proscenium_08.gif);
+}
+
+#img4 p 
+{
+    margin:2px 0 0 12px;
+    padding:0;
+    line-height:20px;
+    font-size:12px;
+    color:rgb(115,65,2);
+}
+
+.flashad 
+{
+    margin:30px 0 0 75px;
+    /*position:absolute;
+    top:275px;
+    right:150px;*/
+}

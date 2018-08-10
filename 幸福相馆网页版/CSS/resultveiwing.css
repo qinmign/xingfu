@@ -1,0 +1,207 @@
+﻿body
+{
+   /*-moz-user-select:none;*/
+}
+
+#cerManagePage
+{
+    color:rgb(254,117,81); 
+}
+
+*
+{
+    margin:0;
+    padding:0;
+    border:0;
+}
+
+.content
+{
+    width:1000px;
+    height:100%;
+    margin:0 auto;
+}
+
+.resultbox
+{
+    width:1000px;
+    margin:15px auto 0;
+    height:415px;   
+}
+
+.leftbox,.rightbox
+{
+    height:415px;
+    border:1px solid rgb(202,237,255);
+    float:left;
+}
+
+.leftbox
+{
+    width:328px;
+}
+
+.rightbox
+{
+    width:668px;
+}
+
+.photobox
+{
+    width:280px;
+    height:240px;
+    margin:20px auto 0;
+    border:1px solid rgb(229,229,229); 
+}
+
+.photobox table
+{
+    width:100%;
+    height:100%;
+    border-collapse:collapse;
+    vertical-align:middle;
+    text-align:center; 
+}
+.infobox
+{
+    width:279px;
+    height:94px;
+    background-color:rgb(241,250,255);
+    border:1px solid rgb(151,222,254); 
+    margin:10px auto 0;
+}
+.infobox table
+{
+    font-size:14px;
+    height:95px;
+    width:280px;
+    vertical-align:middle;
+    text-align:center;
+}
+.infobox table td
+{
+    height:28px;
+}
+.sucess_w
+{
+    margin-top:10px;
+    text-align:center;
+    color:rgb(40,126,1);
+    display:none;
+    font-size:20px;
+    font-weight:bold;
+}
+.failbox
+{
+    padding:20px 80px 10px 80px;
+    display:none;
+}
+.failword
+{
+    height:340px;   
+}
+.failword p:first-child
+{
+    text-align:center;
+    color:rgb(241,73,0);
+    font-size:22px;
+    margin-bottom:10px;
+}
+.rea_sou
+{
+    line-height:25px;
+    font-size:15px; 
+}
+.reuploadbtn 
+{
+    width:120px;
+    height:40px;
+    margin:0 auto;
+    background-color:rgb(161,201,64);
+    line-height:40px;
+    font-size:17px;
+}
+.reuploadbtn:hover
+{   
+    background-color:rgb(39,170,31);
+}
+.dyTh1
+{
+    width:40px;
+}
+.dyTh2
+{
+    width:300px;
+}
+.dyTh3
+{
+    width:140px;
+}
+.dyTh4
+{
+    width:140px;
+}
+.dyTh5
+{
+    width:140px;
+}
+.dyTh6
+{
+    width:140px;
+}
+.dyTh7
+{
+    width:80px;
+}
+.footer
+{
+    margin-top:20px;    
+}
+.reducebtn
+{
+    height: 15px;
+    width: 15px;
+    overflow: hidden;
+    display: inline-block;
+    vertical-align:middle;
+    margin-right: 3px;
+    background: url(images/cermanage/xkjg_07.png) no-repeat 0 -15px;
+}
+.reducebtn:hover
+{
+    background: url(images/cermanage/xkjg_07.png) no-repeat 0 -30px;
+}
+.addbtn
+{
+    height: 15px;
+    width: 15px;
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 3px;
+    background: url(images/cermanage/xkjg_08.png) no-repeat 0 -15px;
+}
+.addbtn:hover
+{
+    background: url(images/cermanage/xkjg_08.png) no-repeat 0 -30px;
+}
+.txtform
+{
+    border: 1px solid rgb(137,180,221);
+    font-size: 12px;
+    outline: 0;
+}
+input.printtxt
+{
+    width: 32px;
+    height: 16px;
+    text-align: center;
+}
+#dyTableBox img
+{
+    cursor:pointer;    
+}
+.imgbox
+{
+    cursor:pointer;
+}

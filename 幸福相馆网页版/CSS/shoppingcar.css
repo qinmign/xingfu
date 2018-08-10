@@ -1,0 +1,231 @@
+﻿.content {
+    margin: 0 auto;
+    width: 1000px;
+    min-height:600px;
+    height: expression( this.scrollHeight < 600 ? "600px" : "auto" );
+}
+#headbox
+{
+    height:58px;
+    margin:30px 0 20px 0;
+}
+#headbox div
+{
+    height:58px;
+    float:left;
+}
+#headbox img,#headbox span
+{
+    float:left;
+}
+#headbox span
+{
+    margin-top:7px;
+    margin-left:15px;
+}
+#emptybox
+{
+    border:3px solid rgb(239,234,230);
+    width:700px;
+    height:200px;
+    padding:100px 0 0 297px;
+}
+#emptybox table td
+{
+    padding-right:20px;
+}
+#emptybox table td p
+{
+    font-size:20px;
+}
+#emptybox table td a
+{
+    color:rgb(0,160,254);
+}
+#infobox table
+{
+    text-align:center;
+    vertical-align:middle;
+    border-top:1px solid rgb(224,223,228);
+    border-right:1px solid rgb(224,223,228);
+    border-left:1px solid rgb(224,223,228);
+    border-collapse:collapse;
+}
+#infobox table td img, #infobox table td span 
+{
+    display: block;
+    float: left;
+    margin: 0 2px;
+}
+#infobox table td span 
+{
+    margin-top: 10px;
+}
+#infobox table th
+{
+    height:40px;
+    background-color:rgb(250,250,250);
+    border-bottom:1px solid rgb(224,223,228);
+}
+#infobox table td
+{
+    height:50px;
+    border-bottom:1px solid rgb(224,223,228);
+}
+#infobox .dyTh1
+{
+    width:60px;
+}
+#infobox .dyTh2
+{
+    width:340px;  
+}
+#infobox .dyTh3
+{
+    width:100px;
+}
+#infobox .dyTh4
+{
+    width:200px; 
+}
+#infobox .dyTh5
+{
+    width:100px;
+}
+#infobox .dyTh6
+{
+    width:100px;
+}
+#infobox .dyTh7
+{
+    width:100px;
+}
+input.printtxt {
+    height: 18px;
+    outline: medium none;
+    text-align: center;
+    width: 32px;
+}
+.txtform {
+    border: 1px solid #DDDDDD;
+    font-size: 15px;
+    height: 21px;
+    outline: 0 none;
+    padding: 3px 3px 0;
+}
+.addbtn
+{
+    width:18px;
+    height:23px;
+    display:inline-block;
+    background:url(images/cermanage/number_up_02.png); 
+    vertical-align:bottom;
+    margin-left:3px;
+}
+
+.addbtn:hover
+{
+    background:url(images/cermanage/number_hover_02.png); 
+}
+
+input.printtxt
+{
+    outline:none;
+    width:32px; 
+    height:18px;
+    text-align:center;
+}
+
+.reducebtn
+{
+    width:18px;
+    height:23px;
+    display:inline-block;
+    vertical-align:bottom;
+    background:url(images/cermanage/number_up_01.png);
+    margin-right:3px;
+}
+
+.reducebtn:hover
+{
+    background:url(images/cermanage/number_hover_01.png);
+}
+
+
+
+#tableFooter
+{
+	height:30px;
+	  background-color:rgb(250,250,250);
+    border:1px solid rgb(224,223,228);
+    border-top:0;
+    line-height:30px;
+    padding:0 0 0 30px;
+}
+
+
+#mmm
+{
+	font-size:15px;
+	padding:15px 0 10px 850px;
+	line-height:25px;
+	border-bottom:1px dashed #888;
+}
+
+
+#mmm em
+{
+	font-style:normal;
+	color:#d10000;
+}
+
+
+#nnn
+{
+	font-size:18px;
+	padding:5px 0 5px 0px;
+	line-height:25px;
+	text-align:right;
+}
+
+
+#nnn em
+{
+	font-style:normal;
+	color:#d10000;
+}
+
+#nnn a
+{
+	display:inline-block;
+	width:100px;
+	height:40px;
+	background:#ff5100;
+	border:1px solid #ccc;
+	color:#fff;
+	text-align:center;
+	text-decoration:none;
+	line-height:40px;
+	margin:10px 0;
+}
+
+#nnn a:Hover
+{
+	background:#ff7700;
+}
+
+.delbtn,#tableFooter a
+{   
+    text-decoration:none;   
+}
+
+.delbtn:hover,#tableFooter a:hover
+{   
+    text-decoration:underline;   
+}
+
+
+img.mb
+{
+	cursor:pointer;
+}

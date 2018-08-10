@@ -1,0 +1,88 @@
+﻿body 
+{
+    background-color:rgb(255,255,255) ;
+}
+.account
+{
+}
+
+.div_left
+{
+    width:72%;
+    padding-top:26px;
+}
+
+#verifyCode{
+    width:96px;
+}
+
+#changeVerifycode,#forgetPwd
+{
+    color:rgb(0,161,239);   
+    font-size:14px;
+    cursor:pointer;
+}
+
+.div-right
+{
+    height:350px;
+    margin:46px 0 30px 0;
+    border-left:1px solid rgb(226,226,226);    
+}
+
+.div-right p
+{
+    margin-left:64px;
+    color:rgb(153,153,153);
+    font-size:14px;
+}    
+
+.register-button
+{
+    width:120px;
+    height:35px;
+    text-decoration:none;    
+    background-color:rgb(255,107,67);
+    line-height:35px;
+    font-size:15px;
+    text-align:center;
+    display:block;
+    cursor:pointer;
+    color:rgb(255,255,255);
+    margin-left:80px; 
+}
+
+.register-button:hover{     
+     background-color:rgb(255,150,100);
+}
+
+.login-button
+{
+    width:120px;
+    height:35px;
+    text-decoration:none;            
+    background-color:rgb(135,189,52);
+    line-height:35px;
+    font-size:15px;
+    text-align:center;
+    display:block;
+    cursor:pointer;
+    color:rgb(255,255,255);    
+}
+    
+.login-button:hover{
+  background-color:rgb(150,200,80);   
+}
+
+#error
+{
+    padding-left:120px;
+    margin:0;
+    background:none;
+    border:0;
+    font-weight:bold;
+    text-align:left;
+    color:#E83827;
+    display:none;
+    font-size:12px;
+}
